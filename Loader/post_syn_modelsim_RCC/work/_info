@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1
+vRow_Column_Counter
+Z1 I]eJjZ9Fz4D868R2lGbh6T1
+Z2 V<k<J94c4KFQ9V=2cGBWTA1
+Z3 dC:\Users\Asus\Desktop\DoAnCE213\Loader\post_syn_modelsim_RCC
+Z4 w1638408930
+Z5 8C:/Users/Asus/Desktop/DoAnCE213/Loader/post_syn_modelsim_RCC/Row_Column_Counter.vo
+Z6 FC:/Users/Asus/Desktop/DoAnCE213/Loader/post_syn_modelsim_RCC/Row_Column_Counter.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Loader/post_syn_modelsim_RCC/Row_Column_Counter.vo|
+Z9 o-work work -O0
+Z10 n@row_@column_@counter
+!i10b 1
+Z11 !s100 kC=K>a4>?fEHC`01Q3Yb[1
+!s85 0
+Z12 !s108 1638409049.819000
+Z13 !s107 C:/Users/Asus/Desktop/DoAnCE213/Loader/post_syn_modelsim_RCC/Row_Column_Counter.vo|
+!s101 -O0
+vRow_Column_Counter_tb
+!i10b 1
+!s100 C0bFPAN]8zheE3Xm[5I<A0
+IEIRo_5X@]2ajmHmBMdb[a1
+Z14 VV:56UJ;MJVOdW<Qk9Q<4M2
+R3
+w1638409044
+Z15 8C:/Users/Asus/Desktop/DoAnCE213/Loader/post_syn_modelsim_RCC/Row_Column_Counter_tb.v
+Z16 FC:/Users/Asus/Desktop/DoAnCE213/Loader/post_syn_modelsim_RCC/Row_Column_Counter_tb.v
+L0 3
+R7
+r1
+!s85 0
+31
+!s108 1638409049.903000
+!s107 C:/Users/Asus/Desktop/DoAnCE213/Loader/post_syn_modelsim_RCC/Row_Column_Counter_tb.v|
+Z17 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Loader/post_syn_modelsim_RCC/Row_Column_Counter_tb.v|
+!s101 -O0
+R9
+Z18 n@row_@column_@counter_tb

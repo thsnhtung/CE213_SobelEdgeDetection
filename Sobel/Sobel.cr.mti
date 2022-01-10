@@ -1,0 +1,171 @@
+C:/Users/Asus/Desktop/DoAnCE213/Sobel/shift2.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/shift2.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module shift2
+
+Top level modules:
+	shift2
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Sobel/Comparator.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/Comparator.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Comparator
+
+Top level modules:
+	Comparator
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Sobel/Counter.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/Counter.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Counter
+
+Top level modules:
+	Counter
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Sobel/Subtractor.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/Subtractor.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Subtractor
+
+Top level modules:
+	Subtractor
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Sobel/State.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/State.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module State
+
+Top level modules:
+	State
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Sobel/Sobel_tb.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/Sobel_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Sobel_tb
+
+Top level modules:
+	Sobel_tb
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Sobel/sub.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/sub.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module sub
+
+Top level modules:
+	sub
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Sobel/MUX.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/MUX.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module MUX
+
+Top level modules:
+	MUX
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Sobel/controller.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/controller.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Controller
+
+Top level modules:
+	Controller
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Sobel/Row_Column_Counter.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/Row_Column_Counter.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Row_Column_Counter
+
+Top level modules:
+	Row_Column_Counter
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Sobel/black_cell.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/black_cell.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module black_cell
+-- Compiling module and_xor
+
+Top level modules:
+	black_cell
+	and_xor
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Sobel/Datapath_tb.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/Datapath_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Datapath_tb
+
+Top level modules:
+	Datapath_tb
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Sobel/Sobel.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/Sobel.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Sobel
+
+Top level modules:
+	Sobel
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Sobel/Gradient.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/Gradient.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Gradient
+
+Top level modules:
+	Gradient
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Sobel/grey_cell.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/grey_cell.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module gray_cell
+
+Top level modules:
+	gray_cell
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Sobel/Datapath.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/Datapath.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Datapath
+
+Top level modules:
+	Datapath
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Sobel/Loader.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/Loader.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Loader
+
+Top level modules:
+	Loader
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Sobel/KSA.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/KSA.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module kogge_stone
+
+Top level modules:
+	kogge_stone
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Sobel/Adder.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/Adder.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Adder
+
+Top level modules:
+	Adder
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Sobel/Fast_Fifo.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/Fast_Fifo.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Fast_Fifo
+-- Compiling module Fast_Fifo_128_cell
+-- Compiling module Fast_Fifo_64_cell
+-- Compiling module Fast_Fifo_32_cell
+-- Compiling module Fast_Fifo_16_cell
+-- Compiling module Fast_Fifo_8_cell
+-- Compiling module Fast_Fifo_4_cell
+-- Compiling module Fast_Fifo_2_cell
+
+Top level modules:
+	Fast_Fifo
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Sobel/controller_tb.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/controller_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module controller_tb
+
+Top level modules:
+	controller_tb
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Sobel/Shift_Register.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/Shift_Register.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Shift_Register
+
+Top level modules:
+	Shift_Register
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Sobel/Register.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/Register.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Register
+
+Top level modules:
+	Register
+
+} {} {}}

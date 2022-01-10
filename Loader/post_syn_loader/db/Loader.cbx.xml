@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Loader">
+		<CBX_INST_ENTRY INSTANCE_NAME="|Loader|Fast_Fifo:Fast_Fifo_inst1|Fast_Fifo_128_cell:Fast_Fifo_64_cell_ints0|Fast_Fifo_64_cell:Fast_Fifo_64_cell_ints0|Fast_Fifo_32_cell:Fast_Fifo_32_cell_ints0|Fast_Fifo_16_cell:Fast_Fifo_16_cell_ints0|Fast_Fifo_8_cell:Fast_Fifo_8_cell_ints0|Fast_Fifo_4_cell:Fast_Fifo_4_cell_ints0|Fast_Fifo_2_cell:Fast_Fifo_2_cell_ints1|Register:Register_inst0|altshift_taps:DataOut_rtl_0" CBX_FILE_NAME="shift_taps_gmm.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1
+vGradient
+Z1 !s100 NWB^ENIQkkIb;6D^n`TnU0
+Z2 IScY<;^NiHWaP:o0D7_hI>0
+Z3 VbA[LC30lcFNMjM=nEAIVc1
+Z4 dC:\Users\Asus\Desktop\DoAnCE213\Gradient\post_syn_modelsim
+Z5 w1638412211
+Z6 8C:/Users/Asus/Desktop/DoAnCE213/Gradient/post_syn_modelsim/Gradient.vo
+Z7 FC:/Users/Asus/Desktop/DoAnCE213/Gradient/post_syn_modelsim/Gradient.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Gradient/post_syn_modelsim/Gradient.vo|
+Z10 o-work work -O0
+Z11 n@gradient
+!i10b 1
+!s85 0
+Z12 !s108 1638412685.510000
+Z13 !s107 C:/Users/Asus/Desktop/DoAnCE213/Gradient/post_syn_modelsim/Gradient.vo|
+!s101 -O0
+vGradient_tb
+!i10b 1
+!s100 `?dXD>bIGi0IQodKgRzoi3
+IkFkWgP9jlMLHiRNlD@JzV2
+Z14 VakU;ml[;KXKSnBaz`d4A<3
+R4
+w1638412682
+Z15 8C:/Users/Asus/Desktop/DoAnCE213/Gradient/post_syn_modelsim/Gradient_tb.v
+Z16 FC:/Users/Asus/Desktop/DoAnCE213/Gradient/post_syn_modelsim/Gradient_tb.v
+L0 2
+R8
+r1
+!s85 0
+31
+!s108 1638412685.634000
+!s107 C:/Users/Asus/Desktop/DoAnCE213/Gradient/post_syn_modelsim/Gradient_tb.v|
+Z17 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Gradient/post_syn_modelsim/Gradient_tb.v|
+!s101 -O0
+R10
+Z18 n@gradient_tb

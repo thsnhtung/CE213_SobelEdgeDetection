@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1
+vSobel
+Z1 !s100 =SRR2eljI<QDK47KmkP`?2
+Z2 I7<6_zfgDXMi<@=K5b2<Yn0
+Z3 V`Nfa=oHc78hZVT9YgSOVN0
+Z4 dC:\Users\Asus\Desktop\DoAnCE213\Sobel\post_syn_modelsim
+Z5 w1639627677
+Z6 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/post_syn_modelsim/Sobel.vo
+Z7 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/post_syn_modelsim/Sobel.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/post_syn_modelsim/Sobel.vo|
+Z10 o-work work -O0
+Z11 n@sobel
+!i10b 1
+!s85 0
+Z12 !s108 1640248451.401000
+Z13 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/post_syn_modelsim/Sobel.vo|
+!s101 -O0
+vSobel_tb
+!i10b 1
+Z14 !s100 R27G=@3aYJfD011616IeZ0
+Z15 I;m2UTT>Wcf_8ICd_kC4D51
+Z16 VH9zGXP@?XBbjg=LSo_j4J0
+R4
+Z17 w1640248449
+Z18 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/post_syn_modelsim/Sobel_tb.v
+Z19 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/post_syn_modelsim/Sobel_tb.v
+L0 2
+R8
+r1
+!s85 0
+31
+!s108 1640248451.482000
+!s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/post_syn_modelsim/Sobel_tb.v|
+Z20 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/post_syn_modelsim/Sobel_tb.v|
+!s101 -O0
+R10
+Z21 n@sobel_tb

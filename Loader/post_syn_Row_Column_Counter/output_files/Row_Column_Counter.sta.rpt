@@ -1,0 +1,1125 @@
+TimeQuest Timing Analyzer report for Row_Column_Counter
+Thu Dec 02 08:35:29 2021
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. TimeQuest Timing Analyzer Summary
+  3. Parallel Compilation
+  4. Clocks
+  5. Slow Model Fmax Summary
+  6. Slow Model Setup Summary
+  7. Slow Model Hold Summary
+  8. Slow Model Recovery Summary
+  9. Slow Model Removal Summary
+ 10. Slow Model Minimum Pulse Width Summary
+ 11. Slow Model Setup: 'CLK'
+ 12. Slow Model Hold: 'CLK'
+ 13. Slow Model Minimum Pulse Width: 'CLK'
+ 14. Setup Times
+ 15. Hold Times
+ 16. Clock to Output Times
+ 17. Minimum Clock to Output Times
+ 18. Fast Model Setup Summary
+ 19. Fast Model Hold Summary
+ 20. Fast Model Recovery Summary
+ 21. Fast Model Removal Summary
+ 22. Fast Model Minimum Pulse Width Summary
+ 23. Fast Model Setup: 'CLK'
+ 24. Fast Model Hold: 'CLK'
+ 25. Fast Model Minimum Pulse Width: 'CLK'
+ 26. Setup Times
+ 27. Hold Times
+ 28. Clock to Output Times
+ 29. Minimum Clock to Output Times
+ 30. Multicorner Timing Analysis Summary
+ 31. Setup Times
+ 32. Hold Times
+ 33. Clock to Output Times
+ 34. Minimum Clock to Output Times
+ 35. Setup Transfers
+ 36. Hold Transfers
+ 37. Report TCCS
+ 38. Report RSKM
+ 39. Unconstrained Paths
+ 40. TimeQuest Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------------------------+
+; TimeQuest Timing Analyzer Summary                                                      ;
++--------------------+-------------------------------------------------------------------+
+; Quartus II Version ; Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition ;
+; Revision Name      ; Row_Column_Counter                                                ;
+; Device Family      ; Cyclone II                                                        ;
+; Device Name        ; EP2C50F672C6                                                      ;
+; Timing Models      ; Final                                                             ;
+; Delay Model        ; Combined                                                          ;
+; Rise/Fall Delays   ; Unavailable                                                       ;
++--------------------+-------------------------------------------------------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 12     ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Clocks                                                                                                                                                                          ;
++------------+------+--------+------------+-------+-------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+---------+
+; Clock Name ; Type ; Period ; Frequency  ; Rise  ; Fall  ; Duty Cycle ; Divide by ; Multiply by ; Phase ; Offset ; Edge List ; Edge Shift ; Inverted ; Master ; Source ; Targets ;
++------------+------+--------+------------+-------+-------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+---------+
+; CLK        ; Base ; 1.000  ; 1000.0 MHz ; 0.000 ; 0.500 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;        ; { CLK } ;
++------------+------+--------+------------+-------+-------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+---------+
+
+
++--------------------------------------------------+
+; Slow Model Fmax Summary                          ;
++------------+-----------------+------------+------+
+; Fmax       ; Restricted Fmax ; Clock Name ; Note ;
++------------+-----------------+------------+------+
+; 337.84 MHz ; 337.84 MHz      ; CLK        ;      ;
++------------+-----------------+------------+------+
+This panel reports FMAX for every clock in the design, regardless of the user-specified clock periods.  FMAX is only computed for paths where the source and destination registers or ports are driven by the same clock.  Paths of different clocks, including generated clocks, are ignored.  For paths between a clock and its inversion, FMAX is computed as if the rising and falling edges are scaled along with FMAX, such that the duty cycle (in terms of a percentage) is maintained. Altera recommends that you always use clock constraints and other slack reports for sign-off analysis.
+
+
++--------------------------------+
+; Slow Model Setup Summary       ;
++-------+--------+---------------+
+; Clock ; Slack  ; End Point TNS ;
++-------+--------+---------------+
+; CLK   ; -1.960 ; -21.209       ;
++-------+--------+---------------+
+
+
++-------------------------------+
+; Slow Model Hold Summary       ;
++-------+-------+---------------+
+; Clock ; Slack ; End Point TNS ;
++-------+-------+---------------+
+; CLK   ; 0.680 ; 0.000         ;
++-------+-------+---------------+
+
+
+-------------------------------
+; Slow Model Recovery Summary ;
+-------------------------------
+No paths to report.
+
+
+------------------------------
+; Slow Model Removal Summary ;
+------------------------------
+No paths to report.
+
+
++----------------------------------------+
+; Slow Model Minimum Pulse Width Summary ;
++-------+--------+-----------------------+
+; Clock ; Slack  ; End Point TNS         ;
++-------+--------+-----------------------+
+; CLK   ; -1.380 ; -19.380               ;
++-------+--------+-----------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Slow Model Setup: 'CLK'                                                                                                                            ;
++--------+----------------------------------+----------------------------------+--------------+-------------+--------------+------------+------------+
+; Slack  ; From Node                        ; To Node                          ; Launch Clock ; Latch Clock ; Relationship ; Clock Skew ; Data Delay ;
++--------+----------------------------------+----------------------------------+--------------+-------------+--------------+------------+------------+
+; -1.960 ; Counter:Column_counter|Output[0] ; Counter:Column_counter|Overflow  ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.996      ;
+; -1.853 ; Counter:Column_counter|Output[1] ; Counter:Column_counter|Overflow  ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.889      ;
+; -1.837 ; Counter:Row_counter|Output[0]    ; Counter:Row_counter|Overflow     ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.873      ;
+; -1.817 ; Counter:Column_counter|Output[2] ; Counter:Column_counter|Overflow  ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.853      ;
+; -1.815 ; Counter:Row_counter|Output[3]    ; Counter:Row_counter|Overflow     ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.851      ;
+; -1.766 ; Counter:Row_counter|Output[1]    ; Counter:Row_counter|Overflow     ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.802      ;
+; -1.703 ; Counter:Row_counter|Output[2]    ; Counter:Row_counter|Overflow     ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.739      ;
+; -1.691 ; Counter:Column_counter|Output[3] ; Counter:Column_counter|Overflow  ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.727      ;
+; -1.536 ; Counter:Column_counter|Output[0] ; Counter:Column_counter|Output[6] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.572      ;
+; -1.508 ; Counter:Row_counter|Output[4]    ; Counter:Row_counter|Overflow     ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.544      ;
+; -1.504 ; Counter:Column_counter|Output[3] ; Counter:Column_counter|Output[6] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.540      ;
+; -1.429 ; Counter:Column_counter|Output[1] ; Counter:Column_counter|Output[6] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.465      ;
+; -1.404 ; Counter:Row_counter|Output[0]    ; Counter:Row_counter|Output[6]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.440      ;
+; -1.393 ; Counter:Column_counter|Output[2] ; Counter:Column_counter|Output[6] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.429      ;
+; -1.382 ; Counter:Row_counter|Output[3]    ; Counter:Row_counter|Output[6]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.418      ;
+; -1.340 ; Counter:Column_counter|Output[6] ; Counter:Column_counter|Overflow  ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.376      ;
+; -1.333 ; Counter:Row_counter|Output[1]    ; Counter:Row_counter|Output[6]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.369      ;
+; -1.320 ; Counter:Column_counter|Output[0] ; Counter:Column_counter|Output[3] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.356      ;
+; -1.281 ; Counter:Row_counter|Output[6]    ; Counter:Row_counter|Overflow     ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.317      ;
+; -1.270 ; Counter:Row_counter|Output[2]    ; Counter:Row_counter|Output[6]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.306      ;
+; -1.265 ; Counter:Row_counter|Output[0]    ; Counter:Row_counter|Output[4]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.301      ;
+; -1.260 ; Counter:Column_counter|Output[4] ; Counter:Column_counter|Overflow  ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.296      ;
+; -1.250 ; Counter:Column_counter|Output[4] ; Counter:Column_counter|Output[6] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.286      ;
+; -1.243 ; Counter:Row_counter|Output[3]    ; Counter:Row_counter|Output[4]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.279      ;
+; -1.214 ; Counter:Column_counter|Output[0] ; Counter:Column_counter|Output[4] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.250      ;
+; -1.213 ; Counter:Column_counter|Output[1] ; Counter:Column_counter|Output[3] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.249      ;
+; -1.200 ; Counter:Row_counter|Output[0]    ; Counter:Row_counter|Output[5]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.236      ;
+; -1.194 ; Counter:Row_counter|Output[1]    ; Counter:Row_counter|Output[4]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.230      ;
+; -1.189 ; Counter:Column_counter|Output[0] ; Counter:Column_counter|Output[1] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.225      ;
+; -1.182 ; Counter:Column_counter|Output[3] ; Counter:Column_counter|Output[4] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.218      ;
+; -1.178 ; Counter:Row_counter|Output[3]    ; Counter:Row_counter|Output[5]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.214      ;
+; -1.177 ; Counter:Column_counter|Output[2] ; Counter:Column_counter|Output[3] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.213      ;
+; -1.161 ; Counter:Row_counter|Output[5]    ; Counter:Row_counter|Overflow     ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.197      ;
+; -1.150 ; Counter:Column_counter|Output[5] ; Counter:Column_counter|Output[6] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.186      ;
+; -1.149 ; Counter:Column_counter|Output[6] ; Counter:Column_counter|Output[6] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.185      ;
+; -1.144 ; Counter:Column_counter|Output[0] ; Counter:Column_counter|Output[5] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.180      ;
+; -1.131 ; Counter:Row_counter|Output[2]    ; Counter:Row_counter|Output[4]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.167      ;
+; -1.129 ; Counter:Row_counter|Output[1]    ; Counter:Row_counter|Output[5]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.165      ;
+; -1.116 ; Counter:Column_counter|Output[0] ; Counter:Column_counter|Output[2] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.152      ;
+; -1.112 ; Counter:Column_counter|Output[5] ; Counter:Column_counter|Overflow  ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.148      ;
+; -1.112 ; Counter:Column_counter|Output[3] ; Counter:Column_counter|Output[5] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.148      ;
+; -1.107 ; Counter:Column_counter|Output[1] ; Counter:Column_counter|Output[4] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.143      ;
+; -1.100 ; Counter:Row_counter|Output[0]    ; Counter:Row_counter|Output[3]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.136      ;
+; -1.075 ; Counter:Row_counter|Output[4]    ; Counter:Row_counter|Output[6]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.111      ;
+; -1.071 ; Counter:Column_counter|Output[2] ; Counter:Column_counter|Output[4] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.107      ;
+; -1.066 ; Counter:Row_counter|Output[2]    ; Counter:Row_counter|Output[5]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.102      ;
+; -1.037 ; Counter:Column_counter|Output[1] ; Counter:Column_counter|Output[5] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.073      ;
+; -1.029 ; Counter:Row_counter|Output[1]    ; Counter:Row_counter|Output[3]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.065      ;
+; -1.009 ; Counter:Column_counter|Output[1] ; Counter:Column_counter|Output[2] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.045      ;
+; -1.001 ; Counter:Column_counter|Output[2] ; Counter:Column_counter|Output[5] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.037      ;
+; -0.981 ; Counter:Row_counter|Output[5]    ; Counter:Row_counter|Output[6]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.017      ;
+; -0.973 ; Counter:Column_counter|Output[3] ; Counter:Column_counter|Output[3] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.009      ;
+; -0.966 ; Counter:Row_counter|Output[2]    ; Counter:Row_counter|Output[3]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 2.002      ;
+; -0.930 ; Counter:Row_counter|Output[0]    ; Counter:Row_counter|Output[7]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.966      ;
+; -0.908 ; Counter:Row_counter|Output[3]    ; Counter:Row_counter|Output[7]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.944      ;
+; -0.903 ; Counter:Row_counter|Output[7]    ; Counter:Row_counter|Overflow     ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.939      ;
+; -0.894 ; Counter:Row_counter|Output[0]    ; Counter:Row_counter|Output[2]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.930      ;
+; -0.885 ; Counter:Column_counter|Output[0] ; Counter:Column_counter|Output[7] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.921      ;
+; -0.871 ; Counter:Row_counter|Output[4]    ; Counter:Row_counter|Output[5]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.907      ;
+; -0.859 ; Counter:Row_counter|Output[1]    ; Counter:Row_counter|Output[7]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.895      ;
+; -0.858 ; Counter:Column_counter|Output[4] ; Counter:Column_counter|Output[5] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.894      ;
+; -0.853 ; Counter:Column_counter|Output[3] ; Counter:Column_counter|Output[7] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.889      ;
+; -0.824 ; Counter:Row_counter|Output[0]    ; Counter:Row_counter|Output[1]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.860      ;
+; -0.823 ; Counter:Row_counter|Output[1]    ; Counter:Row_counter|Output[2]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.859      ;
+; -0.813 ; Counter:Column_counter|Output[0] ; Counter:Column_counter|Output[0] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.849      ;
+; -0.810 ; Counter:Column_counter|Output[6] ; Counter:Column_counter|Output[7] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.846      ;
+; -0.796 ; Counter:Row_counter|Output[2]    ; Counter:Row_counter|Output[7]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.832      ;
+; -0.786 ; Counter:Row_counter|Output[6]    ; Counter:Row_counter|Output[6]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.822      ;
+; -0.778 ; Counter:Column_counter|Output[1] ; Counter:Column_counter|Output[7] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.814      ;
+; -0.770 ; Counter:Column_counter|Output[1] ; Counter:Column_counter|Output[1] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.806      ;
+; -0.762 ; Counter:Row_counter|Output[3]    ; Counter:Row_counter|Output[3]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.798      ;
+; -0.742 ; Counter:Column_counter|Output[2] ; Counter:Column_counter|Output[7] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.778      ;
+; -0.658 ; Counter:Column_counter|Output[2] ; Counter:Column_counter|Output[2] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.694      ;
+; -0.627 ; Counter:Row_counter|Output[6]    ; Counter:Row_counter|Output[7]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.663      ;
+; -0.621 ; Counter:Row_counter|Output[4]    ; Counter:Row_counter|Output[4]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.657      ;
+; -0.613 ; Counter:Column_counter|Output[4] ; Counter:Column_counter|Output[4] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.649      ;
+; -0.601 ; Counter:Row_counter|Output[4]    ; Counter:Row_counter|Output[7]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.637      ;
+; -0.599 ; Counter:Column_counter|Output[4] ; Counter:Column_counter|Output[7] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.635      ;
+; -0.578 ; Counter:Row_counter|Output[0]    ; Counter:Row_counter|Output[0]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.614      ;
+; -0.578 ; Counter:Row_counter|Overflow     ; Counter:Column_counter|Output[0] ; CLK          ; CLK         ; 1.000        ; 0.007      ; 1.621      ;
+; -0.578 ; Counter:Row_counter|Overflow     ; Counter:Column_counter|Output[1] ; CLK          ; CLK         ; 1.000        ; 0.007      ; 1.621      ;
+; -0.578 ; Counter:Row_counter|Overflow     ; Counter:Column_counter|Output[2] ; CLK          ; CLK         ; 1.000        ; 0.007      ; 1.621      ;
+; -0.578 ; Counter:Row_counter|Overflow     ; Counter:Column_counter|Output[3] ; CLK          ; CLK         ; 1.000        ; 0.007      ; 1.621      ;
+; -0.578 ; Counter:Row_counter|Overflow     ; Counter:Column_counter|Output[4] ; CLK          ; CLK         ; 1.000        ; 0.007      ; 1.621      ;
+; -0.578 ; Counter:Row_counter|Overflow     ; Counter:Column_counter|Output[5] ; CLK          ; CLK         ; 1.000        ; 0.007      ; 1.621      ;
+; -0.578 ; Counter:Row_counter|Overflow     ; Counter:Column_counter|Output[6] ; CLK          ; CLK         ; 1.000        ; 0.007      ; 1.621      ;
+; -0.578 ; Counter:Row_counter|Overflow     ; Counter:Column_counter|Output[7] ; CLK          ; CLK         ; 1.000        ; 0.007      ; 1.621      ;
+; -0.578 ; Counter:Row_counter|Overflow     ; Counter:Column_counter|Overflow  ; CLK          ; CLK         ; 1.000        ; 0.007      ; 1.621      ;
+; -0.507 ; Counter:Row_counter|Output[5]    ; Counter:Row_counter|Output[7]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.543      ;
+; -0.499 ; Counter:Column_counter|Output[5] ; Counter:Column_counter|Output[7] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.535      ;
+; -0.465 ; Counter:Row_counter|Output[5]    ; Counter:Row_counter|Output[5]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.501      ;
+; -0.448 ; Counter:Row_counter|Output[2]    ; Counter:Row_counter|Output[2]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.484      ;
+; -0.446 ; Counter:Column_counter|Output[5] ; Counter:Column_counter|Output[5] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.482      ;
+; -0.441 ; Counter:Row_counter|Output[1]    ; Counter:Row_counter|Output[1]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.477      ;
+; -0.440 ; Counter:Column_counter|Output[7] ; Counter:Column_counter|Overflow  ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.476      ;
+; -0.249 ; Counter:Row_counter|Output[7]    ; Counter:Row_counter|Output[7]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.285      ;
+; 0.090  ; Counter:Column_counter|Output[7] ; Counter:Column_counter|Output[7] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.946      ;
++--------+----------------------------------+----------------------------------+--------------+-------------+--------------+------------+------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------+
+; Slow Model Hold: 'CLK'                                                                                                                            ;
++-------+----------------------------------+----------------------------------+--------------+-------------+--------------+------------+------------+
+; Slack ; From Node                        ; To Node                          ; Launch Clock ; Latch Clock ; Relationship ; Clock Skew ; Data Delay ;
++-------+----------------------------------+----------------------------------+--------------+-------------+--------------+------------+------------+
+; 0.680 ; Counter:Column_counter|Output[7] ; Counter:Column_counter|Output[7] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.946      ;
+; 1.019 ; Counter:Row_counter|Output[7]    ; Counter:Row_counter|Output[7]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.285      ;
+; 1.210 ; Counter:Column_counter|Output[7] ; Counter:Column_counter|Overflow  ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.476      ;
+; 1.211 ; Counter:Row_counter|Output[1]    ; Counter:Row_counter|Output[1]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.477      ;
+; 1.216 ; Counter:Column_counter|Output[5] ; Counter:Column_counter|Output[5] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.482      ;
+; 1.218 ; Counter:Row_counter|Output[2]    ; Counter:Row_counter|Output[2]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.484      ;
+; 1.235 ; Counter:Row_counter|Output[5]    ; Counter:Row_counter|Output[5]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.501      ;
+; 1.269 ; Counter:Column_counter|Output[5] ; Counter:Column_counter|Output[7] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.535      ;
+; 1.277 ; Counter:Row_counter|Output[5]    ; Counter:Row_counter|Output[7]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.543      ;
+; 1.348 ; Counter:Row_counter|Output[0]    ; Counter:Row_counter|Output[0]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.614      ;
+; 1.348 ; Counter:Row_counter|Overflow     ; Counter:Column_counter|Output[0] ; CLK          ; CLK         ; 0.000        ; 0.007      ; 1.621      ;
+; 1.348 ; Counter:Row_counter|Overflow     ; Counter:Column_counter|Output[1] ; CLK          ; CLK         ; 0.000        ; 0.007      ; 1.621      ;
+; 1.348 ; Counter:Row_counter|Overflow     ; Counter:Column_counter|Output[2] ; CLK          ; CLK         ; 0.000        ; 0.007      ; 1.621      ;
+; 1.348 ; Counter:Row_counter|Overflow     ; Counter:Column_counter|Output[3] ; CLK          ; CLK         ; 0.000        ; 0.007      ; 1.621      ;
+; 1.348 ; Counter:Row_counter|Overflow     ; Counter:Column_counter|Output[4] ; CLK          ; CLK         ; 0.000        ; 0.007      ; 1.621      ;
+; 1.348 ; Counter:Row_counter|Overflow     ; Counter:Column_counter|Output[5] ; CLK          ; CLK         ; 0.000        ; 0.007      ; 1.621      ;
+; 1.348 ; Counter:Row_counter|Overflow     ; Counter:Column_counter|Output[6] ; CLK          ; CLK         ; 0.000        ; 0.007      ; 1.621      ;
+; 1.348 ; Counter:Row_counter|Overflow     ; Counter:Column_counter|Output[7] ; CLK          ; CLK         ; 0.000        ; 0.007      ; 1.621      ;
+; 1.348 ; Counter:Row_counter|Overflow     ; Counter:Column_counter|Overflow  ; CLK          ; CLK         ; 0.000        ; 0.007      ; 1.621      ;
+; 1.369 ; Counter:Column_counter|Output[4] ; Counter:Column_counter|Output[7] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.635      ;
+; 1.371 ; Counter:Row_counter|Output[4]    ; Counter:Row_counter|Output[7]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.637      ;
+; 1.383 ; Counter:Column_counter|Output[4] ; Counter:Column_counter|Output[4] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.649      ;
+; 1.391 ; Counter:Row_counter|Output[4]    ; Counter:Row_counter|Output[4]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.657      ;
+; 1.397 ; Counter:Row_counter|Output[6]    ; Counter:Row_counter|Output[7]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.663      ;
+; 1.428 ; Counter:Column_counter|Output[2] ; Counter:Column_counter|Output[2] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.694      ;
+; 1.512 ; Counter:Column_counter|Output[2] ; Counter:Column_counter|Output[7] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.778      ;
+; 1.532 ; Counter:Row_counter|Output[3]    ; Counter:Row_counter|Output[3]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.798      ;
+; 1.540 ; Counter:Column_counter|Output[1] ; Counter:Column_counter|Output[1] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.806      ;
+; 1.548 ; Counter:Column_counter|Output[1] ; Counter:Column_counter|Output[7] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.814      ;
+; 1.549 ; Counter:Row_counter|Output[6]    ; Counter:Row_counter|Overflow     ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.815      ;
+; 1.556 ; Counter:Row_counter|Output[6]    ; Counter:Row_counter|Output[6]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.822      ;
+; 1.566 ; Counter:Row_counter|Output[2]    ; Counter:Row_counter|Output[7]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.832      ;
+; 1.580 ; Counter:Column_counter|Output[6] ; Counter:Column_counter|Output[7] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.846      ;
+; 1.583 ; Counter:Column_counter|Output[0] ; Counter:Column_counter|Output[0] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.849      ;
+; 1.593 ; Counter:Row_counter|Output[1]    ; Counter:Row_counter|Output[2]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.859      ;
+; 1.594 ; Counter:Row_counter|Output[0]    ; Counter:Row_counter|Output[1]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.860      ;
+; 1.618 ; Counter:Column_counter|Output[5] ; Counter:Column_counter|Overflow  ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.884      ;
+; 1.623 ; Counter:Column_counter|Output[3] ; Counter:Column_counter|Output[7] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.889      ;
+; 1.628 ; Counter:Column_counter|Output[4] ; Counter:Column_counter|Output[5] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.894      ;
+; 1.629 ; Counter:Row_counter|Output[1]    ; Counter:Row_counter|Output[7]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.895      ;
+; 1.641 ; Counter:Row_counter|Output[4]    ; Counter:Row_counter|Output[5]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.907      ;
+; 1.655 ; Counter:Column_counter|Output[0] ; Counter:Column_counter|Output[7] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.921      ;
+; 1.664 ; Counter:Row_counter|Output[0]    ; Counter:Row_counter|Output[2]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.930      ;
+; 1.673 ; Counter:Row_counter|Output[7]    ; Counter:Row_counter|Overflow     ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.939      ;
+; 1.678 ; Counter:Row_counter|Output[3]    ; Counter:Row_counter|Output[7]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.944      ;
+; 1.700 ; Counter:Row_counter|Output[0]    ; Counter:Row_counter|Output[7]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.966      ;
+; 1.736 ; Counter:Row_counter|Output[2]    ; Counter:Row_counter|Output[3]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.002      ;
+; 1.743 ; Counter:Column_counter|Output[3] ; Counter:Column_counter|Output[3] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.009      ;
+; 1.744 ; Counter:Row_counter|Output[5]    ; Counter:Row_counter|Overflow     ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.010      ;
+; 1.751 ; Counter:Row_counter|Output[5]    ; Counter:Row_counter|Output[6]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.017      ;
+; 1.771 ; Counter:Column_counter|Output[2] ; Counter:Column_counter|Output[5] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.037      ;
+; 1.779 ; Counter:Column_counter|Output[1] ; Counter:Column_counter|Output[2] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.045      ;
+; 1.799 ; Counter:Row_counter|Output[1]    ; Counter:Row_counter|Output[3]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.065      ;
+; 1.807 ; Counter:Column_counter|Output[1] ; Counter:Column_counter|Output[5] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.073      ;
+; 1.825 ; Counter:Row_counter|Output[4]    ; Counter:Row_counter|Overflow     ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.091      ;
+; 1.836 ; Counter:Row_counter|Output[2]    ; Counter:Row_counter|Output[5]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.102      ;
+; 1.841 ; Counter:Column_counter|Output[2] ; Counter:Column_counter|Output[4] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.107      ;
+; 1.845 ; Counter:Row_counter|Output[4]    ; Counter:Row_counter|Output[6]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.111      ;
+; 1.870 ; Counter:Row_counter|Output[0]    ; Counter:Row_counter|Output[3]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.136      ;
+; 1.877 ; Counter:Column_counter|Output[1] ; Counter:Column_counter|Output[4] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.143      ;
+; 1.881 ; Counter:Column_counter|Output[6] ; Counter:Column_counter|Overflow  ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.147      ;
+; 1.882 ; Counter:Column_counter|Output[3] ; Counter:Column_counter|Output[5] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.148      ;
+; 1.886 ; Counter:Column_counter|Output[0] ; Counter:Column_counter|Output[2] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.152      ;
+; 1.892 ; Counter:Column_counter|Output[4] ; Counter:Column_counter|Overflow  ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.158      ;
+; 1.899 ; Counter:Row_counter|Output[1]    ; Counter:Row_counter|Output[5]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.165      ;
+; 1.901 ; Counter:Row_counter|Output[2]    ; Counter:Row_counter|Output[4]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.167      ;
+; 1.905 ; Counter:Row_counter|Output[2]    ; Counter:Row_counter|Overflow     ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.171      ;
+; 1.914 ; Counter:Column_counter|Output[0] ; Counter:Column_counter|Output[5] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.180      ;
+; 1.919 ; Counter:Column_counter|Output[6] ; Counter:Column_counter|Output[6] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.185      ;
+; 1.920 ; Counter:Column_counter|Output[5] ; Counter:Column_counter|Output[6] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.186      ;
+; 1.947 ; Counter:Column_counter|Output[2] ; Counter:Column_counter|Output[3] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.213      ;
+; 1.948 ; Counter:Row_counter|Output[3]    ; Counter:Row_counter|Output[5]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.214      ;
+; 1.952 ; Counter:Column_counter|Output[3] ; Counter:Column_counter|Output[4] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.218      ;
+; 1.959 ; Counter:Column_counter|Output[0] ; Counter:Column_counter|Output[1] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.225      ;
+; 1.964 ; Counter:Row_counter|Output[1]    ; Counter:Row_counter|Output[4]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.230      ;
+; 1.970 ; Counter:Row_counter|Output[0]    ; Counter:Row_counter|Output[5]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.236      ;
+; 1.983 ; Counter:Column_counter|Output[1] ; Counter:Column_counter|Output[3] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.249      ;
+; 1.984 ; Counter:Column_counter|Output[0] ; Counter:Column_counter|Output[4] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.250      ;
+; 2.013 ; Counter:Row_counter|Output[3]    ; Counter:Row_counter|Output[4]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.279      ;
+; 2.020 ; Counter:Column_counter|Output[4] ; Counter:Column_counter|Output[6] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.286      ;
+; 2.035 ; Counter:Row_counter|Output[0]    ; Counter:Row_counter|Output[4]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.301      ;
+; 2.040 ; Counter:Row_counter|Output[2]    ; Counter:Row_counter|Output[6]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.306      ;
+; 2.042 ; Counter:Column_counter|Output[2] ; Counter:Column_counter|Overflow  ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.308      ;
+; 2.078 ; Counter:Column_counter|Output[1] ; Counter:Column_counter|Overflow  ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.344      ;
+; 2.090 ; Counter:Column_counter|Output[0] ; Counter:Column_counter|Output[3] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.356      ;
+; 2.096 ; Counter:Row_counter|Output[1]    ; Counter:Row_counter|Overflow     ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.362      ;
+; 2.103 ; Counter:Row_counter|Output[1]    ; Counter:Row_counter|Output[6]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.369      ;
+; 2.142 ; Counter:Row_counter|Output[0]    ; Counter:Row_counter|Overflow     ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.408      ;
+; 2.145 ; Counter:Row_counter|Output[3]    ; Counter:Row_counter|Overflow     ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.411      ;
+; 2.152 ; Counter:Row_counter|Output[3]    ; Counter:Row_counter|Output[6]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.418      ;
+; 2.153 ; Counter:Column_counter|Output[3] ; Counter:Column_counter|Overflow  ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.419      ;
+; 2.163 ; Counter:Column_counter|Output[2] ; Counter:Column_counter|Output[6] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.429      ;
+; 2.174 ; Counter:Row_counter|Output[0]    ; Counter:Row_counter|Output[6]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.440      ;
+; 2.185 ; Counter:Column_counter|Output[0] ; Counter:Column_counter|Overflow  ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.451      ;
+; 2.199 ; Counter:Column_counter|Output[1] ; Counter:Column_counter|Output[6] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.465      ;
+; 2.274 ; Counter:Column_counter|Output[3] ; Counter:Column_counter|Output[6] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.540      ;
+; 2.306 ; Counter:Column_counter|Output[0] ; Counter:Column_counter|Output[6] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 2.572      ;
++-------+----------------------------------+----------------------------------+--------------+-------------+--------------+------------+------------+
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; Slow Model Minimum Pulse Width: 'CLK'                                                                             ;
++--------+--------------+----------------+------------------+-------+------------+----------------------------------+
+; Slack  ; Actual Width ; Required Width ; Type             ; Clock ; Clock Edge ; Target                           ;
++--------+--------------+----------------+------------------+-------+------------+----------------------------------+
+; -1.380 ; 1.000        ; 2.380          ; Port Rate        ; CLK   ; Rise       ; CLK                              ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLK   ; Rise       ; Counter:Column_counter|Output[0] ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLK   ; Rise       ; Counter:Column_counter|Output[0] ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLK   ; Rise       ; Counter:Column_counter|Output[1] ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLK   ; Rise       ; Counter:Column_counter|Output[1] ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLK   ; Rise       ; Counter:Column_counter|Output[2] ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLK   ; Rise       ; Counter:Column_counter|Output[2] ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLK   ; Rise       ; Counter:Column_counter|Output[3] ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLK   ; Rise       ; Counter:Column_counter|Output[3] ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLK   ; Rise       ; Counter:Column_counter|Output[4] ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLK   ; Rise       ; Counter:Column_counter|Output[4] ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLK   ; Rise       ; Counter:Column_counter|Output[5] ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLK   ; Rise       ; Counter:Column_counter|Output[5] ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLK   ; Rise       ; Counter:Column_counter|Output[6] ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLK   ; Rise       ; Counter:Column_counter|Output[6] ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLK   ; Rise       ; Counter:Column_counter|Output[7] ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLK   ; Rise       ; Counter:Column_counter|Output[7] ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLK   ; Rise       ; Counter:Column_counter|Overflow  ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLK   ; Rise       ; Counter:Column_counter|Overflow  ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLK   ; Rise       ; Counter:Row_counter|Output[0]    ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLK   ; Rise       ; Counter:Row_counter|Output[0]    ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLK   ; Rise       ; Counter:Row_counter|Output[1]    ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLK   ; Rise       ; Counter:Row_counter|Output[1]    ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLK   ; Rise       ; Counter:Row_counter|Output[2]    ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLK   ; Rise       ; Counter:Row_counter|Output[2]    ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLK   ; Rise       ; Counter:Row_counter|Output[3]    ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLK   ; Rise       ; Counter:Row_counter|Output[3]    ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLK   ; Rise       ; Counter:Row_counter|Output[4]    ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLK   ; Rise       ; Counter:Row_counter|Output[4]    ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLK   ; Rise       ; Counter:Row_counter|Output[5]    ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLK   ; Rise       ; Counter:Row_counter|Output[5]    ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLK   ; Rise       ; Counter:Row_counter|Output[6]    ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLK   ; Rise       ; Counter:Row_counter|Output[6]    ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLK   ; Rise       ; Counter:Row_counter|Output[7]    ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLK   ; Rise       ; Counter:Row_counter|Output[7]    ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLK   ; Rise       ; Counter:Row_counter|Overflow     ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLK   ; Rise       ; Counter:Row_counter|Overflow     ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; CLK   ; Rise       ; CLK|combout                      ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; CLK   ; Rise       ; CLK|combout                      ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; CLK   ; Rise       ; CLK~clkctrl|inclk[0]             ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; CLK   ; Rise       ; CLK~clkctrl|inclk[0]             ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; CLK   ; Rise       ; CLK~clkctrl|outclk               ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; CLK   ; Rise       ; CLK~clkctrl|outclk               ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; CLK   ; Rise       ; Column_counter|Output[0]|clk     ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; CLK   ; Rise       ; Column_counter|Output[0]|clk     ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; CLK   ; Rise       ; Column_counter|Output[1]|clk     ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; CLK   ; Rise       ; Column_counter|Output[1]|clk     ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; CLK   ; Rise       ; Column_counter|Output[2]|clk     ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; CLK   ; Rise       ; Column_counter|Output[2]|clk     ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; CLK   ; Rise       ; Column_counter|Output[3]|clk     ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; CLK   ; Rise       ; Column_counter|Output[3]|clk     ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; CLK   ; Rise       ; Column_counter|Output[4]|clk     ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; CLK   ; Rise       ; Column_counter|Output[4]|clk     ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; CLK   ; Rise       ; Column_counter|Output[5]|clk     ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; CLK   ; Rise       ; Column_counter|Output[5]|clk     ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; CLK   ; Rise       ; Column_counter|Output[6]|clk     ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; CLK   ; Rise       ; Column_counter|Output[6]|clk     ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; CLK   ; Rise       ; Column_counter|Output[7]|clk     ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; CLK   ; Rise       ; Column_counter|Output[7]|clk     ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; CLK   ; Rise       ; Column_counter|Overflow|clk      ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; CLK   ; Rise       ; Column_counter|Overflow|clk      ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; CLK   ; Rise       ; Row_counter|Output[0]|clk        ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; CLK   ; Rise       ; Row_counter|Output[0]|clk        ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; CLK   ; Rise       ; Row_counter|Output[1]|clk        ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; CLK   ; Rise       ; Row_counter|Output[1]|clk        ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; CLK   ; Rise       ; Row_counter|Output[2]|clk        ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; CLK   ; Rise       ; Row_counter|Output[2]|clk        ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; CLK   ; Rise       ; Row_counter|Output[3]|clk        ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; CLK   ; Rise       ; Row_counter|Output[3]|clk        ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; CLK   ; Rise       ; Row_counter|Output[4]|clk        ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; CLK   ; Rise       ; Row_counter|Output[4]|clk        ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; CLK   ; Rise       ; Row_counter|Output[5]|clk        ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; CLK   ; Rise       ; Row_counter|Output[5]|clk        ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; CLK   ; Rise       ; Row_counter|Output[6]|clk        ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; CLK   ; Rise       ; Row_counter|Output[6]|clk        ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; CLK   ; Rise       ; Row_counter|Output[7]|clk        ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; CLK   ; Rise       ; Row_counter|Output[7]|clk        ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; CLK   ; Rise       ; Row_counter|Overflow|clk         ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; CLK   ; Rise       ; Row_counter|Overflow|clk         ;
++--------+--------------+----------------+------------------+-------+------------+----------------------------------+
+
+
++-------------------------------------------------------------------------+
+; Setup Times                                                             ;
++-----------+------------+--------+--------+------------+-----------------+
+; Data Port ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
++-----------+------------+--------+--------+------------+-----------------+
+; Enable    ; CLK        ; -0.039 ; -0.039 ; Rise       ; CLK             ;
++-----------+------------+--------+--------+------------+-----------------+
+
+
++-----------------------------------------------------------------------+
+; Hold Times                                                            ;
++-----------+------------+-------+-------+------------+-----------------+
+; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
++-----------+------------+-------+-------+------------+-----------------+
+; Enable    ; CLK        ; 0.269 ; 0.269 ; Rise       ; CLK             ;
++-----------+------------+-------+-------+------------+-----------------+
+
+
++----------------------------------------------------------------------------+
+; Clock to Output Times                                                      ;
++----------------+------------+-------+-------+------------+-----------------+
+; Data Port      ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
++----------------+------------+-------+-------+------------+-----------------+
+; Out_Column[*]  ; CLK        ; 6.906 ; 6.906 ; Rise       ; CLK             ;
+;  Out_Column[0] ; CLK        ; 6.443 ; 6.443 ; Rise       ; CLK             ;
+;  Out_Column[1] ; CLK        ; 6.687 ; 6.687 ; Rise       ; CLK             ;
+;  Out_Column[2] ; CLK        ; 6.675 ; 6.675 ; Rise       ; CLK             ;
+;  Out_Column[3] ; CLK        ; 6.460 ; 6.460 ; Rise       ; CLK             ;
+;  Out_Column[4] ; CLK        ; 6.898 ; 6.898 ; Rise       ; CLK             ;
+;  Out_Column[5] ; CLK        ; 6.435 ; 6.435 ; Rise       ; CLK             ;
+;  Out_Column[6] ; CLK        ; 6.906 ; 6.906 ; Rise       ; CLK             ;
+;  Out_Column[7] ; CLK        ; 6.678 ; 6.678 ; Rise       ; CLK             ;
+; Out_Row[*]     ; CLK        ; 6.705 ; 6.705 ; Rise       ; CLK             ;
+;  Out_Row[0]    ; CLK        ; 6.693 ; 6.693 ; Rise       ; CLK             ;
+;  Out_Row[1]    ; CLK        ; 6.457 ; 6.457 ; Rise       ; CLK             ;
+;  Out_Row[2]    ; CLK        ; 6.705 ; 6.705 ; Rise       ; CLK             ;
+;  Out_Row[3]    ; CLK        ; 6.697 ; 6.697 ; Rise       ; CLK             ;
+;  Out_Row[4]    ; CLK        ; 6.469 ; 6.469 ; Rise       ; CLK             ;
+;  Out_Row[5]    ; CLK        ; 6.436 ; 6.436 ; Rise       ; CLK             ;
+;  Out_Row[6]    ; CLK        ; 6.657 ; 6.657 ; Rise       ; CLK             ;
+;  Out_Row[7]    ; CLK        ; 6.436 ; 6.436 ; Rise       ; CLK             ;
+; isEnd          ; CLK        ; 7.992 ; 7.992 ; Rise       ; CLK             ;
+; isReady        ; CLK        ; 9.066 ; 9.066 ; Rise       ; CLK             ;
++----------------+------------+-------+-------+------------+-----------------+
+
+
++----------------------------------------------------------------------------+
+; Minimum Clock to Output Times                                              ;
++----------------+------------+-------+-------+------------+-----------------+
+; Data Port      ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
++----------------+------------+-------+-------+------------+-----------------+
+; Out_Column[*]  ; CLK        ; 6.435 ; 6.435 ; Rise       ; CLK             ;
+;  Out_Column[0] ; CLK        ; 6.443 ; 6.443 ; Rise       ; CLK             ;
+;  Out_Column[1] ; CLK        ; 6.687 ; 6.687 ; Rise       ; CLK             ;
+;  Out_Column[2] ; CLK        ; 6.675 ; 6.675 ; Rise       ; CLK             ;
+;  Out_Column[3] ; CLK        ; 6.460 ; 6.460 ; Rise       ; CLK             ;
+;  Out_Column[4] ; CLK        ; 6.898 ; 6.898 ; Rise       ; CLK             ;
+;  Out_Column[5] ; CLK        ; 6.435 ; 6.435 ; Rise       ; CLK             ;
+;  Out_Column[6] ; CLK        ; 6.906 ; 6.906 ; Rise       ; CLK             ;
+;  Out_Column[7] ; CLK        ; 6.678 ; 6.678 ; Rise       ; CLK             ;
+; Out_Row[*]     ; CLK        ; 6.436 ; 6.436 ; Rise       ; CLK             ;
+;  Out_Row[0]    ; CLK        ; 6.693 ; 6.693 ; Rise       ; CLK             ;
+;  Out_Row[1]    ; CLK        ; 6.457 ; 6.457 ; Rise       ; CLK             ;
+;  Out_Row[2]    ; CLK        ; 6.705 ; 6.705 ; Rise       ; CLK             ;
+;  Out_Row[3]    ; CLK        ; 6.697 ; 6.697 ; Rise       ; CLK             ;
+;  Out_Row[4]    ; CLK        ; 6.469 ; 6.469 ; Rise       ; CLK             ;
+;  Out_Row[5]    ; CLK        ; 6.436 ; 6.436 ; Rise       ; CLK             ;
+;  Out_Row[6]    ; CLK        ; 6.657 ; 6.657 ; Rise       ; CLK             ;
+;  Out_Row[7]    ; CLK        ; 6.436 ; 6.436 ; Rise       ; CLK             ;
+; isEnd          ; CLK        ; 7.299 ; 7.299 ; Rise       ; CLK             ;
+; isReady        ; CLK        ; 7.768 ; 7.768 ; Rise       ; CLK             ;
++----------------+------------+-------+-------+------------+-----------------+
+
+
++--------------------------------+
+; Fast Model Setup Summary       ;
++-------+--------+---------------+
+; Clock ; Slack  ; End Point TNS ;
++-------+--------+---------------+
+; CLK   ; -0.320 ; -0.924        ;
++-------+--------+---------------+
+
+
++-------------------------------+
+; Fast Model Hold Summary       ;
++-------+-------+---------------+
+; Clock ; Slack ; End Point TNS ;
++-------+-------+---------------+
+; CLK   ; 0.317 ; 0.000         ;
++-------+-------+---------------+
+
+
+-------------------------------
+; Fast Model Recovery Summary ;
+-------------------------------
+No paths to report.
+
+
+------------------------------
+; Fast Model Removal Summary ;
+------------------------------
+No paths to report.
+
+
++----------------------------------------+
+; Fast Model Minimum Pulse Width Summary ;
++-------+--------+-----------------------+
+; Clock ; Slack  ; End Point TNS         ;
++-------+--------+-----------------------+
+; CLK   ; -1.380 ; -19.380               ;
++-------+--------+-----------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Fast Model Setup: 'CLK'                                                                                                                            ;
++--------+----------------------------------+----------------------------------+--------------+-------------+--------------+------------+------------+
+; Slack  ; From Node                        ; To Node                          ; Launch Clock ; Latch Clock ; Relationship ; Clock Skew ; Data Delay ;
++--------+----------------------------------+----------------------------------+--------------+-------------+--------------+------------+------------+
+; -0.320 ; Counter:Column_counter|Output[0] ; Counter:Column_counter|Overflow  ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.352      ;
+; -0.274 ; Counter:Row_counter|Output[0]    ; Counter:Row_counter|Overflow     ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.306      ;
+; -0.270 ; Counter:Column_counter|Output[1] ; Counter:Column_counter|Overflow  ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.302      ;
+; -0.250 ; Counter:Row_counter|Output[3]    ; Counter:Row_counter|Overflow     ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.282      ;
+; -0.249 ; Counter:Column_counter|Output[2] ; Counter:Column_counter|Overflow  ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.281      ;
+; -0.239 ; Counter:Row_counter|Output[1]    ; Counter:Row_counter|Overflow     ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.271      ;
+; -0.210 ; Counter:Row_counter|Output[2]    ; Counter:Row_counter|Overflow     ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.242      ;
+; -0.190 ; Counter:Column_counter|Output[3] ; Counter:Column_counter|Overflow  ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.222      ;
+; -0.144 ; Counter:Column_counter|Output[0] ; Counter:Column_counter|Output[6] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.176      ;
+; -0.119 ; Counter:Column_counter|Output[3] ; Counter:Column_counter|Output[6] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.151      ;
+; -0.108 ; Counter:Row_counter|Output[0]    ; Counter:Row_counter|Output[6]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.140      ;
+; -0.094 ; Counter:Column_counter|Output[1] ; Counter:Column_counter|Output[6] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.126      ;
+; -0.093 ; Counter:Row_counter|Output[4]    ; Counter:Row_counter|Overflow     ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.125      ;
+; -0.084 ; Counter:Row_counter|Output[3]    ; Counter:Row_counter|Output[6]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.116      ;
+; -0.073 ; Counter:Column_counter|Output[2] ; Counter:Column_counter|Output[6] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.105      ;
+; -0.073 ; Counter:Row_counter|Output[1]    ; Counter:Row_counter|Output[6]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.105      ;
+; -0.044 ; Counter:Row_counter|Output[2]    ; Counter:Row_counter|Output[6]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.076      ;
+; -0.041 ; Counter:Column_counter|Output[0] ; Counter:Column_counter|Output[3] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.073      ;
+; -0.037 ; Counter:Row_counter|Output[0]    ; Counter:Row_counter|Output[4]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.069      ;
+; -0.034 ; Counter:Column_counter|Output[6] ; Counter:Column_counter|Overflow  ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.066      ;
+; -0.013 ; Counter:Row_counter|Output[3]    ; Counter:Row_counter|Output[4]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.045      ;
+; -0.002 ; Counter:Row_counter|Output[1]    ; Counter:Row_counter|Output[4]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.034      ;
+; -0.001 ; Counter:Row_counter|Output[6]    ; Counter:Row_counter|Overflow     ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.033      ;
+; -0.001 ; Counter:Column_counter|Output[4] ; Counter:Column_counter|Output[6] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.033      ;
+; 0.003  ; Counter:Column_counter|Output[0] ; Counter:Column_counter|Output[4] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.029      ;
+; 0.008  ; Counter:Row_counter|Output[0]    ; Counter:Row_counter|Output[5]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.024      ;
+; 0.009  ; Counter:Column_counter|Output[1] ; Counter:Column_counter|Output[3] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.023      ;
+; 0.014  ; Counter:Column_counter|Output[6] ; Counter:Column_counter|Output[6] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.018      ;
+; 0.025  ; Counter:Column_counter|Output[0] ; Counter:Column_counter|Output[1] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.007      ;
+; 0.027  ; Counter:Row_counter|Output[2]    ; Counter:Row_counter|Output[4]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.005      ;
+; 0.028  ; Counter:Column_counter|Output[4] ; Counter:Column_counter|Overflow  ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.004      ;
+; 0.028  ; Counter:Column_counter|Output[3] ; Counter:Column_counter|Output[4] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.004      ;
+; 0.030  ; Counter:Column_counter|Output[2] ; Counter:Column_counter|Output[3] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.002      ;
+; 0.032  ; Counter:Row_counter|Output[3]    ; Counter:Row_counter|Output[5]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 1.000      ;
+; 0.042  ; Counter:Row_counter|Output[5]    ; Counter:Row_counter|Overflow     ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.990      ;
+; 0.043  ; Counter:Column_counter|Output[5] ; Counter:Column_counter|Output[6] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.989      ;
+; 0.043  ; Counter:Row_counter|Output[1]    ; Counter:Row_counter|Output[5]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.989      ;
+; 0.053  ; Counter:Column_counter|Output[1] ; Counter:Column_counter|Output[4] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.979      ;
+; 0.054  ; Counter:Column_counter|Output[0] ; Counter:Column_counter|Output[5] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.978      ;
+; 0.059  ; Counter:Row_counter|Output[0]    ; Counter:Row_counter|Output[3]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.973      ;
+; 0.072  ; Counter:Column_counter|Output[5] ; Counter:Column_counter|Overflow  ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.960      ;
+; 0.072  ; Counter:Row_counter|Output[2]    ; Counter:Row_counter|Output[5]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.960      ;
+; 0.073  ; Counter:Row_counter|Output[4]    ; Counter:Row_counter|Output[6]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.959      ;
+; 0.074  ; Counter:Column_counter|Output[2] ; Counter:Column_counter|Output[4] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.958      ;
+; 0.077  ; Counter:Column_counter|Output[0] ; Counter:Column_counter|Output[2] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.955      ;
+; 0.079  ; Counter:Column_counter|Output[3] ; Counter:Column_counter|Output[5] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.953      ;
+; 0.089  ; Counter:Column_counter|Output[3] ; Counter:Column_counter|Output[3] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.943      ;
+; 0.094  ; Counter:Row_counter|Output[1]    ; Counter:Row_counter|Output[3]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.938      ;
+; 0.104  ; Counter:Column_counter|Output[1] ; Counter:Column_counter|Output[5] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.928      ;
+; 0.113  ; Counter:Row_counter|Output[5]    ; Counter:Row_counter|Output[6]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.919      ;
+; 0.114  ; Counter:Row_counter|Output[0]    ; Counter:Row_counter|Output[7]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.918      ;
+; 0.123  ; Counter:Row_counter|Output[2]    ; Counter:Row_counter|Output[3]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.909      ;
+; 0.125  ; Counter:Column_counter|Output[2] ; Counter:Column_counter|Output[5] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.907      ;
+; 0.127  ; Counter:Column_counter|Output[1] ; Counter:Column_counter|Output[2] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.905      ;
+; 0.132  ; Counter:Row_counter|Output[7]    ; Counter:Row_counter|Overflow     ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.900      ;
+; 0.138  ; Counter:Row_counter|Output[3]    ; Counter:Row_counter|Output[7]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.894      ;
+; 0.149  ; Counter:Row_counter|Output[1]    ; Counter:Row_counter|Output[7]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.883      ;
+; 0.153  ; Counter:Column_counter|Output[0] ; Counter:Column_counter|Output[7] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.879      ;
+; 0.158  ; Counter:Column_counter|Output[0] ; Counter:Column_counter|Output[0] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.874      ;
+; 0.175  ; Counter:Row_counter|Output[0]    ; Counter:Row_counter|Output[2]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.857      ;
+; 0.175  ; Counter:Row_counter|Output[6]    ; Counter:Row_counter|Output[6]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.857      ;
+; 0.178  ; Counter:Column_counter|Output[1] ; Counter:Column_counter|Output[1] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.854      ;
+; 0.178  ; Counter:Row_counter|Output[2]    ; Counter:Row_counter|Output[7]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.854      ;
+; 0.178  ; Counter:Column_counter|Output[3] ; Counter:Column_counter|Output[7] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.854      ;
+; 0.182  ; Counter:Row_counter|Output[3]    ; Counter:Row_counter|Output[3]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.850      ;
+; 0.187  ; Counter:Row_counter|Overflow     ; Counter:Column_counter|Output[0] ; CLK          ; CLK         ; 1.000        ; 0.006      ; 0.851      ;
+; 0.187  ; Counter:Row_counter|Overflow     ; Counter:Column_counter|Output[1] ; CLK          ; CLK         ; 1.000        ; 0.006      ; 0.851      ;
+; 0.187  ; Counter:Row_counter|Overflow     ; Counter:Column_counter|Output[2] ; CLK          ; CLK         ; 1.000        ; 0.006      ; 0.851      ;
+; 0.187  ; Counter:Row_counter|Overflow     ; Counter:Column_counter|Output[3] ; CLK          ; CLK         ; 1.000        ; 0.006      ; 0.851      ;
+; 0.187  ; Counter:Row_counter|Overflow     ; Counter:Column_counter|Output[4] ; CLK          ; CLK         ; 1.000        ; 0.006      ; 0.851      ;
+; 0.187  ; Counter:Row_counter|Overflow     ; Counter:Column_counter|Output[5] ; CLK          ; CLK         ; 1.000        ; 0.006      ; 0.851      ;
+; 0.187  ; Counter:Row_counter|Overflow     ; Counter:Column_counter|Output[6] ; CLK          ; CLK         ; 1.000        ; 0.006      ; 0.851      ;
+; 0.187  ; Counter:Row_counter|Overflow     ; Counter:Column_counter|Output[7] ; CLK          ; CLK         ; 1.000        ; 0.006      ; 0.851      ;
+; 0.187  ; Counter:Row_counter|Overflow     ; Counter:Column_counter|Overflow  ; CLK          ; CLK         ; 1.000        ; 0.006      ; 0.851      ;
+; 0.189  ; Counter:Row_counter|Output[4]    ; Counter:Row_counter|Output[5]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.843      ;
+; 0.197  ; Counter:Column_counter|Output[4] ; Counter:Column_counter|Output[5] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.835      ;
+; 0.203  ; Counter:Column_counter|Output[1] ; Counter:Column_counter|Output[7] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.829      ;
+; 0.208  ; Counter:Column_counter|Output[6] ; Counter:Column_counter|Output[7] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.824      ;
+; 0.210  ; Counter:Row_counter|Output[0]    ; Counter:Row_counter|Output[1]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.822      ;
+; 0.210  ; Counter:Row_counter|Output[1]    ; Counter:Row_counter|Output[2]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.822      ;
+; 0.224  ; Counter:Column_counter|Output[2] ; Counter:Column_counter|Output[7] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.808      ;
+; 0.249  ; Counter:Row_counter|Output[4]    ; Counter:Row_counter|Output[4]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.783      ;
+; 0.251  ; Counter:Column_counter|Output[4] ; Counter:Column_counter|Output[4] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.781      ;
+; 0.253  ; Counter:Column_counter|Output[2] ; Counter:Column_counter|Output[2] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.779      ;
+; 0.265  ; Counter:Row_counter|Output[0]    ; Counter:Row_counter|Output[0]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.767      ;
+; 0.292  ; Counter:Row_counter|Output[6]    ; Counter:Row_counter|Output[7]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.740      ;
+; 0.295  ; Counter:Row_counter|Output[4]    ; Counter:Row_counter|Output[7]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.737      ;
+; 0.296  ; Counter:Column_counter|Output[4] ; Counter:Column_counter|Output[7] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.736      ;
+; 0.321  ; Counter:Column_counter|Output[7] ; Counter:Column_counter|Overflow  ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.711      ;
+; 0.332  ; Counter:Row_counter|Output[5]    ; Counter:Row_counter|Output[5]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.700      ;
+; 0.335  ; Counter:Row_counter|Output[5]    ; Counter:Row_counter|Output[7]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.697      ;
+; 0.340  ; Counter:Column_counter|Output[5] ; Counter:Column_counter|Output[7] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.692      ;
+; 0.342  ; Counter:Row_counter|Output[2]    ; Counter:Row_counter|Output[2]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.690      ;
+; 0.344  ; Counter:Column_counter|Output[5] ; Counter:Column_counter|Output[5] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.688      ;
+; 0.348  ; Counter:Row_counter|Output[1]    ; Counter:Row_counter|Output[1]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.684      ;
+; 0.425  ; Counter:Row_counter|Output[7]    ; Counter:Row_counter|Output[7]    ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.607      ;
+; 0.563  ; Counter:Column_counter|Output[7] ; Counter:Column_counter|Output[7] ; CLK          ; CLK         ; 1.000        ; 0.000      ; 0.469      ;
++--------+----------------------------------+----------------------------------+--------------+-------------+--------------+------------+------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------+
+; Fast Model Hold: 'CLK'                                                                                                                            ;
++-------+----------------------------------+----------------------------------+--------------+-------------+--------------+------------+------------+
+; Slack ; From Node                        ; To Node                          ; Launch Clock ; Latch Clock ; Relationship ; Clock Skew ; Data Delay ;
++-------+----------------------------------+----------------------------------+--------------+-------------+--------------+------------+------------+
+; 0.317 ; Counter:Column_counter|Output[7] ; Counter:Column_counter|Output[7] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.469      ;
+; 0.455 ; Counter:Row_counter|Output[7]    ; Counter:Row_counter|Output[7]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.607      ;
+; 0.532 ; Counter:Row_counter|Output[1]    ; Counter:Row_counter|Output[1]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.684      ;
+; 0.536 ; Counter:Column_counter|Output[5] ; Counter:Column_counter|Output[5] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.688      ;
+; 0.538 ; Counter:Row_counter|Output[2]    ; Counter:Row_counter|Output[2]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.690      ;
+; 0.540 ; Counter:Column_counter|Output[5] ; Counter:Column_counter|Output[7] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.692      ;
+; 0.545 ; Counter:Row_counter|Output[5]    ; Counter:Row_counter|Output[7]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.697      ;
+; 0.548 ; Counter:Row_counter|Output[5]    ; Counter:Row_counter|Output[5]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.700      ;
+; 0.559 ; Counter:Column_counter|Output[7] ; Counter:Column_counter|Overflow  ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.711      ;
+; 0.584 ; Counter:Column_counter|Output[4] ; Counter:Column_counter|Output[7] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.736      ;
+; 0.585 ; Counter:Row_counter|Output[4]    ; Counter:Row_counter|Output[7]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.737      ;
+; 0.588 ; Counter:Row_counter|Output[6]    ; Counter:Row_counter|Output[7]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.740      ;
+; 0.615 ; Counter:Row_counter|Output[0]    ; Counter:Row_counter|Output[0]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.767      ;
+; 0.627 ; Counter:Column_counter|Output[2] ; Counter:Column_counter|Output[2] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.779      ;
+; 0.629 ; Counter:Column_counter|Output[4] ; Counter:Column_counter|Output[4] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.781      ;
+; 0.631 ; Counter:Row_counter|Output[4]    ; Counter:Row_counter|Output[4]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.783      ;
+; 0.656 ; Counter:Column_counter|Output[2] ; Counter:Column_counter|Output[7] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.808      ;
+; 0.670 ; Counter:Row_counter|Output[0]    ; Counter:Row_counter|Output[1]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.822      ;
+; 0.670 ; Counter:Row_counter|Output[1]    ; Counter:Row_counter|Output[2]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.822      ;
+; 0.672 ; Counter:Column_counter|Output[6] ; Counter:Column_counter|Output[7] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.824      ;
+; 0.677 ; Counter:Column_counter|Output[1] ; Counter:Column_counter|Output[7] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.829      ;
+; 0.683 ; Counter:Column_counter|Output[4] ; Counter:Column_counter|Output[5] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.835      ;
+; 0.691 ; Counter:Row_counter|Output[4]    ; Counter:Row_counter|Output[5]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.843      ;
+; 0.693 ; Counter:Row_counter|Overflow     ; Counter:Column_counter|Output[0] ; CLK          ; CLK         ; 0.000        ; 0.006      ; 0.851      ;
+; 0.693 ; Counter:Row_counter|Overflow     ; Counter:Column_counter|Output[1] ; CLK          ; CLK         ; 0.000        ; 0.006      ; 0.851      ;
+; 0.693 ; Counter:Row_counter|Overflow     ; Counter:Column_counter|Output[2] ; CLK          ; CLK         ; 0.000        ; 0.006      ; 0.851      ;
+; 0.693 ; Counter:Row_counter|Overflow     ; Counter:Column_counter|Output[3] ; CLK          ; CLK         ; 0.000        ; 0.006      ; 0.851      ;
+; 0.693 ; Counter:Row_counter|Overflow     ; Counter:Column_counter|Output[4] ; CLK          ; CLK         ; 0.000        ; 0.006      ; 0.851      ;
+; 0.693 ; Counter:Row_counter|Overflow     ; Counter:Column_counter|Output[5] ; CLK          ; CLK         ; 0.000        ; 0.006      ; 0.851      ;
+; 0.693 ; Counter:Row_counter|Overflow     ; Counter:Column_counter|Output[6] ; CLK          ; CLK         ; 0.000        ; 0.006      ; 0.851      ;
+; 0.693 ; Counter:Row_counter|Overflow     ; Counter:Column_counter|Output[7] ; CLK          ; CLK         ; 0.000        ; 0.006      ; 0.851      ;
+; 0.693 ; Counter:Row_counter|Overflow     ; Counter:Column_counter|Overflow  ; CLK          ; CLK         ; 0.000        ; 0.006      ; 0.851      ;
+; 0.695 ; Counter:Row_counter|Output[6]    ; Counter:Row_counter|Overflow     ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.847      ;
+; 0.698 ; Counter:Row_counter|Output[3]    ; Counter:Row_counter|Output[3]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.850      ;
+; 0.702 ; Counter:Column_counter|Output[1] ; Counter:Column_counter|Output[1] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.854      ;
+; 0.702 ; Counter:Row_counter|Output[2]    ; Counter:Row_counter|Output[7]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.854      ;
+; 0.702 ; Counter:Column_counter|Output[3] ; Counter:Column_counter|Output[7] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.854      ;
+; 0.704 ; Counter:Column_counter|Output[5] ; Counter:Column_counter|Overflow  ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.856      ;
+; 0.705 ; Counter:Row_counter|Output[6]    ; Counter:Row_counter|Output[6]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.857      ;
+; 0.705 ; Counter:Row_counter|Output[0]    ; Counter:Row_counter|Output[2]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.857      ;
+; 0.722 ; Counter:Column_counter|Output[0] ; Counter:Column_counter|Output[0] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.874      ;
+; 0.727 ; Counter:Column_counter|Output[0] ; Counter:Column_counter|Output[7] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.879      ;
+; 0.731 ; Counter:Row_counter|Output[1]    ; Counter:Row_counter|Output[7]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.883      ;
+; 0.742 ; Counter:Row_counter|Output[3]    ; Counter:Row_counter|Output[7]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.894      ;
+; 0.748 ; Counter:Row_counter|Output[7]    ; Counter:Row_counter|Overflow     ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.900      ;
+; 0.753 ; Counter:Column_counter|Output[1] ; Counter:Column_counter|Output[2] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.905      ;
+; 0.755 ; Counter:Column_counter|Output[2] ; Counter:Column_counter|Output[5] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.907      ;
+; 0.757 ; Counter:Row_counter|Output[5]    ; Counter:Row_counter|Overflow     ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.909      ;
+; 0.757 ; Counter:Row_counter|Output[2]    ; Counter:Row_counter|Output[3]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.909      ;
+; 0.766 ; Counter:Row_counter|Output[0]    ; Counter:Row_counter|Output[7]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.918      ;
+; 0.767 ; Counter:Row_counter|Output[5]    ; Counter:Row_counter|Output[6]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.919      ;
+; 0.776 ; Counter:Column_counter|Output[1] ; Counter:Column_counter|Output[5] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.928      ;
+; 0.786 ; Counter:Row_counter|Output[4]    ; Counter:Row_counter|Overflow     ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.938      ;
+; 0.786 ; Counter:Row_counter|Output[1]    ; Counter:Row_counter|Output[3]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.938      ;
+; 0.791 ; Counter:Column_counter|Output[3] ; Counter:Column_counter|Output[3] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.943      ;
+; 0.801 ; Counter:Column_counter|Output[3] ; Counter:Column_counter|Output[5] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.953      ;
+; 0.803 ; Counter:Column_counter|Output[0] ; Counter:Column_counter|Output[2] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.955      ;
+; 0.806 ; Counter:Column_counter|Output[2] ; Counter:Column_counter|Output[4] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.958      ;
+; 0.807 ; Counter:Row_counter|Output[4]    ; Counter:Row_counter|Output[6]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.959      ;
+; 0.808 ; Counter:Row_counter|Output[2]    ; Counter:Row_counter|Output[5]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.960      ;
+; 0.821 ; Counter:Row_counter|Output[0]    ; Counter:Row_counter|Output[3]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.973      ;
+; 0.826 ; Counter:Column_counter|Output[0] ; Counter:Column_counter|Output[5] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.978      ;
+; 0.826 ; Counter:Column_counter|Output[4] ; Counter:Column_counter|Overflow  ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.978      ;
+; 0.827 ; Counter:Column_counter|Output[1] ; Counter:Column_counter|Output[4] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.979      ;
+; 0.837 ; Counter:Column_counter|Output[5] ; Counter:Column_counter|Output[6] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.989      ;
+; 0.837 ; Counter:Column_counter|Output[6] ; Counter:Column_counter|Overflow  ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.989      ;
+; 0.837 ; Counter:Row_counter|Output[1]    ; Counter:Row_counter|Output[5]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.989      ;
+; 0.846 ; Counter:Row_counter|Output[2]    ; Counter:Row_counter|Overflow     ; CLK          ; CLK         ; 0.000        ; 0.000      ; 0.998      ;
+; 0.848 ; Counter:Row_counter|Output[3]    ; Counter:Row_counter|Output[5]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.000      ;
+; 0.850 ; Counter:Column_counter|Output[2] ; Counter:Column_counter|Output[3] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.002      ;
+; 0.852 ; Counter:Column_counter|Output[3] ; Counter:Column_counter|Output[4] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.004      ;
+; 0.853 ; Counter:Row_counter|Output[2]    ; Counter:Row_counter|Output[4]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.005      ;
+; 0.855 ; Counter:Column_counter|Output[0] ; Counter:Column_counter|Output[1] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.007      ;
+; 0.866 ; Counter:Column_counter|Output[6] ; Counter:Column_counter|Output[6] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.018      ;
+; 0.871 ; Counter:Column_counter|Output[1] ; Counter:Column_counter|Output[3] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.023      ;
+; 0.872 ; Counter:Row_counter|Output[0]    ; Counter:Row_counter|Output[5]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.024      ;
+; 0.877 ; Counter:Column_counter|Output[0] ; Counter:Column_counter|Output[4] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.029      ;
+; 0.881 ; Counter:Column_counter|Output[4] ; Counter:Column_counter|Output[6] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.033      ;
+; 0.882 ; Counter:Row_counter|Output[1]    ; Counter:Row_counter|Output[4]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.034      ;
+; 0.893 ; Counter:Row_counter|Output[3]    ; Counter:Row_counter|Output[4]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.045      ;
+; 0.898 ; Counter:Column_counter|Output[2] ; Counter:Column_counter|Overflow  ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.050      ;
+; 0.917 ; Counter:Row_counter|Output[0]    ; Counter:Row_counter|Output[4]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.069      ;
+; 0.919 ; Counter:Column_counter|Output[1] ; Counter:Column_counter|Overflow  ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.071      ;
+; 0.921 ; Counter:Column_counter|Output[0] ; Counter:Column_counter|Output[3] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.073      ;
+; 0.924 ; Counter:Row_counter|Output[2]    ; Counter:Row_counter|Output[6]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.076      ;
+; 0.943 ; Counter:Row_counter|Output[1]    ; Counter:Row_counter|Overflow     ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.095      ;
+; 0.944 ; Counter:Column_counter|Output[3] ; Counter:Column_counter|Overflow  ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.096      ;
+; 0.953 ; Counter:Column_counter|Output[2] ; Counter:Column_counter|Output[6] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.105      ;
+; 0.953 ; Counter:Row_counter|Output[1]    ; Counter:Row_counter|Output[6]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.105      ;
+; 0.954 ; Counter:Row_counter|Output[3]    ; Counter:Row_counter|Overflow     ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.106      ;
+; 0.960 ; Counter:Row_counter|Output[0]    ; Counter:Row_counter|Overflow     ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.112      ;
+; 0.964 ; Counter:Row_counter|Output[3]    ; Counter:Row_counter|Output[6]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.116      ;
+; 0.969 ; Counter:Column_counter|Output[0] ; Counter:Column_counter|Overflow  ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.121      ;
+; 0.974 ; Counter:Column_counter|Output[1] ; Counter:Column_counter|Output[6] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.126      ;
+; 0.988 ; Counter:Row_counter|Output[0]    ; Counter:Row_counter|Output[6]    ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.140      ;
+; 0.999 ; Counter:Column_counter|Output[3] ; Counter:Column_counter|Output[6] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.151      ;
+; 1.024 ; Counter:Column_counter|Output[0] ; Counter:Column_counter|Output[6] ; CLK          ; CLK         ; 0.000        ; 0.000      ; 1.176      ;
++-------+----------------------------------+----------------------------------+--------------+-------------+--------------+------------+------------+
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; Fast Model Minimum Pulse Width: 'CLK'                                                                             ;
++--------+--------------+----------------+------------------+-------+------------+----------------------------------+
+; Slack  ; Actual Width ; Required Width ; Type             ; Clock ; Clock Edge ; Target                           ;
++--------+--------------+----------------+------------------+-------+------------+----------------------------------+
+; -1.380 ; 1.000        ; 2.380          ; Port Rate        ; CLK   ; Rise       ; CLK                              ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLK   ; Rise       ; Counter:Column_counter|Output[0] ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLK   ; Rise       ; Counter:Column_counter|Output[0] ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLK   ; Rise       ; Counter:Column_counter|Output[1] ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLK   ; Rise       ; Counter:Column_counter|Output[1] ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLK   ; Rise       ; Counter:Column_counter|Output[2] ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLK   ; Rise       ; Counter:Column_counter|Output[2] ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLK   ; Rise       ; Counter:Column_counter|Output[3] ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLK   ; Rise       ; Counter:Column_counter|Output[3] ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLK   ; Rise       ; Counter:Column_counter|Output[4] ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLK   ; Rise       ; Counter:Column_counter|Output[4] ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLK   ; Rise       ; Counter:Column_counter|Output[5] ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLK   ; Rise       ; Counter:Column_counter|Output[5] ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLK   ; Rise       ; Counter:Column_counter|Output[6] ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLK   ; Rise       ; Counter:Column_counter|Output[6] ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLK   ; Rise       ; Counter:Column_counter|Output[7] ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLK   ; Rise       ; Counter:Column_counter|Output[7] ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLK   ; Rise       ; Counter:Column_counter|Overflow  ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLK   ; Rise       ; Counter:Column_counter|Overflow  ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLK   ; Rise       ; Counter:Row_counter|Output[0]    ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLK   ; Rise       ; Counter:Row_counter|Output[0]    ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLK   ; Rise       ; Counter:Row_counter|Output[1]    ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLK   ; Rise       ; Counter:Row_counter|Output[1]    ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLK   ; Rise       ; Counter:Row_counter|Output[2]    ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLK   ; Rise       ; Counter:Row_counter|Output[2]    ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLK   ; Rise       ; Counter:Row_counter|Output[3]    ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLK   ; Rise       ; Counter:Row_counter|Output[3]    ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLK   ; Rise       ; Counter:Row_counter|Output[4]    ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLK   ; Rise       ; Counter:Row_counter|Output[4]    ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLK   ; Rise       ; Counter:Row_counter|Output[5]    ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLK   ; Rise       ; Counter:Row_counter|Output[5]    ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLK   ; Rise       ; Counter:Row_counter|Output[6]    ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLK   ; Rise       ; Counter:Row_counter|Output[6]    ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLK   ; Rise       ; Counter:Row_counter|Output[7]    ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLK   ; Rise       ; Counter:Row_counter|Output[7]    ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLK   ; Rise       ; Counter:Row_counter|Overflow     ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLK   ; Rise       ; Counter:Row_counter|Overflow     ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; CLK   ; Rise       ; CLK|combout                      ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; CLK   ; Rise       ; CLK|combout                      ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; CLK   ; Rise       ; CLK~clkctrl|inclk[0]             ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; CLK   ; Rise       ; CLK~clkctrl|inclk[0]             ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; CLK   ; Rise       ; CLK~clkctrl|outclk               ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; CLK   ; Rise       ; CLK~clkctrl|outclk               ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; CLK   ; Rise       ; Column_counter|Output[0]|clk     ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; CLK   ; Rise       ; Column_counter|Output[0]|clk     ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; CLK   ; Rise       ; Column_counter|Output[1]|clk     ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; CLK   ; Rise       ; Column_counter|Output[1]|clk     ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; CLK   ; Rise       ; Column_counter|Output[2]|clk     ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; CLK   ; Rise       ; Column_counter|Output[2]|clk     ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; CLK   ; Rise       ; Column_counter|Output[3]|clk     ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; CLK   ; Rise       ; Column_counter|Output[3]|clk     ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; CLK   ; Rise       ; Column_counter|Output[4]|clk     ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; CLK   ; Rise       ; Column_counter|Output[4]|clk     ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; CLK   ; Rise       ; Column_counter|Output[5]|clk     ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; CLK   ; Rise       ; Column_counter|Output[5]|clk     ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; CLK   ; Rise       ; Column_counter|Output[6]|clk     ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; CLK   ; Rise       ; Column_counter|Output[6]|clk     ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; CLK   ; Rise       ; Column_counter|Output[7]|clk     ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; CLK   ; Rise       ; Column_counter|Output[7]|clk     ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; CLK   ; Rise       ; Column_counter|Overflow|clk      ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; CLK   ; Rise       ; Column_counter|Overflow|clk      ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; CLK   ; Rise       ; Row_counter|Output[0]|clk        ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; CLK   ; Rise       ; Row_counter|Output[0]|clk        ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; CLK   ; Rise       ; Row_counter|Output[1]|clk        ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; CLK   ; Rise       ; Row_counter|Output[1]|clk        ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; CLK   ; Rise       ; Row_counter|Output[2]|clk        ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; CLK   ; Rise       ; Row_counter|Output[2]|clk        ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; CLK   ; Rise       ; Row_counter|Output[3]|clk        ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; CLK   ; Rise       ; Row_counter|Output[3]|clk        ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; CLK   ; Rise       ; Row_counter|Output[4]|clk        ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; CLK   ; Rise       ; Row_counter|Output[4]|clk        ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; CLK   ; Rise       ; Row_counter|Output[5]|clk        ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; CLK   ; Rise       ; Row_counter|Output[5]|clk        ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; CLK   ; Rise       ; Row_counter|Output[6]|clk        ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; CLK   ; Rise       ; Row_counter|Output[6]|clk        ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; CLK   ; Rise       ; Row_counter|Output[7]|clk        ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; CLK   ; Rise       ; Row_counter|Output[7]|clk        ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; CLK   ; Rise       ; Row_counter|Overflow|clk         ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; CLK   ; Rise       ; Row_counter|Overflow|clk         ;
++--------+--------------+----------------+------------------+-------+------------+----------------------------------+
+
+
++-------------------------------------------------------------------------+
+; Setup Times                                                             ;
++-----------+------------+--------+--------+------------+-----------------+
+; Data Port ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
++-----------+------------+--------+--------+------------+-----------------+
+; Enable    ; CLK        ; -0.305 ; -0.305 ; Rise       ; CLK             ;
++-----------+------------+--------+--------+------------+-----------------+
+
+
++-----------------------------------------------------------------------+
+; Hold Times                                                            ;
++-----------+------------+-------+-------+------------+-----------------+
+; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
++-----------+------------+-------+-------+------------+-----------------+
+; Enable    ; CLK        ; 0.425 ; 0.425 ; Rise       ; CLK             ;
++-----------+------------+-------+-------+------------+-----------------+
+
+
++----------------------------------------------------------------------------+
+; Clock to Output Times                                                      ;
++----------------+------------+-------+-------+------------+-----------------+
+; Data Port      ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
++----------------+------------+-------+-------+------------+-----------------+
+; Out_Column[*]  ; CLK        ; 3.914 ; 3.914 ; Rise       ; CLK             ;
+;  Out_Column[0] ; CLK        ; 3.700 ; 3.700 ; Rise       ; CLK             ;
+;  Out_Column[1] ; CLK        ; 3.818 ; 3.818 ; Rise       ; CLK             ;
+;  Out_Column[2] ; CLK        ; 3.804 ; 3.804 ; Rise       ; CLK             ;
+;  Out_Column[3] ; CLK        ; 3.713 ; 3.713 ; Rise       ; CLK             ;
+;  Out_Column[4] ; CLK        ; 3.907 ; 3.907 ; Rise       ; CLK             ;
+;  Out_Column[5] ; CLK        ; 3.690 ; 3.690 ; Rise       ; CLK             ;
+;  Out_Column[6] ; CLK        ; 3.914 ; 3.914 ; Rise       ; CLK             ;
+;  Out_Column[7] ; CLK        ; 3.810 ; 3.810 ; Rise       ; CLK             ;
+; Out_Row[*]     ; CLK        ; 3.829 ; 3.829 ; Rise       ; CLK             ;
+;  Out_Row[0]    ; CLK        ; 3.817 ; 3.817 ; Rise       ; CLK             ;
+;  Out_Row[1]    ; CLK        ; 3.705 ; 3.705 ; Rise       ; CLK             ;
+;  Out_Row[2]    ; CLK        ; 3.829 ; 3.829 ; Rise       ; CLK             ;
+;  Out_Row[3]    ; CLK        ; 3.823 ; 3.823 ; Rise       ; CLK             ;
+;  Out_Row[4]    ; CLK        ; 3.725 ; 3.725 ; Rise       ; CLK             ;
+;  Out_Row[5]    ; CLK        ; 3.693 ; 3.693 ; Rise       ; CLK             ;
+;  Out_Row[6]    ; CLK        ; 3.790 ; 3.790 ; Rise       ; CLK             ;
+;  Out_Row[7]    ; CLK        ; 3.695 ; 3.695 ; Rise       ; CLK             ;
+; isEnd          ; CLK        ; 4.390 ; 4.390 ; Rise       ; CLK             ;
+; isReady        ; CLK        ; 4.851 ; 4.851 ; Rise       ; CLK             ;
++----------------+------------+-------+-------+------------+-----------------+
+
+
++----------------------------------------------------------------------------+
+; Minimum Clock to Output Times                                              ;
++----------------+------------+-------+-------+------------+-----------------+
+; Data Port      ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
++----------------+------------+-------+-------+------------+-----------------+
+; Out_Column[*]  ; CLK        ; 3.690 ; 3.690 ; Rise       ; CLK             ;
+;  Out_Column[0] ; CLK        ; 3.700 ; 3.700 ; Rise       ; CLK             ;
+;  Out_Column[1] ; CLK        ; 3.818 ; 3.818 ; Rise       ; CLK             ;
+;  Out_Column[2] ; CLK        ; 3.804 ; 3.804 ; Rise       ; CLK             ;
+;  Out_Column[3] ; CLK        ; 3.713 ; 3.713 ; Rise       ; CLK             ;
+;  Out_Column[4] ; CLK        ; 3.907 ; 3.907 ; Rise       ; CLK             ;
+;  Out_Column[5] ; CLK        ; 3.690 ; 3.690 ; Rise       ; CLK             ;
+;  Out_Column[6] ; CLK        ; 3.914 ; 3.914 ; Rise       ; CLK             ;
+;  Out_Column[7] ; CLK        ; 3.810 ; 3.810 ; Rise       ; CLK             ;
+; Out_Row[*]     ; CLK        ; 3.693 ; 3.693 ; Rise       ; CLK             ;
+;  Out_Row[0]    ; CLK        ; 3.817 ; 3.817 ; Rise       ; CLK             ;
+;  Out_Row[1]    ; CLK        ; 3.705 ; 3.705 ; Rise       ; CLK             ;
+;  Out_Row[2]    ; CLK        ; 3.829 ; 3.829 ; Rise       ; CLK             ;
+;  Out_Row[3]    ; CLK        ; 3.823 ; 3.823 ; Rise       ; CLK             ;
+;  Out_Row[4]    ; CLK        ; 3.725 ; 3.725 ; Rise       ; CLK             ;
+;  Out_Row[5]    ; CLK        ; 3.693 ; 3.693 ; Rise       ; CLK             ;
+;  Out_Row[6]    ; CLK        ; 3.790 ; 3.790 ; Rise       ; CLK             ;
+;  Out_Row[7]    ; CLK        ; 3.695 ; 3.695 ; Rise       ; CLK             ;
+; isEnd          ; CLK        ; 4.074 ; 4.074 ; Rise       ; CLK             ;
+; isReady        ; CLK        ; 4.292 ; 4.292 ; Rise       ; CLK             ;
++----------------+------------+-------+-------+------------+-----------------+
+
+
++-------------------------------------------------------------------------------+
+; Multicorner Timing Analysis Summary                                           ;
++------------------+---------+-------+----------+---------+---------------------+
+; Clock            ; Setup   ; Hold  ; Recovery ; Removal ; Minimum Pulse Width ;
++------------------+---------+-------+----------+---------+---------------------+
+; Worst-case Slack ; -1.960  ; 0.317 ; N/A      ; N/A     ; -1.380              ;
+;  CLK             ; -1.960  ; 0.317 ; N/A      ; N/A     ; -1.380              ;
+; Design-wide TNS  ; -21.209 ; 0.0   ; 0.0      ; 0.0     ; -19.38              ;
+;  CLK             ; -21.209 ; 0.000 ; N/A      ; N/A     ; -19.380             ;
++------------------+---------+-------+----------+---------+---------------------+
+
+
++-------------------------------------------------------------------------+
+; Setup Times                                                             ;
++-----------+------------+--------+--------+------------+-----------------+
+; Data Port ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
++-----------+------------+--------+--------+------------+-----------------+
+; Enable    ; CLK        ; -0.039 ; -0.039 ; Rise       ; CLK             ;
++-----------+------------+--------+--------+------------+-----------------+
+
+
++-----------------------------------------------------------------------+
+; Hold Times                                                            ;
++-----------+------------+-------+-------+------------+-----------------+
+; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
++-----------+------------+-------+-------+------------+-----------------+
+; Enable    ; CLK        ; 0.425 ; 0.425 ; Rise       ; CLK             ;
++-----------+------------+-------+-------+------------+-----------------+
+
+
++----------------------------------------------------------------------------+
+; Clock to Output Times                                                      ;
++----------------+------------+-------+-------+------------+-----------------+
+; Data Port      ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
++----------------+------------+-------+-------+------------+-----------------+
+; Out_Column[*]  ; CLK        ; 6.906 ; 6.906 ; Rise       ; CLK             ;
+;  Out_Column[0] ; CLK        ; 6.443 ; 6.443 ; Rise       ; CLK             ;
+;  Out_Column[1] ; CLK        ; 6.687 ; 6.687 ; Rise       ; CLK             ;
+;  Out_Column[2] ; CLK        ; 6.675 ; 6.675 ; Rise       ; CLK             ;
+;  Out_Column[3] ; CLK        ; 6.460 ; 6.460 ; Rise       ; CLK             ;
+;  Out_Column[4] ; CLK        ; 6.898 ; 6.898 ; Rise       ; CLK             ;
+;  Out_Column[5] ; CLK        ; 6.435 ; 6.435 ; Rise       ; CLK             ;
+;  Out_Column[6] ; CLK        ; 6.906 ; 6.906 ; Rise       ; CLK             ;
+;  Out_Column[7] ; CLK        ; 6.678 ; 6.678 ; Rise       ; CLK             ;
+; Out_Row[*]     ; CLK        ; 6.705 ; 6.705 ; Rise       ; CLK             ;
+;  Out_Row[0]    ; CLK        ; 6.693 ; 6.693 ; Rise       ; CLK             ;
+;  Out_Row[1]    ; CLK        ; 6.457 ; 6.457 ; Rise       ; CLK             ;
+;  Out_Row[2]    ; CLK        ; 6.705 ; 6.705 ; Rise       ; CLK             ;
+;  Out_Row[3]    ; CLK        ; 6.697 ; 6.697 ; Rise       ; CLK             ;
+;  Out_Row[4]    ; CLK        ; 6.469 ; 6.469 ; Rise       ; CLK             ;
+;  Out_Row[5]    ; CLK        ; 6.436 ; 6.436 ; Rise       ; CLK             ;
+;  Out_Row[6]    ; CLK        ; 6.657 ; 6.657 ; Rise       ; CLK             ;
+;  Out_Row[7]    ; CLK        ; 6.436 ; 6.436 ; Rise       ; CLK             ;
+; isEnd          ; CLK        ; 7.992 ; 7.992 ; Rise       ; CLK             ;
+; isReady        ; CLK        ; 9.066 ; 9.066 ; Rise       ; CLK             ;
++----------------+------------+-------+-------+------------+-----------------+
+
+
++----------------------------------------------------------------------------+
+; Minimum Clock to Output Times                                              ;
++----------------+------------+-------+-------+------------+-----------------+
+; Data Port      ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
++----------------+------------+-------+-------+------------+-----------------+
+; Out_Column[*]  ; CLK        ; 3.690 ; 3.690 ; Rise       ; CLK             ;
+;  Out_Column[0] ; CLK        ; 3.700 ; 3.700 ; Rise       ; CLK             ;
+;  Out_Column[1] ; CLK        ; 3.818 ; 3.818 ; Rise       ; CLK             ;
+;  Out_Column[2] ; CLK        ; 3.804 ; 3.804 ; Rise       ; CLK             ;
+;  Out_Column[3] ; CLK        ; 3.713 ; 3.713 ; Rise       ; CLK             ;
+;  Out_Column[4] ; CLK        ; 3.907 ; 3.907 ; Rise       ; CLK             ;
+;  Out_Column[5] ; CLK        ; 3.690 ; 3.690 ; Rise       ; CLK             ;
+;  Out_Column[6] ; CLK        ; 3.914 ; 3.914 ; Rise       ; CLK             ;
+;  Out_Column[7] ; CLK        ; 3.810 ; 3.810 ; Rise       ; CLK             ;
+; Out_Row[*]     ; CLK        ; 3.693 ; 3.693 ; Rise       ; CLK             ;
+;  Out_Row[0]    ; CLK        ; 3.817 ; 3.817 ; Rise       ; CLK             ;
+;  Out_Row[1]    ; CLK        ; 3.705 ; 3.705 ; Rise       ; CLK             ;
+;  Out_Row[2]    ; CLK        ; 3.829 ; 3.829 ; Rise       ; CLK             ;
+;  Out_Row[3]    ; CLK        ; 3.823 ; 3.823 ; Rise       ; CLK             ;
+;  Out_Row[4]    ; CLK        ; 3.725 ; 3.725 ; Rise       ; CLK             ;
+;  Out_Row[5]    ; CLK        ; 3.693 ; 3.693 ; Rise       ; CLK             ;
+;  Out_Row[6]    ; CLK        ; 3.790 ; 3.790 ; Rise       ; CLK             ;
+;  Out_Row[7]    ; CLK        ; 3.695 ; 3.695 ; Rise       ; CLK             ;
+; isEnd          ; CLK        ; 4.074 ; 4.074 ; Rise       ; CLK             ;
+; isReady        ; CLK        ; 4.292 ; 4.292 ; Rise       ; CLK             ;
++----------------+------------+-------+-------+------------+-----------------+
+
+
++-------------------------------------------------------------------+
+; Setup Transfers                                                   ;
++------------+----------+----------+----------+----------+----------+
+; From Clock ; To Clock ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
++------------+----------+----------+----------+----------+----------+
+; CLK        ; CLK      ; 153      ; 0        ; 0        ; 0        ;
++------------+----------+----------+----------+----------+----------+
+Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
+
+
++-------------------------------------------------------------------+
+; Hold Transfers                                                    ;
++------------+----------+----------+----------+----------+----------+
+; From Clock ; To Clock ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
++------------+----------+----------+----------+----------+----------+
+; CLK        ; CLK      ; 153      ; 0        ; 0        ; 0        ;
++------------+----------+----------+----------+----------+----------+
+Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design
+
+
+---------------
+; Report RSKM ;
+---------------
+No dedicated SERDES Receiver circuitry present in device or used in design
+
+
++------------------------------------------------+
+; Unconstrained Paths                            ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 2     ; 2    ;
+; Unconstrained Input Port Paths  ; 27    ; 27   ;
+; Unconstrained Output Ports      ; 18    ; 18   ;
+; Unconstrained Output Port Paths ; 32    ; 32   ;
++---------------------------------+-------+------+
+
+
++------------------------------------+
+; TimeQuest Timing Analyzer Messages ;
++------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Thu Dec 02 08:35:27 2021
+Info: Command: quartus_sta Row_Column_Counter -c Row_Column_Counter
+Info: qsta_default_script.tcl version: #1
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (21077): Low junction temperature is 0 degrees C
+Info (21077): High junction temperature is 85 degrees C
+Critical Warning (332012): Synopsys Design Constraints File file not found: 'Row_Column_Counter.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332105): Deriving Clocks
+    Info (332105): create_clock -period 1.000 -name CLK CLK
+Info: Found TIMEQUEST_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
+Info: Analyzing Slow Model
+Critical Warning (332148): Timing requirements not met
+Info (332146): Worst-case setup slack is -1.960
+    Info (332119):     Slack End Point TNS Clock 
+    Info (332119): ========= ============= =====================
+    Info (332119):    -1.960       -21.209 CLK 
+Info (332146): Worst-case hold slack is 0.680
+    Info (332119):     Slack End Point TNS Clock 
+    Info (332119): ========= ============= =====================
+    Info (332119):     0.680         0.000 CLK 
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332146): Worst-case minimum pulse width slack is -1.380
+    Info (332119):     Slack End Point TNS Clock 
+    Info (332119): ========= ============= =====================
+    Info (332119):    -1.380       -19.380 CLK 
+Info (332001): The selected device family is not supported by the report_metastability command.
+Info: Analyzing Fast Model
+Critical Warning (332148): Timing requirements not met
+Info (332146): Worst-case setup slack is -0.320
+    Info (332119):     Slack End Point TNS Clock 
+    Info (332119): ========= ============= =====================
+    Info (332119):    -0.320        -0.924 CLK 
+Info (332146): Worst-case hold slack is 0.317
+    Info (332119):     Slack End Point TNS Clock 
+    Info (332119): ========= ============= =====================
+    Info (332119):     0.317         0.000 CLK 
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332146): Worst-case minimum pulse width slack is -1.380
+    Info (332119):     Slack End Point TNS Clock 
+    Info (332119): ========= ============= =====================
+    Info (332119):    -1.380       -19.380 CLK 
+Info (332001): The selected device family is not supported by the report_metastability command.
+Info (332102): Design is not fully constrained for setup requirements
+Info (332102): Design is not fully constrained for hold requirements
+Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 4 warnings
+    Info: Peak virtual memory: 4541 megabytes
+    Info: Processing ended: Thu Dec 02 08:35:29 2021
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:01
+
+

@@ -1,0 +1,15 @@
+C:/Users/Asus/Desktop/DoAnCE213/Gradient/post_syn_modelsim/Gradient.vo {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Gradient/post_syn_modelsim/Gradient.vo
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Gradient
+
+Top level modules:
+	Gradient
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Gradient/post_syn_modelsim/Gradient_tb.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Gradient/post_syn_modelsim/Gradient_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Gradient_tb
+
+Top level modules:
+	Gradient_tb
+
+} {} {}}

@@ -1,0 +1,15 @@
+C:/Users/Asus/Desktop/DoAnCE213/Loader/post_syn_modelsim_loader/Loader.vo {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Loader/post_syn_modelsim_loader/Loader.vo
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Loader
+
+Top level modules:
+	Loader
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Loader/post_syn_modelsim_loader/Loader_tb.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Loader/post_syn_modelsim_loader/Loader_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Loader_tb
+
+Top level modules:
+	Loader_tb
+
+} {} {}}

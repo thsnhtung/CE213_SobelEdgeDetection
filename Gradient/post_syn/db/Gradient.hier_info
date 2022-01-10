@@ -1,0 +1,4511 @@
+|Gradient
+P0[0] => P0[0].IN1
+P0[1] => P0[1].IN1
+P0[2] => P0[2].IN1
+P0[3] => P0[3].IN1
+P0[4] => P0[4].IN1
+P0[5] => P0[5].IN1
+P0[6] => P0[6].IN1
+P0[7] => P0[7].IN1
+P1[0] => P1[0].IN1
+P1[1] => P1[1].IN1
+P1[2] => P1[2].IN1
+P1[3] => P1[3].IN1
+P1[4] => P1[4].IN1
+P1[5] => P1[5].IN1
+P1[6] => P1[6].IN1
+P1[7] => P1[7].IN1
+P2[0] => P2[0].IN1
+P2[1] => P2[1].IN1
+P2[2] => P2[2].IN1
+P2[3] => P2[3].IN1
+P2[4] => P2[4].IN1
+P2[5] => P2[5].IN1
+P2[6] => P2[6].IN1
+P2[7] => P2[7].IN1
+P3[0] => P3[0].IN1
+P3[1] => P3[1].IN1
+P3[2] => P3[2].IN1
+P3[3] => P3[3].IN1
+P3[4] => P3[4].IN1
+P3[5] => P3[5].IN1
+P3[6] => P3[6].IN1
+P3[7] => P3[7].IN1
+P4[0] => P4[0].IN1
+P4[1] => P4[1].IN1
+P4[2] => P4[2].IN1
+P4[3] => P4[3].IN1
+P4[4] => P4[4].IN1
+P4[5] => P4[5].IN1
+P4[6] => P4[6].IN1
+P4[7] => P4[7].IN1
+P5[0] => P5[0].IN1
+P5[1] => P5[1].IN1
+P5[2] => P5[2].IN1
+P5[3] => P5[3].IN1
+P5[4] => P5[4].IN1
+P5[5] => P5[5].IN1
+P5[6] => P5[6].IN1
+P5[7] => P5[7].IN1
+P6[0] => P6[0].IN1
+P6[1] => P6[1].IN1
+P6[2] => P6[2].IN1
+P6[3] => P6[3].IN1
+P6[4] => P6[4].IN1
+P6[5] => P6[5].IN1
+P6[6] => P6[6].IN1
+P6[7] => P6[7].IN1
+P7[0] => P7[0].IN1
+P7[1] => P7[1].IN1
+P7[2] => P7[2].IN1
+P7[3] => P7[3].IN1
+P7[4] => P7[4].IN1
+P7[5] => P7[5].IN1
+P7[6] => P7[6].IN1
+P7[7] => P7[7].IN1
+P8[0] => P8[0].IN1
+P8[1] => P8[1].IN1
+P8[2] => P8[2].IN1
+P8[3] => P8[3].IN1
+P8[4] => P8[4].IN1
+P8[5] => P8[5].IN1
+P8[6] => P8[6].IN1
+P8[7] => P8[7].IN1
+T[0] => T[0].IN2
+T[1] => T[1].IN2
+T[2] => T[2].IN2
+T[3] => T[3].IN2
+T[4] => T[4].IN2
+T[5] => T[5].IN2
+T[6] => T[6].IN2
+T[7] => T[7].IN2
+Dop <= na0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|shift2:sft0
+A[0] => ~NO_FANOUT~
+A[1] => ~NO_FANOUT~
+A[2] => S[0].DATAIN
+A[3] => S[1].DATAIN
+A[4] => S[2].DATAIN
+A[5] => S[3].DATAIN
+A[6] => S[4].DATAIN
+A[7] => S[5].DATAIN
+S[0] <= A[2].DB_MAX_OUTPUT_PORT_TYPE
+S[1] <= A[3].DB_MAX_OUTPUT_PORT_TYPE
+S[2] <= A[4].DB_MAX_OUTPUT_PORT_TYPE
+S[3] <= A[5].DB_MAX_OUTPUT_PORT_TYPE
+S[4] <= A[6].DB_MAX_OUTPUT_PORT_TYPE
+S[5] <= A[7].DB_MAX_OUTPUT_PORT_TYPE
+S[6] <= <GND>
+S[7] <= <GND>
+
+
+|Gradient|shift2:sft1
+A[0] => ~NO_FANOUT~
+A[1] => ~NO_FANOUT~
+A[2] => S[0].DATAIN
+A[3] => S[1].DATAIN
+A[4] => S[2].DATAIN
+A[5] => S[3].DATAIN
+A[6] => S[4].DATAIN
+A[7] => S[5].DATAIN
+S[0] <= A[2].DB_MAX_OUTPUT_PORT_TYPE
+S[1] <= A[3].DB_MAX_OUTPUT_PORT_TYPE
+S[2] <= A[4].DB_MAX_OUTPUT_PORT_TYPE
+S[3] <= A[5].DB_MAX_OUTPUT_PORT_TYPE
+S[4] <= A[6].DB_MAX_OUTPUT_PORT_TYPE
+S[5] <= A[7].DB_MAX_OUTPUT_PORT_TYPE
+S[6] <= <GND>
+S[7] <= <GND>
+
+
+|Gradient|shift2:sft2
+A[0] => ~NO_FANOUT~
+A[1] => ~NO_FANOUT~
+A[2] => S[0].DATAIN
+A[3] => S[1].DATAIN
+A[4] => S[2].DATAIN
+A[5] => S[3].DATAIN
+A[6] => S[4].DATAIN
+A[7] => S[5].DATAIN
+S[0] <= A[2].DB_MAX_OUTPUT_PORT_TYPE
+S[1] <= A[3].DB_MAX_OUTPUT_PORT_TYPE
+S[2] <= A[4].DB_MAX_OUTPUT_PORT_TYPE
+S[3] <= A[5].DB_MAX_OUTPUT_PORT_TYPE
+S[4] <= A[6].DB_MAX_OUTPUT_PORT_TYPE
+S[5] <= A[7].DB_MAX_OUTPUT_PORT_TYPE
+S[6] <= <GND>
+S[7] <= <GND>
+
+
+|Gradient|shift2:sft3
+A[0] => ~NO_FANOUT~
+A[1] => ~NO_FANOUT~
+A[2] => S[0].DATAIN
+A[3] => S[1].DATAIN
+A[4] => S[2].DATAIN
+A[5] => S[3].DATAIN
+A[6] => S[4].DATAIN
+A[7] => S[5].DATAIN
+S[0] <= A[2].DB_MAX_OUTPUT_PORT_TYPE
+S[1] <= A[3].DB_MAX_OUTPUT_PORT_TYPE
+S[2] <= A[4].DB_MAX_OUTPUT_PORT_TYPE
+S[3] <= A[5].DB_MAX_OUTPUT_PORT_TYPE
+S[4] <= A[6].DB_MAX_OUTPUT_PORT_TYPE
+S[5] <= A[7].DB_MAX_OUTPUT_PORT_TYPE
+S[6] <= <GND>
+S[7] <= <GND>
+
+
+|Gradient|shift2:sft4
+A[0] => ~NO_FANOUT~
+A[1] => ~NO_FANOUT~
+A[2] => S[0].DATAIN
+A[3] => S[1].DATAIN
+A[4] => S[2].DATAIN
+A[5] => S[3].DATAIN
+A[6] => S[4].DATAIN
+A[7] => S[5].DATAIN
+S[0] <= A[2].DB_MAX_OUTPUT_PORT_TYPE
+S[1] <= A[3].DB_MAX_OUTPUT_PORT_TYPE
+S[2] <= A[4].DB_MAX_OUTPUT_PORT_TYPE
+S[3] <= A[5].DB_MAX_OUTPUT_PORT_TYPE
+S[4] <= A[6].DB_MAX_OUTPUT_PORT_TYPE
+S[5] <= A[7].DB_MAX_OUTPUT_PORT_TYPE
+S[6] <= <GND>
+S[7] <= <GND>
+
+
+|Gradient|shift2:sft5
+A[0] => ~NO_FANOUT~
+A[1] => ~NO_FANOUT~
+A[2] => S[0].DATAIN
+A[3] => S[1].DATAIN
+A[4] => S[2].DATAIN
+A[5] => S[3].DATAIN
+A[6] => S[4].DATAIN
+A[7] => S[5].DATAIN
+S[0] <= A[2].DB_MAX_OUTPUT_PORT_TYPE
+S[1] <= A[3].DB_MAX_OUTPUT_PORT_TYPE
+S[2] <= A[4].DB_MAX_OUTPUT_PORT_TYPE
+S[3] <= A[5].DB_MAX_OUTPUT_PORT_TYPE
+S[4] <= A[6].DB_MAX_OUTPUT_PORT_TYPE
+S[5] <= A[7].DB_MAX_OUTPUT_PORT_TYPE
+S[6] <= <GND>
+S[7] <= <GND>
+
+
+|Gradient|shift2:sft6
+A[0] => ~NO_FANOUT~
+A[1] => ~NO_FANOUT~
+A[2] => S[0].DATAIN
+A[3] => S[1].DATAIN
+A[4] => S[2].DATAIN
+A[5] => S[3].DATAIN
+A[6] => S[4].DATAIN
+A[7] => S[5].DATAIN
+S[0] <= A[2].DB_MAX_OUTPUT_PORT_TYPE
+S[1] <= A[3].DB_MAX_OUTPUT_PORT_TYPE
+S[2] <= A[4].DB_MAX_OUTPUT_PORT_TYPE
+S[3] <= A[5].DB_MAX_OUTPUT_PORT_TYPE
+S[4] <= A[6].DB_MAX_OUTPUT_PORT_TYPE
+S[5] <= A[7].DB_MAX_OUTPUT_PORT_TYPE
+S[6] <= <GND>
+S[7] <= <GND>
+
+
+|Gradient|shift2:sft7
+A[0] => ~NO_FANOUT~
+A[1] => ~NO_FANOUT~
+A[2] => S[0].DATAIN
+A[3] => S[1].DATAIN
+A[4] => S[2].DATAIN
+A[5] => S[3].DATAIN
+A[6] => S[4].DATAIN
+A[7] => S[5].DATAIN
+S[0] <= A[2].DB_MAX_OUTPUT_PORT_TYPE
+S[1] <= A[3].DB_MAX_OUTPUT_PORT_TYPE
+S[2] <= A[4].DB_MAX_OUTPUT_PORT_TYPE
+S[3] <= A[5].DB_MAX_OUTPUT_PORT_TYPE
+S[4] <= A[6].DB_MAX_OUTPUT_PORT_TYPE
+S[5] <= A[7].DB_MAX_OUTPUT_PORT_TYPE
+S[6] <= <GND>
+S[7] <= <GND>
+
+
+|Gradient|shift2:sft8
+A[0] => ~NO_FANOUT~
+A[1] => ~NO_FANOUT~
+A[2] => S[0].DATAIN
+A[3] => S[1].DATAIN
+A[4] => S[2].DATAIN
+A[5] => S[3].DATAIN
+A[6] => S[4].DATAIN
+A[7] => S[5].DATAIN
+S[0] <= A[2].DB_MAX_OUTPUT_PORT_TYPE
+S[1] <= A[3].DB_MAX_OUTPUT_PORT_TYPE
+S[2] <= A[4].DB_MAX_OUTPUT_PORT_TYPE
+S[3] <= A[5].DB_MAX_OUTPUT_PORT_TYPE
+S[4] <= A[6].DB_MAX_OUTPUT_PORT_TYPE
+S[5] <= A[7].DB_MAX_OUTPUT_PORT_TYPE
+S[6] <= <GND>
+S[7] <= <GND>
+
+
+|Gradient|kogge_stone:ad0
+cin => cin.IN4
+x[0] => x[0].IN1
+x[1] => x[1].IN1
+x[2] => x[2].IN1
+x[3] => x[3].IN1
+x[4] => x[4].IN1
+x[5] => x[5].IN1
+x[6] => x[6].IN1
+x[7] => x[7].IN1
+y[0] => y[0].IN1
+y[1] => y[1].IN1
+y[2] => y[2].IN1
+y[3] => y[3].IN1
+y[4] => y[4].IN1
+y[5] => y[5].IN1
+y[6] => y[6].IN1
+y[7] => y[7].IN1
+sum[0] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[1] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[2] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[3] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[4] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[5] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[6] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[7] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+cout <= gray_cell:level_7D.port3
+
+
+|Gradient|kogge_stone:ad0|gray_cell:level_0A
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad0|black_cell:level_1A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad0|black_cell:level_2A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad0|black_cell:level_3A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad0|black_cell:level_4A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad0|black_cell:level_5A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad0|black_cell:level_6A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad0|black_cell:level_7A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad0|gray_cell:level_1B
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad0|gray_cell:level_2B
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad0|black_cell:level_3B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad0|black_cell:level_4B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad0|black_cell:level_5B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad0|black_cell:level_6B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad0|black_cell:level_7B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad0|gray_cell:level_3C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad0|gray_cell:level_4C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad0|gray_cell:level_5C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad0|gray_cell:level_6C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad0|black_cell:level_7C
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad0|gray_cell:level_7D
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad0|and_xor:level_Z0
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad0|and_xor:level_Z1
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad0|and_xor:level_Z2
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad0|and_xor:level_Z3
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad0|and_xor:level_Z4
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad0|and_xor:level_Z5
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad0|and_xor:level_Z6
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad0|and_xor:level_Z7
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad1
+cin => cin.IN4
+x[0] => x[0].IN1
+x[1] => x[1].IN1
+x[2] => x[2].IN1
+x[3] => x[3].IN1
+x[4] => x[4].IN1
+x[5] => x[5].IN1
+x[6] => x[6].IN1
+x[7] => x[7].IN1
+y[0] => y[0].IN1
+y[1] => y[1].IN1
+y[2] => y[2].IN1
+y[3] => y[3].IN1
+y[4] => y[4].IN1
+y[5] => y[5].IN1
+y[6] => y[6].IN1
+y[7] => y[7].IN1
+sum[0] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[1] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[2] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[3] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[4] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[5] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[6] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[7] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+cout <= gray_cell:level_7D.port3
+
+
+|Gradient|kogge_stone:ad1|gray_cell:level_0A
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad1|black_cell:level_1A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad1|black_cell:level_2A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad1|black_cell:level_3A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad1|black_cell:level_4A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad1|black_cell:level_5A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad1|black_cell:level_6A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad1|black_cell:level_7A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad1|gray_cell:level_1B
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad1|gray_cell:level_2B
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad1|black_cell:level_3B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad1|black_cell:level_4B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad1|black_cell:level_5B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad1|black_cell:level_6B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad1|black_cell:level_7B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad1|gray_cell:level_3C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad1|gray_cell:level_4C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad1|gray_cell:level_5C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad1|gray_cell:level_6C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad1|black_cell:level_7C
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad1|gray_cell:level_7D
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad1|and_xor:level_Z0
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad1|and_xor:level_Z1
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad1|and_xor:level_Z2
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad1|and_xor:level_Z3
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad1|and_xor:level_Z4
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad1|and_xor:level_Z5
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad1|and_xor:level_Z6
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad1|and_xor:level_Z7
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad2
+cin => cin.IN4
+x[0] => x[0].IN1
+x[1] => x[1].IN1
+x[2] => x[2].IN1
+x[3] => x[3].IN1
+x[4] => x[4].IN1
+x[5] => x[5].IN1
+x[6] => x[6].IN1
+x[7] => x[7].IN1
+y[0] => y[0].IN1
+y[1] => y[1].IN1
+y[2] => y[2].IN1
+y[3] => y[3].IN1
+y[4] => y[4].IN1
+y[5] => y[5].IN1
+y[6] => y[6].IN1
+y[7] => y[7].IN1
+sum[0] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[1] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[2] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[3] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[4] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[5] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[6] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[7] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+cout <= gray_cell:level_7D.port3
+
+
+|Gradient|kogge_stone:ad2|gray_cell:level_0A
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad2|black_cell:level_1A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad2|black_cell:level_2A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad2|black_cell:level_3A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad2|black_cell:level_4A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad2|black_cell:level_5A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad2|black_cell:level_6A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad2|black_cell:level_7A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad2|gray_cell:level_1B
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad2|gray_cell:level_2B
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad2|black_cell:level_3B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad2|black_cell:level_4B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad2|black_cell:level_5B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad2|black_cell:level_6B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad2|black_cell:level_7B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad2|gray_cell:level_3C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad2|gray_cell:level_4C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad2|gray_cell:level_5C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad2|gray_cell:level_6C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad2|black_cell:level_7C
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad2|gray_cell:level_7D
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad2|and_xor:level_Z0
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad2|and_xor:level_Z1
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad2|and_xor:level_Z2
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad2|and_xor:level_Z3
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad2|and_xor:level_Z4
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad2|and_xor:level_Z5
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad2|and_xor:level_Z6
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad2|and_xor:level_Z7
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad3
+cin => cin.IN4
+x[0] => x[0].IN1
+x[1] => x[1].IN1
+x[2] => x[2].IN1
+x[3] => x[3].IN1
+x[4] => x[4].IN1
+x[5] => x[5].IN1
+x[6] => x[6].IN1
+x[7] => x[7].IN1
+y[0] => y[0].IN1
+y[1] => y[1].IN1
+y[2] => y[2].IN1
+y[3] => y[3].IN1
+y[4] => y[4].IN1
+y[5] => y[5].IN1
+y[6] => y[6].IN1
+y[7] => y[7].IN1
+sum[0] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[1] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[2] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[3] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[4] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[5] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[6] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[7] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+cout <= gray_cell:level_7D.port3
+
+
+|Gradient|kogge_stone:ad3|gray_cell:level_0A
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad3|black_cell:level_1A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad3|black_cell:level_2A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad3|black_cell:level_3A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad3|black_cell:level_4A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad3|black_cell:level_5A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad3|black_cell:level_6A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad3|black_cell:level_7A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad3|gray_cell:level_1B
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad3|gray_cell:level_2B
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad3|black_cell:level_3B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad3|black_cell:level_4B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad3|black_cell:level_5B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad3|black_cell:level_6B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad3|black_cell:level_7B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad3|gray_cell:level_3C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad3|gray_cell:level_4C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad3|gray_cell:level_5C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad3|gray_cell:level_6C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad3|black_cell:level_7C
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad3|gray_cell:level_7D
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad3|and_xor:level_Z0
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad3|and_xor:level_Z1
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad3|and_xor:level_Z2
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad3|and_xor:level_Z3
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad3|and_xor:level_Z4
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad3|and_xor:level_Z5
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad3|and_xor:level_Z6
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad3|and_xor:level_Z7
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad4
+cin => cin.IN4
+x[0] => x[0].IN1
+x[1] => x[1].IN1
+x[2] => x[2].IN1
+x[3] => x[3].IN1
+x[4] => x[4].IN1
+x[5] => x[5].IN1
+x[6] => x[6].IN1
+x[7] => x[7].IN1
+y[0] => y[0].IN1
+y[1] => y[1].IN1
+y[2] => y[2].IN1
+y[3] => y[3].IN1
+y[4] => y[4].IN1
+y[5] => y[5].IN1
+y[6] => y[6].IN1
+y[7] => y[7].IN1
+sum[0] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[1] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[2] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[3] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[4] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[5] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[6] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[7] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+cout <= gray_cell:level_7D.port3
+
+
+|Gradient|kogge_stone:ad4|gray_cell:level_0A
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad4|black_cell:level_1A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad4|black_cell:level_2A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad4|black_cell:level_3A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad4|black_cell:level_4A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad4|black_cell:level_5A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad4|black_cell:level_6A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad4|black_cell:level_7A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad4|gray_cell:level_1B
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad4|gray_cell:level_2B
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad4|black_cell:level_3B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad4|black_cell:level_4B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad4|black_cell:level_5B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad4|black_cell:level_6B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad4|black_cell:level_7B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad4|gray_cell:level_3C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad4|gray_cell:level_4C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad4|gray_cell:level_5C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad4|gray_cell:level_6C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad4|black_cell:level_7C
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad4|gray_cell:level_7D
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad4|and_xor:level_Z0
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad4|and_xor:level_Z1
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad4|and_xor:level_Z2
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad4|and_xor:level_Z3
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad4|and_xor:level_Z4
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad4|and_xor:level_Z5
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad4|and_xor:level_Z6
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad4|and_xor:level_Z7
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad5
+cin => cin.IN4
+x[0] => x[0].IN1
+x[1] => x[1].IN1
+x[2] => x[2].IN1
+x[3] => x[3].IN1
+x[4] => x[4].IN1
+x[5] => x[5].IN1
+x[6] => x[6].IN1
+x[7] => x[7].IN1
+y[0] => y[0].IN1
+y[1] => y[1].IN1
+y[2] => y[2].IN1
+y[3] => y[3].IN1
+y[4] => y[4].IN1
+y[5] => y[5].IN1
+y[6] => y[6].IN1
+y[7] => y[7].IN1
+sum[0] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[1] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[2] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[3] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[4] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[5] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[6] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[7] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+cout <= gray_cell:level_7D.port3
+
+
+|Gradient|kogge_stone:ad5|gray_cell:level_0A
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad5|black_cell:level_1A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad5|black_cell:level_2A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad5|black_cell:level_3A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad5|black_cell:level_4A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad5|black_cell:level_5A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad5|black_cell:level_6A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad5|black_cell:level_7A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad5|gray_cell:level_1B
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad5|gray_cell:level_2B
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad5|black_cell:level_3B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad5|black_cell:level_4B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad5|black_cell:level_5B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad5|black_cell:level_6B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad5|black_cell:level_7B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad5|gray_cell:level_3C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad5|gray_cell:level_4C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad5|gray_cell:level_5C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad5|gray_cell:level_6C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad5|black_cell:level_7C
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad5|gray_cell:level_7D
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad5|and_xor:level_Z0
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad5|and_xor:level_Z1
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad5|and_xor:level_Z2
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad5|and_xor:level_Z3
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad5|and_xor:level_Z4
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad5|and_xor:level_Z5
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad5|and_xor:level_Z6
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad5|and_xor:level_Z7
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad6
+cin => cin.IN4
+x[0] => x[0].IN1
+x[1] => x[1].IN1
+x[2] => x[2].IN1
+x[3] => x[3].IN1
+x[4] => x[4].IN1
+x[5] => x[5].IN1
+x[6] => x[6].IN1
+x[7] => x[7].IN1
+y[0] => y[0].IN1
+y[1] => y[1].IN1
+y[2] => y[2].IN1
+y[3] => y[3].IN1
+y[4] => y[4].IN1
+y[5] => y[5].IN1
+y[6] => y[6].IN1
+y[7] => y[7].IN1
+sum[0] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[1] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[2] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[3] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[4] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[5] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[6] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[7] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+cout <= gray_cell:level_7D.port3
+
+
+|Gradient|kogge_stone:ad6|gray_cell:level_0A
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad6|black_cell:level_1A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad6|black_cell:level_2A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad6|black_cell:level_3A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad6|black_cell:level_4A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad6|black_cell:level_5A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad6|black_cell:level_6A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad6|black_cell:level_7A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad6|gray_cell:level_1B
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad6|gray_cell:level_2B
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad6|black_cell:level_3B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad6|black_cell:level_4B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad6|black_cell:level_5B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad6|black_cell:level_6B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad6|black_cell:level_7B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad6|gray_cell:level_3C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad6|gray_cell:level_4C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad6|gray_cell:level_5C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad6|gray_cell:level_6C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad6|black_cell:level_7C
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad6|gray_cell:level_7D
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad6|and_xor:level_Z0
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad6|and_xor:level_Z1
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad6|and_xor:level_Z2
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad6|and_xor:level_Z3
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad6|and_xor:level_Z4
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad6|and_xor:level_Z5
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad6|and_xor:level_Z6
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad6|and_xor:level_Z7
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad7
+cin => cin.IN4
+x[0] => x[0].IN1
+x[1] => x[1].IN1
+x[2] => x[2].IN1
+x[3] => x[3].IN1
+x[4] => x[4].IN1
+x[5] => x[5].IN1
+x[6] => x[6].IN1
+x[7] => x[7].IN1
+y[0] => y[0].IN1
+y[1] => y[1].IN1
+y[2] => y[2].IN1
+y[3] => y[3].IN1
+y[4] => y[4].IN1
+y[5] => y[5].IN1
+y[6] => y[6].IN1
+y[7] => y[7].IN1
+sum[0] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[1] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[2] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[3] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[4] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[5] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[6] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[7] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+cout <= gray_cell:level_7D.port3
+
+
+|Gradient|kogge_stone:ad7|gray_cell:level_0A
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad7|black_cell:level_1A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad7|black_cell:level_2A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad7|black_cell:level_3A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad7|black_cell:level_4A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad7|black_cell:level_5A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad7|black_cell:level_6A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad7|black_cell:level_7A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad7|gray_cell:level_1B
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad7|gray_cell:level_2B
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad7|black_cell:level_3B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad7|black_cell:level_4B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad7|black_cell:level_5B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad7|black_cell:level_6B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad7|black_cell:level_7B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad7|gray_cell:level_3C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad7|gray_cell:level_4C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad7|gray_cell:level_5C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad7|gray_cell:level_6C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad7|black_cell:level_7C
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad7|gray_cell:level_7D
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad7|and_xor:level_Z0
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad7|and_xor:level_Z1
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad7|and_xor:level_Z2
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad7|and_xor:level_Z3
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad7|and_xor:level_Z4
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad7|and_xor:level_Z5
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad7|and_xor:level_Z6
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|kogge_stone:ad7|and_xor:level_Z7
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su0
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+B[0] => temp[0].IN1
+B[1] => temp[1].IN1
+B[2] => temp[2].IN1
+B[3] => temp[3].IN1
+B[4] => temp[4].IN1
+B[5] => temp[5].IN1
+B[6] => temp[6].IN1
+B[7] => temp[7].IN1
+S[0] <= kogge_stone:ks0.port3
+S[1] <= kogge_stone:ks0.port3
+S[2] <= kogge_stone:ks0.port3
+S[3] <= kogge_stone:ks0.port3
+S[4] <= kogge_stone:ks0.port3
+S[5] <= kogge_stone:ks0.port3
+S[6] <= kogge_stone:ks0.port3
+S[7] <= kogge_stone:ks0.port3
+Cout <= kogge_stone:ks0.port4
+
+
+|Gradient|sub:su0|kogge_stone:ks0
+cin => cin.IN4
+x[0] => x[0].IN1
+x[1] => x[1].IN1
+x[2] => x[2].IN1
+x[3] => x[3].IN1
+x[4] => x[4].IN1
+x[5] => x[5].IN1
+x[6] => x[6].IN1
+x[7] => x[7].IN1
+y[0] => y[0].IN1
+y[1] => y[1].IN1
+y[2] => y[2].IN1
+y[3] => y[3].IN1
+y[4] => y[4].IN1
+y[5] => y[5].IN1
+y[6] => y[6].IN1
+y[7] => y[7].IN1
+sum[0] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[1] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[2] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[3] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[4] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[5] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[6] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[7] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+cout <= gray_cell:level_7D.port3
+
+
+|Gradient|sub:su0|kogge_stone:ks0|gray_cell:level_0A
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su0|kogge_stone:ks0|black_cell:level_1A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su0|kogge_stone:ks0|black_cell:level_2A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su0|kogge_stone:ks0|black_cell:level_3A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su0|kogge_stone:ks0|black_cell:level_4A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su0|kogge_stone:ks0|black_cell:level_5A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su0|kogge_stone:ks0|black_cell:level_6A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su0|kogge_stone:ks0|black_cell:level_7A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su0|kogge_stone:ks0|gray_cell:level_1B
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su0|kogge_stone:ks0|gray_cell:level_2B
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su0|kogge_stone:ks0|black_cell:level_3B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su0|kogge_stone:ks0|black_cell:level_4B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su0|kogge_stone:ks0|black_cell:level_5B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su0|kogge_stone:ks0|black_cell:level_6B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su0|kogge_stone:ks0|black_cell:level_7B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su0|kogge_stone:ks0|gray_cell:level_3C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su0|kogge_stone:ks0|gray_cell:level_4C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su0|kogge_stone:ks0|gray_cell:level_5C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su0|kogge_stone:ks0|gray_cell:level_6C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su0|kogge_stone:ks0|black_cell:level_7C
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su0|kogge_stone:ks0|gray_cell:level_7D
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su0|kogge_stone:ks0|and_xor:level_Z0
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su0|kogge_stone:ks0|and_xor:level_Z1
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su0|kogge_stone:ks0|and_xor:level_Z2
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su0|kogge_stone:ks0|and_xor:level_Z3
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su0|kogge_stone:ks0|and_xor:level_Z4
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su0|kogge_stone:ks0|and_xor:level_Z5
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su0|kogge_stone:ks0|and_xor:level_Z6
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su0|kogge_stone:ks0|and_xor:level_Z7
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su1
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+B[0] => temp[0].IN1
+B[1] => temp[1].IN1
+B[2] => temp[2].IN1
+B[3] => temp[3].IN1
+B[4] => temp[4].IN1
+B[5] => temp[5].IN1
+B[6] => temp[6].IN1
+B[7] => temp[7].IN1
+S[0] <= kogge_stone:ks0.port3
+S[1] <= kogge_stone:ks0.port3
+S[2] <= kogge_stone:ks0.port3
+S[3] <= kogge_stone:ks0.port3
+S[4] <= kogge_stone:ks0.port3
+S[5] <= kogge_stone:ks0.port3
+S[6] <= kogge_stone:ks0.port3
+S[7] <= kogge_stone:ks0.port3
+Cout <= kogge_stone:ks0.port4
+
+
+|Gradient|sub:su1|kogge_stone:ks0
+cin => cin.IN4
+x[0] => x[0].IN1
+x[1] => x[1].IN1
+x[2] => x[2].IN1
+x[3] => x[3].IN1
+x[4] => x[4].IN1
+x[5] => x[5].IN1
+x[6] => x[6].IN1
+x[7] => x[7].IN1
+y[0] => y[0].IN1
+y[1] => y[1].IN1
+y[2] => y[2].IN1
+y[3] => y[3].IN1
+y[4] => y[4].IN1
+y[5] => y[5].IN1
+y[6] => y[6].IN1
+y[7] => y[7].IN1
+sum[0] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[1] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[2] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[3] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[4] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[5] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[6] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[7] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+cout <= gray_cell:level_7D.port3
+
+
+|Gradient|sub:su1|kogge_stone:ks0|gray_cell:level_0A
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su1|kogge_stone:ks0|black_cell:level_1A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su1|kogge_stone:ks0|black_cell:level_2A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su1|kogge_stone:ks0|black_cell:level_3A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su1|kogge_stone:ks0|black_cell:level_4A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su1|kogge_stone:ks0|black_cell:level_5A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su1|kogge_stone:ks0|black_cell:level_6A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su1|kogge_stone:ks0|black_cell:level_7A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su1|kogge_stone:ks0|gray_cell:level_1B
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su1|kogge_stone:ks0|gray_cell:level_2B
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su1|kogge_stone:ks0|black_cell:level_3B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su1|kogge_stone:ks0|black_cell:level_4B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su1|kogge_stone:ks0|black_cell:level_5B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su1|kogge_stone:ks0|black_cell:level_6B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su1|kogge_stone:ks0|black_cell:level_7B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su1|kogge_stone:ks0|gray_cell:level_3C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su1|kogge_stone:ks0|gray_cell:level_4C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su1|kogge_stone:ks0|gray_cell:level_5C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su1|kogge_stone:ks0|gray_cell:level_6C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su1|kogge_stone:ks0|black_cell:level_7C
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su1|kogge_stone:ks0|gray_cell:level_7D
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su1|kogge_stone:ks0|and_xor:level_Z0
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su1|kogge_stone:ks0|and_xor:level_Z1
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su1|kogge_stone:ks0|and_xor:level_Z2
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su1|kogge_stone:ks0|and_xor:level_Z3
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su1|kogge_stone:ks0|and_xor:level_Z4
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su1|kogge_stone:ks0|and_xor:level_Z5
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su1|kogge_stone:ks0|and_xor:level_Z6
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su1|kogge_stone:ks0|and_xor:level_Z7
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su2
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+B[0] => temp[0].IN1
+B[1] => temp[1].IN1
+B[2] => temp[2].IN1
+B[3] => temp[3].IN1
+B[4] => temp[4].IN1
+B[5] => temp[5].IN1
+B[6] => temp[6].IN1
+B[7] => temp[7].IN1
+S[0] <= kogge_stone:ks0.port3
+S[1] <= kogge_stone:ks0.port3
+S[2] <= kogge_stone:ks0.port3
+S[3] <= kogge_stone:ks0.port3
+S[4] <= kogge_stone:ks0.port3
+S[5] <= kogge_stone:ks0.port3
+S[6] <= kogge_stone:ks0.port3
+S[7] <= kogge_stone:ks0.port3
+Cout <= kogge_stone:ks0.port4
+
+
+|Gradient|sub:su2|kogge_stone:ks0
+cin => cin.IN4
+x[0] => x[0].IN1
+x[1] => x[1].IN1
+x[2] => x[2].IN1
+x[3] => x[3].IN1
+x[4] => x[4].IN1
+x[5] => x[5].IN1
+x[6] => x[6].IN1
+x[7] => x[7].IN1
+y[0] => y[0].IN1
+y[1] => y[1].IN1
+y[2] => y[2].IN1
+y[3] => y[3].IN1
+y[4] => y[4].IN1
+y[5] => y[5].IN1
+y[6] => y[6].IN1
+y[7] => y[7].IN1
+sum[0] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[1] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[2] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[3] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[4] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[5] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[6] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[7] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+cout <= gray_cell:level_7D.port3
+
+
+|Gradient|sub:su2|kogge_stone:ks0|gray_cell:level_0A
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su2|kogge_stone:ks0|black_cell:level_1A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su2|kogge_stone:ks0|black_cell:level_2A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su2|kogge_stone:ks0|black_cell:level_3A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su2|kogge_stone:ks0|black_cell:level_4A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su2|kogge_stone:ks0|black_cell:level_5A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su2|kogge_stone:ks0|black_cell:level_6A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su2|kogge_stone:ks0|black_cell:level_7A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su2|kogge_stone:ks0|gray_cell:level_1B
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su2|kogge_stone:ks0|gray_cell:level_2B
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su2|kogge_stone:ks0|black_cell:level_3B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su2|kogge_stone:ks0|black_cell:level_4B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su2|kogge_stone:ks0|black_cell:level_5B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su2|kogge_stone:ks0|black_cell:level_6B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su2|kogge_stone:ks0|black_cell:level_7B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su2|kogge_stone:ks0|gray_cell:level_3C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su2|kogge_stone:ks0|gray_cell:level_4C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su2|kogge_stone:ks0|gray_cell:level_5C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su2|kogge_stone:ks0|gray_cell:level_6C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su2|kogge_stone:ks0|black_cell:level_7C
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su2|kogge_stone:ks0|gray_cell:level_7D
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su2|kogge_stone:ks0|and_xor:level_Z0
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su2|kogge_stone:ks0|and_xor:level_Z1
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su2|kogge_stone:ks0|and_xor:level_Z2
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su2|kogge_stone:ks0|and_xor:level_Z3
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su2|kogge_stone:ks0|and_xor:level_Z4
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su2|kogge_stone:ks0|and_xor:level_Z5
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su2|kogge_stone:ks0|and_xor:level_Z6
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su2|kogge_stone:ks0|and_xor:level_Z7
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su3
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+B[0] => temp[0].IN1
+B[1] => temp[1].IN1
+B[2] => temp[2].IN1
+B[3] => temp[3].IN1
+B[4] => temp[4].IN1
+B[5] => temp[5].IN1
+B[6] => temp[6].IN1
+B[7] => temp[7].IN1
+S[0] <= kogge_stone:ks0.port3
+S[1] <= kogge_stone:ks0.port3
+S[2] <= kogge_stone:ks0.port3
+S[3] <= kogge_stone:ks0.port3
+S[4] <= kogge_stone:ks0.port3
+S[5] <= kogge_stone:ks0.port3
+S[6] <= kogge_stone:ks0.port3
+S[7] <= kogge_stone:ks0.port3
+Cout <= kogge_stone:ks0.port4
+
+
+|Gradient|sub:su3|kogge_stone:ks0
+cin => cin.IN4
+x[0] => x[0].IN1
+x[1] => x[1].IN1
+x[2] => x[2].IN1
+x[3] => x[3].IN1
+x[4] => x[4].IN1
+x[5] => x[5].IN1
+x[6] => x[6].IN1
+x[7] => x[7].IN1
+y[0] => y[0].IN1
+y[1] => y[1].IN1
+y[2] => y[2].IN1
+y[3] => y[3].IN1
+y[4] => y[4].IN1
+y[5] => y[5].IN1
+y[6] => y[6].IN1
+y[7] => y[7].IN1
+sum[0] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[1] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[2] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[3] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[4] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[5] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[6] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[7] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+cout <= gray_cell:level_7D.port3
+
+
+|Gradient|sub:su3|kogge_stone:ks0|gray_cell:level_0A
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su3|kogge_stone:ks0|black_cell:level_1A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su3|kogge_stone:ks0|black_cell:level_2A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su3|kogge_stone:ks0|black_cell:level_3A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su3|kogge_stone:ks0|black_cell:level_4A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su3|kogge_stone:ks0|black_cell:level_5A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su3|kogge_stone:ks0|black_cell:level_6A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su3|kogge_stone:ks0|black_cell:level_7A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su3|kogge_stone:ks0|gray_cell:level_1B
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su3|kogge_stone:ks0|gray_cell:level_2B
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su3|kogge_stone:ks0|black_cell:level_3B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su3|kogge_stone:ks0|black_cell:level_4B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su3|kogge_stone:ks0|black_cell:level_5B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su3|kogge_stone:ks0|black_cell:level_6B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su3|kogge_stone:ks0|black_cell:level_7B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su3|kogge_stone:ks0|gray_cell:level_3C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su3|kogge_stone:ks0|gray_cell:level_4C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su3|kogge_stone:ks0|gray_cell:level_5C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su3|kogge_stone:ks0|gray_cell:level_6C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su3|kogge_stone:ks0|black_cell:level_7C
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su3|kogge_stone:ks0|gray_cell:level_7D
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su3|kogge_stone:ks0|and_xor:level_Z0
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su3|kogge_stone:ks0|and_xor:level_Z1
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su3|kogge_stone:ks0|and_xor:level_Z2
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su3|kogge_stone:ks0|and_xor:level_Z3
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su3|kogge_stone:ks0|and_xor:level_Z4
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su3|kogge_stone:ks0|and_xor:level_Z5
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su3|kogge_stone:ks0|and_xor:level_Z6
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su3|kogge_stone:ks0|and_xor:level_Z7
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|MUX:mu0
+A0[0] => Y.DATAA
+A0[1] => Y.DATAA
+A0[2] => Y.DATAA
+A0[3] => Y.DATAA
+A0[4] => Y.DATAA
+A0[5] => Y.DATAA
+A0[6] => Y.DATAA
+A0[7] => Y.DATAA
+A1[0] => Y.DATAB
+A1[1] => Y.DATAB
+A1[2] => Y.DATAB
+A1[3] => Y.DATAB
+A1[4] => Y.DATAB
+A1[5] => Y.DATAB
+A1[6] => Y.DATAB
+A1[7] => Y.DATAB
+S => Y.OUTPUTSELECT
+S => Y.OUTPUTSELECT
+S => Y.OUTPUTSELECT
+S => Y.OUTPUTSELECT
+S => Y.OUTPUTSELECT
+S => Y.OUTPUTSELECT
+S => Y.OUTPUTSELECT
+S => Y.OUTPUTSELECT
+Y[0] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[1] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[2] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[3] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[4] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[5] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[6] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[7] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|MUX:mu1
+A0[0] => Y.DATAA
+A0[1] => Y.DATAA
+A0[2] => Y.DATAA
+A0[3] => Y.DATAA
+A0[4] => Y.DATAA
+A0[5] => Y.DATAA
+A0[6] => Y.DATAA
+A0[7] => Y.DATAA
+A1[0] => Y.DATAB
+A1[1] => Y.DATAB
+A1[2] => Y.DATAB
+A1[3] => Y.DATAB
+A1[4] => Y.DATAB
+A1[5] => Y.DATAB
+A1[6] => Y.DATAB
+A1[7] => Y.DATAB
+S => Y.OUTPUTSELECT
+S => Y.OUTPUTSELECT
+S => Y.OUTPUTSELECT
+S => Y.OUTPUTSELECT
+S => Y.OUTPUTSELECT
+S => Y.OUTPUTSELECT
+S => Y.OUTPUTSELECT
+S => Y.OUTPUTSELECT
+Y[0] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[1] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[2] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[3] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[4] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[5] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[6] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[7] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su4
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+B[0] => temp[0].IN1
+B[1] => temp[1].IN1
+B[2] => temp[2].IN1
+B[3] => temp[3].IN1
+B[4] => temp[4].IN1
+B[5] => temp[5].IN1
+B[6] => temp[6].IN1
+B[7] => temp[7].IN1
+S[0] <= kogge_stone:ks0.port3
+S[1] <= kogge_stone:ks0.port3
+S[2] <= kogge_stone:ks0.port3
+S[3] <= kogge_stone:ks0.port3
+S[4] <= kogge_stone:ks0.port3
+S[5] <= kogge_stone:ks0.port3
+S[6] <= kogge_stone:ks0.port3
+S[7] <= kogge_stone:ks0.port3
+Cout <= kogge_stone:ks0.port4
+
+
+|Gradient|sub:su4|kogge_stone:ks0
+cin => cin.IN4
+x[0] => x[0].IN1
+x[1] => x[1].IN1
+x[2] => x[2].IN1
+x[3] => x[3].IN1
+x[4] => x[4].IN1
+x[5] => x[5].IN1
+x[6] => x[6].IN1
+x[7] => x[7].IN1
+y[0] => y[0].IN1
+y[1] => y[1].IN1
+y[2] => y[2].IN1
+y[3] => y[3].IN1
+y[4] => y[4].IN1
+y[5] => y[5].IN1
+y[6] => y[6].IN1
+y[7] => y[7].IN1
+sum[0] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[1] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[2] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[3] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[4] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[5] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[6] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[7] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+cout <= gray_cell:level_7D.port3
+
+
+|Gradient|sub:su4|kogge_stone:ks0|gray_cell:level_0A
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su4|kogge_stone:ks0|black_cell:level_1A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su4|kogge_stone:ks0|black_cell:level_2A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su4|kogge_stone:ks0|black_cell:level_3A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su4|kogge_stone:ks0|black_cell:level_4A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su4|kogge_stone:ks0|black_cell:level_5A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su4|kogge_stone:ks0|black_cell:level_6A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su4|kogge_stone:ks0|black_cell:level_7A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su4|kogge_stone:ks0|gray_cell:level_1B
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su4|kogge_stone:ks0|gray_cell:level_2B
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su4|kogge_stone:ks0|black_cell:level_3B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su4|kogge_stone:ks0|black_cell:level_4B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su4|kogge_stone:ks0|black_cell:level_5B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su4|kogge_stone:ks0|black_cell:level_6B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su4|kogge_stone:ks0|black_cell:level_7B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su4|kogge_stone:ks0|gray_cell:level_3C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su4|kogge_stone:ks0|gray_cell:level_4C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su4|kogge_stone:ks0|gray_cell:level_5C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su4|kogge_stone:ks0|gray_cell:level_6C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su4|kogge_stone:ks0|black_cell:level_7C
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su4|kogge_stone:ks0|gray_cell:level_7D
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su4|kogge_stone:ks0|and_xor:level_Z0
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su4|kogge_stone:ks0|and_xor:level_Z1
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su4|kogge_stone:ks0|and_xor:level_Z2
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su4|kogge_stone:ks0|and_xor:level_Z3
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su4|kogge_stone:ks0|and_xor:level_Z4
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su4|kogge_stone:ks0|and_xor:level_Z5
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su4|kogge_stone:ks0|and_xor:level_Z6
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su4|kogge_stone:ks0|and_xor:level_Z7
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su5
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+B[0] => temp[0].IN1
+B[1] => temp[1].IN1
+B[2] => temp[2].IN1
+B[3] => temp[3].IN1
+B[4] => temp[4].IN1
+B[5] => temp[5].IN1
+B[6] => temp[6].IN1
+B[7] => temp[7].IN1
+S[0] <= kogge_stone:ks0.port3
+S[1] <= kogge_stone:ks0.port3
+S[2] <= kogge_stone:ks0.port3
+S[3] <= kogge_stone:ks0.port3
+S[4] <= kogge_stone:ks0.port3
+S[5] <= kogge_stone:ks0.port3
+S[6] <= kogge_stone:ks0.port3
+S[7] <= kogge_stone:ks0.port3
+Cout <= kogge_stone:ks0.port4
+
+
+|Gradient|sub:su5|kogge_stone:ks0
+cin => cin.IN4
+x[0] => x[0].IN1
+x[1] => x[1].IN1
+x[2] => x[2].IN1
+x[3] => x[3].IN1
+x[4] => x[4].IN1
+x[5] => x[5].IN1
+x[6] => x[6].IN1
+x[7] => x[7].IN1
+y[0] => y[0].IN1
+y[1] => y[1].IN1
+y[2] => y[2].IN1
+y[3] => y[3].IN1
+y[4] => y[4].IN1
+y[5] => y[5].IN1
+y[6] => y[6].IN1
+y[7] => y[7].IN1
+sum[0] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[1] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[2] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[3] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[4] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[5] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[6] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[7] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+cout <= gray_cell:level_7D.port3
+
+
+|Gradient|sub:su5|kogge_stone:ks0|gray_cell:level_0A
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su5|kogge_stone:ks0|black_cell:level_1A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su5|kogge_stone:ks0|black_cell:level_2A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su5|kogge_stone:ks0|black_cell:level_3A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su5|kogge_stone:ks0|black_cell:level_4A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su5|kogge_stone:ks0|black_cell:level_5A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su5|kogge_stone:ks0|black_cell:level_6A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su5|kogge_stone:ks0|black_cell:level_7A
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su5|kogge_stone:ks0|gray_cell:level_1B
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su5|kogge_stone:ks0|gray_cell:level_2B
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su5|kogge_stone:ks0|black_cell:level_3B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su5|kogge_stone:ks0|black_cell:level_4B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su5|kogge_stone:ks0|black_cell:level_5B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su5|kogge_stone:ks0|black_cell:level_6B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su5|kogge_stone:ks0|black_cell:level_7B
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su5|kogge_stone:ks0|gray_cell:level_3C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su5|kogge_stone:ks0|gray_cell:level_4C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su5|kogge_stone:ks0|gray_cell:level_5C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su5|kogge_stone:ks0|gray_cell:level_6C
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su5|kogge_stone:ks0|black_cell:level_7C
+Gkj => Y.IN0
+Pik => Y.IN1
+Pik => comb.IN0
+Gik => comb.IN1
+Pkj => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su5|kogge_stone:ks0|gray_cell:level_7D
+Gkj => Y.IN0
+Pik => Y.IN1
+Gik => comb.IN1
+G <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su5|kogge_stone:ks0|and_xor:level_Z0
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su5|kogge_stone:ks0|and_xor:level_Z1
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su5|kogge_stone:ks0|and_xor:level_Z2
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su5|kogge_stone:ks0|and_xor:level_Z3
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su5|kogge_stone:ks0|and_xor:level_Z4
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su5|kogge_stone:ks0|and_xor:level_Z5
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su5|kogge_stone:ks0|and_xor:level_Z6
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Gradient|sub:su5|kogge_stone:ks0|and_xor:level_Z7
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+p <= comb.DB_MAX_OUTPUT_PORT_TYPE
+g <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,15 @@
+C:/Users/Asus/Desktop/DoAnCE213/Loader/post_syn_modelsim_shift_register/Shift_Register_tb.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Loader/post_syn_modelsim_shift_register/Shift_Register_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Shift_Register_tb
+
+Top level modules:
+	Shift_Register_tb
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Loader/post_syn_modelsim_shift_register/Shift_Register.vo {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Loader/post_syn_modelsim_shift_register/Shift_Register.vo
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Shift_Register
+
+Top level modules:
+	Shift_Register
+
+} {} {}}

@@ -1,0 +1,59 @@
+C:/Users/Asus/Desktop/DoAnCE213/Gradient/Gradient_tb.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Gradient/Gradient_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Gradient_tb
+
+Top level modules:
+	Gradient_tb
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Gradient/KSA.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Gradient/KSA.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module kogge_stone
+
+Top level modules:
+	kogge_stone
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Gradient/shift2.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Gradient/shift2.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module shift2
+
+Top level modules:
+	shift2
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Gradient/black_cell.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Gradient/black_cell.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module black_cell
+-- Compiling module and_xor
+
+Top level modules:
+	black_cell
+	and_xor
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Gradient/Gradient.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Gradient/Gradient.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Gradient
+
+Top level modules:
+	Gradient
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Gradient/MUX.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Gradient/MUX.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module MUX
+
+Top level modules:
+	MUX
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Gradient/grey_cell.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Gradient/grey_cell.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module gray_cell
+
+Top level modules:
+	gray_cell
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Gradient/sub.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Gradient/sub.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module sub
+
+Top level modules:
+	sub
+
+} {} {}}

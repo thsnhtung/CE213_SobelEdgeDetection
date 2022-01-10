@@ -1,0 +1,127 @@
+C:/Users/Asus/Desktop/DoAnCE213/Modified_FIFO/Fast_Fifo_32_cell_tb.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Modified_FIFO/Fast_Fifo_32_cell_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Fast_Fifo_32_cell_tb
+
+Top level modules:
+	Fast_Fifo_32_cell_tb
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Modified_FIFO/Fast_Fifo.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Modified_FIFO/Fast_Fifo.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Fast_Fifo
+
+Top level modules:
+	Fast_Fifo
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Modified_FIFO/Register_tb.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Modified_FIFO/Register_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Register_tb
+
+Top level modules:
+	Register_tb
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Modified_FIFO/Fast_Fifo_16_cell_tb.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Modified_FIFO/Fast_Fifo_16_cell_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Fast_Fifo_16_cell_tb
+
+Top level modules:
+	Fast_Fifo_16_cell_tb
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Modified_FIFO/Fast_Fifo_32_cell.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Modified_FIFO/Fast_Fifo_32_cell.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Fast_Fifo_32_cell
+
+Top level modules:
+	Fast_Fifo_32_cell
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Modified_FIFO/Fast_Fifo_8_cell_tb.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Modified_FIFO/Fast_Fifo_8_cell_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Fast_Fifo_8_cell_tb
+
+Top level modules:
+	Fast_Fifo_8_cell_tb
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Modified_FIFO/Fast_Fifo_tb.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Modified_FIFO/Fast_Fifo_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Fast_Fifo_tb
+
+Top level modules:
+	Fast_Fifo_tb
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Modified_FIFO/Fast_Fifo_16_cell.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Modified_FIFO/Fast_Fifo_16_cell.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Fast_Fifo_16_cell
+
+Top level modules:
+	Fast_Fifo_16_cell
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Modified_FIFO/Fast_Fifo_128_cell_tb.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Modified_FIFO/Fast_Fifo_128_cell_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Fast_Fifo_128_cell_tb
+
+Top level modules:
+	Fast_Fifo_128_cell_tb
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Modified_FIFO/Fast_Fifo_64_cell.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Modified_FIFO/Fast_Fifo_64_cell.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Fast_Fifo_64_cell
+
+Top level modules:
+	Fast_Fifo_64_cell
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Modified_FIFO/Fast_Fifo_2_cell.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Modified_FIFO/Fast_Fifo_2_cell.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Fast_Fifo_2_cell
+
+Top level modules:
+	Fast_Fifo_2_cell
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Modified_FIFO/Fast_Fifo_128_cell.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Modified_FIFO/Fast_Fifo_128_cell.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Fast_Fifo_128_cell
+
+Top level modules:
+	Fast_Fifo_128_cell
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Modified_FIFO/Fast_Fifo_4_cell.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Modified_FIFO/Fast_Fifo_4_cell.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Fast_Fifo_4_cell
+
+Top level modules:
+	Fast_Fifo_4_cell
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Modified_FIFO/Register.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Modified_FIFO/Register.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Register
+
+Top level modules:
+	Register
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Modified_FIFO/Fast_Fifo_2_cell_tb.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Modified_FIFO/Fast_Fifo_2_cell_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Fast_Fifo_2_cell_tb
+
+Top level modules:
+	Fast_Fifo_2_cell_tb
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Modified_FIFO/Fast_Fifo_64_cell_tb.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Modified_FIFO/Fast_Fifo_64_cell_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Fast_Fifo_64_cell_tb
+
+Top level modules:
+	Fast_Fifo_64_cell_tb
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Modified_FIFO/Fast_Fifo_8_cell.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Modified_FIFO/Fast_Fifo_8_cell.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Fast_Fifo_8_cell
+
+Top level modules:
+	Fast_Fifo_8_cell
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Modified_FIFO/Fast_Fifo_4_cell_tb.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Modified_FIFO/Fast_Fifo_4_cell_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Fast_Fifo_4_cell_tb
+
+Top level modules:
+	Fast_Fifo_4_cell_tb
+
+} {} {}}

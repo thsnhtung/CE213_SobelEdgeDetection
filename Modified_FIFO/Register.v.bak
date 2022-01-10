@@ -1,0 +1,14 @@
+module Register(CLK, DataIn, Enable, DataOut);
+  input CLK;
+  input Enable;
+  input DataIn[7:0];
+  output reg DataOut[7:0];
+  
+  
+  always @(posedge CLK) begin
+    if (Enable == 1)
+      DataOut = DataIn;
+  
+end
+
+endmodule  

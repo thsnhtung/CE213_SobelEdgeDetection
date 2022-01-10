@@ -1,0 +1,15 @@
+C:/Users/Asus/Desktop/DoAnCE213/Loader/post_syn_modelsim_RCC/Row_Column_Counter_tb.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Loader/post_syn_modelsim_RCC/Row_Column_Counter_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Row_Column_Counter_tb
+
+Top level modules:
+	Row_Column_Counter_tb
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Loader/post_syn_modelsim_RCC/Row_Column_Counter.vo {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Loader/post_syn_modelsim_RCC/Row_Column_Counter.vo
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Row_Column_Counter
+
+Top level modules:
+	Row_Column_Counter
+
+} {} {}}

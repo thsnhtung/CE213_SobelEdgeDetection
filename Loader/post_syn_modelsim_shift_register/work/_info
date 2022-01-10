@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1
+vShift_Register
+Z1 !s100 5=MfRn;9Ki>7_o8e8k0TS0
+Z2 I7MAIOkZ3gE[D2fn7]O4Xd1
+Z3 VK14gA0]HKYg:79gBe_7Y60
+Z4 dC:\Users\Asus\Desktop\DoAnCE213\Loader\post_syn_modelsim_shift_register
+Z5 w1638420883
+Z6 8C:/Users/Asus/Desktop/DoAnCE213/Loader/post_syn_modelsim_shift_register/Shift_Register.vo
+Z7 FC:/Users/Asus/Desktop/DoAnCE213/Loader/post_syn_modelsim_shift_register/Shift_Register.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Loader/post_syn_modelsim_shift_register/Shift_Register.vo|
+Z10 o-work work -O0
+Z11 n@shift_@register
+!i10b 1
+!s85 0
+Z12 !s108 1638424089.720000
+Z13 !s107 C:/Users/Asus/Desktop/DoAnCE213/Loader/post_syn_modelsim_shift_register/Shift_Register.vo|
+!s101 -O0
+vShift_Register_tb
+!i10b 1
+Z14 !s100 a3gdMLAaE]lO5Q7Lamm`N3
+Z15 I04ah`P0?eJ_2UIm]A^Nh<1
+Z16 Ve;L3Q4g3K4^FcL;T<ZZMV2
+R4
+Z17 w1638424088
+Z18 8C:/Users/Asus/Desktop/DoAnCE213/Loader/post_syn_modelsim_shift_register/Shift_Register_tb.v
+Z19 FC:/Users/Asus/Desktop/DoAnCE213/Loader/post_syn_modelsim_shift_register/Shift_Register_tb.v
+L0 3
+R8
+r1
+!s85 0
+31
+!s108 1638424089.771000
+!s107 C:/Users/Asus/Desktop/DoAnCE213/Loader/post_syn_modelsim_shift_register/Shift_Register_tb.v|
+Z20 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Loader/post_syn_modelsim_shift_register/Shift_Register_tb.v|
+!s101 -O0
+R10
+Z21 n@shift_@register_tb

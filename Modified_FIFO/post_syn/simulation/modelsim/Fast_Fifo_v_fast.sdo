@@ -1,0 +1,934 @@
+// Copyright (C) 1991-2013 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+
+// 
+// Device: Altera EP2C50F672C6 Package FBGA672
+// 
+
+// 
+// This SDF file should be used for ModelSim-Altera (Verilog) only
+// 
+
+(DELAYFILE
+  (SDFVERSION "2.1")
+  (DESIGN "Fast_Fifo")
+  (DATE "11/30/2021 12:02:32")
+  (VENDOR "Altera")
+  (PROGRAM "Quartus II 64-Bit")
+  (VERSION "Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition")
+  (DIVIDER .)
+  (TIMESCALE 1 ps)
+
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE CLK\~I.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (571:571:571) (571:571:571))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_clkctrl")
+    (INSTANCE CLK\~clkctrl)
+    (DELAY
+      (ABSOLUTE
+        (PORT inclk[0] (71:71:71) (71:71:71))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ena_reg")
+    (INSTANCE CLK\~clkctrl.extena0_reg)
+    (DELAY
+      (ABSOLUTE
+        (PORT d (143:143:143) (143:143:143))
+        (PORT clk (0:0:0) (0:0:0))
+        (IOPATH (posedge clk) q (127:127:127) (127:127:127))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (33:33:33))
+      (HOLD d (posedge clk) (56:56:56))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE Enable\~I.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (561:561:561) (561:561:561))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE DataIn\[0\]\~I.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (561:561:561) (561:561:561))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE Fast_Fifo_64_cell_ints0\|Fast_Fifo_64_cell_ints0\|Fast_Fifo_32_cell_ints0\|Fast_Fifo_16_cell_ints0\|Fast_Fifo_8_cell_ints0\|Fast_Fifo_4_cell_ints0\|Fast_Fifo_2_cell_ints0\|Register_inst0\|DataOut\[0\]\~feeder)
+    (DELAY
+      (ABSOLUTE
+        (PORT datac (716:716:716) (716:716:716))
+        (IOPATH datac combout (133:133:133) (133:133:133))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_ff")
+    (INSTANCE Fast_Fifo_64_cell_ints0\|Fast_Fifo_64_cell_ints0\|Fast_Fifo_32_cell_ints0\|Fast_Fifo_16_cell_ints0\|Fast_Fifo_8_cell_ints0\|Fast_Fifo_4_cell_ints0\|Fast_Fifo_2_cell_ints0\|Register_inst0\|DataOut\[0\])
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1081:1081:1081) (1081:1081:1081))
+        (PORT datain (42:42:42) (42:42:42))
+        (PORT ena (1515:1515:1515) (1515:1515:1515))
+        (IOPATH (posedge clk) regout (141:141:141) (141:141:141))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD datain (posedge clk) (152:152:152))
+      (HOLD ena (posedge clk) (152:152:152))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE Fast_Fifo_64_cell_ints0\|Fast_Fifo_64_cell_ints0\|Fast_Fifo_32_cell_ints0\|Fast_Fifo_16_cell_ints0\|Fast_Fifo_8_cell_ints0\|Fast_Fifo_4_cell_ints0\|Fast_Fifo_2_cell_ints0\|Register_inst1\|DataOut_rtl_0\|auto_generated\|cntr1\|counter_comb_bita0)
+    (DELAY
+      (ABSOLUTE
+        (PORT datab (174:174:174) (174:174:174))
+        (IOPATH datab combout (175:175:175) (175:175:175))
+        (IOPATH datab cout (198:198:198) (198:198:198))
+        (IOPATH datad combout (59:59:59) (59:59:59))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE Fast_Fifo_64_cell_ints0\|Fast_Fifo_64_cell_ints0\|Fast_Fifo_32_cell_ints0\|Fast_Fifo_16_cell_ints0\|Fast_Fifo_8_cell_ints0\|Fast_Fifo_4_cell_ints0\|Fast_Fifo_2_cell_ints0\|Register_inst1\|DataOut_rtl_0\|auto_generated\|cntr1\|counter_comb_bita1)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (165:165:165) (165:165:165))
+        (IOPATH dataa combout (180:180:180) (180:180:180))
+        (IOPATH dataa cout (150:150:150) (150:150:150))
+        (IOPATH datad combout (59:59:59) (59:59:59))
+        (IOPATH cin combout (170:170:170) (170:170:170))
+        (IOPATH cin cout (35:35:35) (35:35:35))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE Fast_Fifo_64_cell_ints0\|Fast_Fifo_64_cell_ints0\|Fast_Fifo_32_cell_ints0\|Fast_Fifo_16_cell_ints0\|Fast_Fifo_8_cell_ints0\|Fast_Fifo_4_cell_ints0\|Fast_Fifo_2_cell_ints0\|Register_inst1\|DataOut_rtl_0\|auto_generated\|cntr1\|counter_comb_bita2)
+    (DELAY
+      (ABSOLUTE
+        (PORT datab (154:154:154) (154:154:154))
+        (IOPATH datab combout (175:175:175) (175:175:175))
+        (IOPATH datab cout (143:143:143) (143:143:143))
+        (IOPATH datad combout (59:59:59) (59:59:59))
+        (IOPATH cin combout (170:170:170) (170:170:170))
+        (IOPATH cin cout (35:35:35) (35:35:35))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_ff")
+    (INSTANCE Fast_Fifo_64_cell_ints0\|Fast_Fifo_64_cell_ints0\|Fast_Fifo_32_cell_ints0\|Fast_Fifo_16_cell_ints0\|Fast_Fifo_8_cell_ints0\|Fast_Fifo_4_cell_ints0\|Fast_Fifo_2_cell_ints0\|Register_inst1\|DataOut_rtl_0\|auto_generated\|cntr1\|counter_reg_bit4a\[2\])
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1081:1081:1081) (1081:1081:1081))
+        (PORT datain (42:42:42) (42:42:42))
+        (PORT sdata (333:333:333) (333:333:333))
+        (PORT sload (440:440:440) (440:440:440))
+        (PORT ena (1515:1515:1515) (1515:1515:1515))
+        (IOPATH (posedge clk) regout (141:141:141) (141:141:141))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD datain (posedge clk) (152:152:152))
+      (HOLD sload (posedge clk) (152:152:152))
+      (HOLD sdata (posedge clk) (152:152:152))
+      (HOLD ena (posedge clk) (152:152:152))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE Fast_Fifo_64_cell_ints0\|Fast_Fifo_64_cell_ints0\|Fast_Fifo_32_cell_ints0\|Fast_Fifo_16_cell_ints0\|Fast_Fifo_8_cell_ints0\|Fast_Fifo_4_cell_ints0\|Fast_Fifo_2_cell_ints0\|Register_inst1\|DataOut_rtl_0\|auto_generated\|cntr1\|counter_comb_bita3)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (165:165:165) (165:165:165))
+        (IOPATH dataa combout (180:180:180) (180:180:180))
+        (IOPATH dataa cout (150:150:150) (150:150:150))
+        (IOPATH datad combout (59:59:59) (59:59:59))
+        (IOPATH cin combout (170:170:170) (170:170:170))
+        (IOPATH cin cout (35:35:35) (35:35:35))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE Fast_Fifo_64_cell_ints0\|Fast_Fifo_64_cell_ints0\|Fast_Fifo_32_cell_ints0\|Fast_Fifo_16_cell_ints0\|Fast_Fifo_8_cell_ints0\|Fast_Fifo_4_cell_ints0\|Fast_Fifo_2_cell_ints0\|Register_inst1\|DataOut_rtl_0\|auto_generated\|cntr1\|counter_comb_bita4)
+    (DELAY
+      (ABSOLUTE
+        (PORT datab (157:157:157) (157:157:157))
+        (IOPATH datab combout (175:175:175) (175:175:175))
+        (IOPATH datab cout (143:143:143) (143:143:143))
+        (IOPATH datad combout (59:59:59) (59:59:59))
+        (IOPATH cin combout (170:170:170) (170:170:170))
+        (IOPATH cin cout (35:35:35) (35:35:35))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_ff")
+    (INSTANCE Fast_Fifo_64_cell_ints0\|Fast_Fifo_64_cell_ints0\|Fast_Fifo_32_cell_ints0\|Fast_Fifo_16_cell_ints0\|Fast_Fifo_8_cell_ints0\|Fast_Fifo_4_cell_ints0\|Fast_Fifo_2_cell_ints0\|Register_inst1\|DataOut_rtl_0\|auto_generated\|cntr1\|counter_reg_bit4a\[4\])
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1081:1081:1081) (1081:1081:1081))
+        (PORT datain (42:42:42) (42:42:42))
+        (PORT sdata (332:332:332) (332:332:332))
+        (PORT sload (440:440:440) (440:440:440))
+        (PORT ena (1515:1515:1515) (1515:1515:1515))
+        (IOPATH (posedge clk) regout (141:141:141) (141:141:141))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD datain (posedge clk) (152:152:152))
+      (HOLD sload (posedge clk) (152:152:152))
+      (HOLD sdata (posedge clk) (152:152:152))
+      (HOLD ena (posedge clk) (152:152:152))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE Fast_Fifo_64_cell_ints0\|Fast_Fifo_64_cell_ints0\|Fast_Fifo_32_cell_ints0\|Fast_Fifo_16_cell_ints0\|Fast_Fifo_8_cell_ints0\|Fast_Fifo_4_cell_ints0\|Fast_Fifo_2_cell_ints0\|Register_inst1\|DataOut_rtl_0\|auto_generated\|cntr1\|counter_comb_bita5)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (167:167:167) (167:167:167))
+        (IOPATH dataa combout (180:180:180) (180:180:180))
+        (IOPATH dataa cout (150:150:150) (150:150:150))
+        (IOPATH datad combout (59:59:59) (59:59:59))
+        (IOPATH cin combout (170:170:170) (170:170:170))
+        (IOPATH cin cout (35:35:35) (35:35:35))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE Fast_Fifo_64_cell_ints0\|Fast_Fifo_64_cell_ints0\|Fast_Fifo_32_cell_ints0\|Fast_Fifo_16_cell_ints0\|Fast_Fifo_8_cell_ints0\|Fast_Fifo_4_cell_ints0\|Fast_Fifo_2_cell_ints0\|Register_inst1\|DataOut_rtl_0\|auto_generated\|cntr1\|counter_comb_bita6)
+    (DELAY
+      (ABSOLUTE
+        (PORT datab (160:160:160) (160:160:160))
+        (IOPATH datab combout (175:175:175) (175:175:175))
+        (IOPATH datab cout (143:143:143) (143:143:143))
+        (IOPATH datad combout (59:59:59) (59:59:59))
+        (IOPATH cin combout (170:170:170) (170:170:170))
+        (IOPATH cin cout (35:35:35) (35:35:35))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_ff")
+    (INSTANCE Fast_Fifo_64_cell_ints0\|Fast_Fifo_64_cell_ints0\|Fast_Fifo_32_cell_ints0\|Fast_Fifo_16_cell_ints0\|Fast_Fifo_8_cell_ints0\|Fast_Fifo_4_cell_ints0\|Fast_Fifo_2_cell_ints0\|Register_inst1\|DataOut_rtl_0\|auto_generated\|cntr1\|counter_reg_bit4a\[6\])
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1081:1081:1081) (1081:1081:1081))
+        (PORT datain (42:42:42) (42:42:42))
+        (PORT sdata (330:330:330) (330:330:330))
+        (PORT sload (440:440:440) (440:440:440))
+        (PORT ena (1515:1515:1515) (1515:1515:1515))
+        (IOPATH (posedge clk) regout (141:141:141) (141:141:141))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD datain (posedge clk) (152:152:152))
+      (HOLD sload (posedge clk) (152:152:152))
+      (HOLD sdata (posedge clk) (152:152:152))
+      (HOLD ena (posedge clk) (152:152:152))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_ff")
+    (INSTANCE Fast_Fifo_64_cell_ints0\|Fast_Fifo_64_cell_ints0\|Fast_Fifo_32_cell_ints0\|Fast_Fifo_16_cell_ints0\|Fast_Fifo_8_cell_ints0\|Fast_Fifo_4_cell_ints0\|Fast_Fifo_2_cell_ints0\|Register_inst1\|DataOut_rtl_0\|auto_generated\|cntr1\|counter_reg_bit4a\[5\])
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1081:1081:1081) (1081:1081:1081))
+        (PORT datain (42:42:42) (42:42:42))
+        (PORT sdata (332:332:332) (332:332:332))
+        (PORT sload (440:440:440) (440:440:440))
+        (PORT ena (1515:1515:1515) (1515:1515:1515))
+        (IOPATH (posedge clk) regout (141:141:141) (141:141:141))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD datain (posedge clk) (152:152:152))
+      (HOLD sload (posedge clk) (152:152:152))
+      (HOLD sdata (posedge clk) (152:152:152))
+      (HOLD ena (posedge clk) (152:152:152))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE Fast_Fifo_64_cell_ints0\|Fast_Fifo_64_cell_ints0\|Fast_Fifo_32_cell_ints0\|Fast_Fifo_16_cell_ints0\|Fast_Fifo_8_cell_ints0\|Fast_Fifo_4_cell_ints0\|Fast_Fifo_2_cell_ints0\|Register_inst1\|DataOut_rtl_0\|auto_generated\|cntr1\|counter_comb_bita7)
+    (DELAY
+      (ABSOLUTE
+        (PORT datab (161:161:161) (161:161:161))
+        (IOPATH datab combout (175:175:175) (175:175:175))
+        (IOPATH datab cout (143:143:143) (143:143:143))
+        (IOPATH datad combout (59:59:59) (59:59:59))
+        (IOPATH cin combout (170:170:170) (170:170:170))
+        (IOPATH cin cout (35:35:35) (35:35:35))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_ff")
+    (INSTANCE Fast_Fifo_64_cell_ints0\|Fast_Fifo_64_cell_ints0\|Fast_Fifo_32_cell_ints0\|Fast_Fifo_16_cell_ints0\|Fast_Fifo_8_cell_ints0\|Fast_Fifo_4_cell_ints0\|Fast_Fifo_2_cell_ints0\|Register_inst1\|DataOut_rtl_0\|auto_generated\|cntr1\|counter_reg_bit4a\[7\])
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1081:1081:1081) (1081:1081:1081))
+        (PORT datain (42:42:42) (42:42:42))
+        (PORT sdata (330:330:330) (330:330:330))
+        (PORT sload (440:440:440) (440:440:440))
+        (PORT ena (1515:1515:1515) (1515:1515:1515))
+        (IOPATH (posedge clk) regout (141:141:141) (141:141:141))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD datain (posedge clk) (152:152:152))
+      (HOLD sload (posedge clk) (152:152:152))
+      (HOLD sdata (posedge clk) (152:152:152))
+      (HOLD ena (posedge clk) (152:152:152))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE Fast_Fifo_64_cell_ints0\|Fast_Fifo_64_cell_ints0\|Fast_Fifo_32_cell_ints0\|Fast_Fifo_16_cell_ints0\|Fast_Fifo_8_cell_ints0\|Fast_Fifo_4_cell_ints0\|Fast_Fifo_2_cell_ints0\|Register_inst1\|DataOut_rtl_0\|auto_generated\|cntr1\|cmpr5\|aneb_result_wire\[0\]\~0)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (247:247:247) (247:247:247))
+        (PORT datab (165:165:165) (165:165:165))
+        (PORT datac (165:165:165) (165:165:165))
+        (PORT datad (163:163:163) (163:163:163))
+        (IOPATH dataa combout (187:187:187) (187:187:187))
+        (IOPATH datab combout (180:180:180) (180:180:180))
+        (IOPATH datac combout (133:133:133) (133:133:133))
+        (IOPATH datad combout (59:59:59) (59:59:59))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_ff")
+    (INSTANCE Fast_Fifo_64_cell_ints0\|Fast_Fifo_64_cell_ints0\|Fast_Fifo_32_cell_ints0\|Fast_Fifo_16_cell_ints0\|Fast_Fifo_8_cell_ints0\|Fast_Fifo_4_cell_ints0\|Fast_Fifo_2_cell_ints0\|Register_inst1\|DataOut_rtl_0\|auto_generated\|cntr1\|counter_reg_bit4a\[3\])
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1081:1081:1081) (1081:1081:1081))
+        (PORT datain (42:42:42) (42:42:42))
+        (PORT sdata (333:333:333) (333:333:333))
+        (PORT sload (440:440:440) (440:440:440))
+        (PORT ena (1515:1515:1515) (1515:1515:1515))
+        (IOPATH (posedge clk) regout (141:141:141) (141:141:141))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD datain (posedge clk) (152:152:152))
+      (HOLD sload (posedge clk) (152:152:152))
+      (HOLD sdata (posedge clk) (152:152:152))
+      (HOLD ena (posedge clk) (152:152:152))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE Fast_Fifo_64_cell_ints0\|Fast_Fifo_64_cell_ints0\|Fast_Fifo_32_cell_ints0\|Fast_Fifo_16_cell_ints0\|Fast_Fifo_8_cell_ints0\|Fast_Fifo_4_cell_ints0\|Fast_Fifo_2_cell_ints0\|Register_inst1\|DataOut_rtl_0\|auto_generated\|cntr1\|cmpr5\|aneb_result_wire\[0\]\~1)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (173:173:173) (173:173:173))
+        (PORT datab (239:239:239) (239:239:239))
+        (PORT datac (238:238:238) (238:238:238))
+        (PORT datad (225:225:225) (225:225:225))
+        (IOPATH dataa combout (187:187:187) (187:187:187))
+        (IOPATH datab combout (180:180:180) (180:180:180))
+        (IOPATH datac combout (135:135:135) (135:135:135))
+        (IOPATH datad combout (59:59:59) (59:59:59))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE Fast_Fifo_64_cell_ints0\|Fast_Fifo_64_cell_ints0\|Fast_Fifo_32_cell_ints0\|Fast_Fifo_16_cell_ints0\|Fast_Fifo_8_cell_ints0\|Fast_Fifo_4_cell_ints0\|Fast_Fifo_2_cell_ints0\|Register_inst1\|DataOut_rtl_0\|auto_generated\|cntr1\|counter_comb_bita7\~0)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH cin combout (170:170:170) (170:170:170))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE Fast_Fifo_64_cell_ints0\|Fast_Fifo_64_cell_ints0\|Fast_Fifo_32_cell_ints0\|Fast_Fifo_16_cell_ints0\|Fast_Fifo_8_cell_ints0\|Fast_Fifo_4_cell_ints0\|Fast_Fifo_2_cell_ints0\|Register_inst1\|DataOut_rtl_0\|auto_generated\|cntr1\|cout_actual)
+    (DELAY
+      (ABSOLUTE
+        (PORT datab (108:108:108) (108:108:108))
+        (PORT datac (123:123:123) (123:123:123))
+        (PORT datad (112:112:112) (112:112:112))
+        (IOPATH datab combout (175:175:175) (175:175:175))
+        (IOPATH datac combout (107:107:107) (107:107:107))
+        (IOPATH datad combout (59:59:59) (59:59:59))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_ff")
+    (INSTANCE Fast_Fifo_64_cell_ints0\|Fast_Fifo_64_cell_ints0\|Fast_Fifo_32_cell_ints0\|Fast_Fifo_16_cell_ints0\|Fast_Fifo_8_cell_ints0\|Fast_Fifo_4_cell_ints0\|Fast_Fifo_2_cell_ints0\|Register_inst1\|DataOut_rtl_0\|auto_generated\|cntr1\|counter_reg_bit4a\[0\])
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1081:1081:1081) (1081:1081:1081))
+        (PORT datain (42:42:42) (42:42:42))
+        (PORT sdata (325:325:325) (325:325:325))
+        (PORT sload (440:440:440) (440:440:440))
+        (PORT ena (1515:1515:1515) (1515:1515:1515))
+        (IOPATH (posedge clk) regout (141:141:141) (141:141:141))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD datain (posedge clk) (152:152:152))
+      (HOLD sload (posedge clk) (152:152:152))
+      (HOLD sdata (posedge clk) (152:152:152))
+      (HOLD ena (posedge clk) (152:152:152))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_ff")
+    (INSTANCE Fast_Fifo_64_cell_ints0\|Fast_Fifo_64_cell_ints0\|Fast_Fifo_32_cell_ints0\|Fast_Fifo_16_cell_ints0\|Fast_Fifo_8_cell_ints0\|Fast_Fifo_4_cell_ints0\|Fast_Fifo_2_cell_ints0\|Register_inst1\|DataOut_rtl_0\|auto_generated\|cntr1\|counter_reg_bit4a\[1\])
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1081:1081:1081) (1081:1081:1081))
+        (PORT datain (42:42:42) (42:42:42))
+        (PORT sdata (333:333:333) (333:333:333))
+        (PORT sload (440:440:440) (440:440:440))
+        (PORT ena (1515:1515:1515) (1515:1515:1515))
+        (IOPATH (posedge clk) regout (141:141:141) (141:141:141))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD datain (posedge clk) (152:152:152))
+      (HOLD sload (posedge clk) (152:152:152))
+      (HOLD sdata (posedge clk) (152:152:152))
+      (HOLD ena (posedge clk) (152:152:152))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE DataIn\[1\]\~I.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (475:475:475) (475:475:475))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE Fast_Fifo_64_cell_ints0\|Fast_Fifo_64_cell_ints0\|Fast_Fifo_32_cell_ints0\|Fast_Fifo_16_cell_ints0\|Fast_Fifo_8_cell_ints0\|Fast_Fifo_4_cell_ints0\|Fast_Fifo_2_cell_ints0\|Register_inst0\|DataOut\[1\]\~feeder)
+    (DELAY
+      (ABSOLUTE
+        (PORT datad (2940:2940:2940) (2940:2940:2940))
+        (IOPATH datad combout (59:59:59) (59:59:59))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_ff")
+    (INSTANCE Fast_Fifo_64_cell_ints0\|Fast_Fifo_64_cell_ints0\|Fast_Fifo_32_cell_ints0\|Fast_Fifo_16_cell_ints0\|Fast_Fifo_8_cell_ints0\|Fast_Fifo_4_cell_ints0\|Fast_Fifo_2_cell_ints0\|Register_inst0\|DataOut\[1\])
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1088:1088:1088) (1088:1088:1088))
+        (PORT datain (42:42:42) (42:42:42))
+        (PORT ena (1221:1221:1221) (1221:1221:1221))
+        (IOPATH (posedge clk) regout (141:141:141) (141:141:141))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD datain (posedge clk) (152:152:152))
+      (HOLD ena (posedge clk) (152:152:152))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE DataIn\[2\]\~I.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (485:485:485) (485:485:485))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE Fast_Fifo_64_cell_ints0\|Fast_Fifo_64_cell_ints0\|Fast_Fifo_32_cell_ints0\|Fast_Fifo_16_cell_ints0\|Fast_Fifo_8_cell_ints0\|Fast_Fifo_4_cell_ints0\|Fast_Fifo_2_cell_ints0\|Register_inst0\|DataOut\[2\]\~feeder)
+    (DELAY
+      (ABSOLUTE
+        (PORT datad (2840:2840:2840) (2840:2840:2840))
+        (IOPATH datad combout (59:59:59) (59:59:59))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_ff")
+    (INSTANCE Fast_Fifo_64_cell_ints0\|Fast_Fifo_64_cell_ints0\|Fast_Fifo_32_cell_ints0\|Fast_Fifo_16_cell_ints0\|Fast_Fifo_8_cell_ints0\|Fast_Fifo_4_cell_ints0\|Fast_Fifo_2_cell_ints0\|Register_inst0\|DataOut\[2\])
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1088:1088:1088) (1088:1088:1088))
+        (PORT datain (42:42:42) (42:42:42))
+        (PORT ena (1221:1221:1221) (1221:1221:1221))
+        (IOPATH (posedge clk) regout (141:141:141) (141:141:141))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD datain (posedge clk) (152:152:152))
+      (HOLD ena (posedge clk) (152:152:152))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE DataIn\[3\]\~I.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (465:465:465) (465:465:465))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE Fast_Fifo_64_cell_ints0\|Fast_Fifo_64_cell_ints0\|Fast_Fifo_32_cell_ints0\|Fast_Fifo_16_cell_ints0\|Fast_Fifo_8_cell_ints0\|Fast_Fifo_4_cell_ints0\|Fast_Fifo_2_cell_ints0\|Register_inst0\|DataOut\[3\]\~feeder)
+    (DELAY
+      (ABSOLUTE
+        (PORT datad (2946:2946:2946) (2946:2946:2946))
+        (IOPATH datad combout (59:59:59) (59:59:59))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_ff")
+    (INSTANCE Fast_Fifo_64_cell_ints0\|Fast_Fifo_64_cell_ints0\|Fast_Fifo_32_cell_ints0\|Fast_Fifo_16_cell_ints0\|Fast_Fifo_8_cell_ints0\|Fast_Fifo_4_cell_ints0\|Fast_Fifo_2_cell_ints0\|Register_inst0\|DataOut\[3\])
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1081:1081:1081) (1081:1081:1081))
+        (PORT datain (42:42:42) (42:42:42))
+        (PORT ena (1515:1515:1515) (1515:1515:1515))
+        (IOPATH (posedge clk) regout (141:141:141) (141:141:141))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD datain (posedge clk) (152:152:152))
+      (HOLD ena (posedge clk) (152:152:152))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE DataIn\[4\]\~I.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (475:475:475) (475:475:475))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE Fast_Fifo_64_cell_ints0\|Fast_Fifo_64_cell_ints0\|Fast_Fifo_32_cell_ints0\|Fast_Fifo_16_cell_ints0\|Fast_Fifo_8_cell_ints0\|Fast_Fifo_4_cell_ints0\|Fast_Fifo_2_cell_ints0\|Register_inst0\|DataOut\[4\]\~feeder)
+    (DELAY
+      (ABSOLUTE
+        (PORT datad (2848:2848:2848) (2848:2848:2848))
+        (IOPATH datad combout (59:59:59) (59:59:59))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_ff")
+    (INSTANCE Fast_Fifo_64_cell_ints0\|Fast_Fifo_64_cell_ints0\|Fast_Fifo_32_cell_ints0\|Fast_Fifo_16_cell_ints0\|Fast_Fifo_8_cell_ints0\|Fast_Fifo_4_cell_ints0\|Fast_Fifo_2_cell_ints0\|Register_inst0\|DataOut\[4\])
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1081:1081:1081) (1081:1081:1081))
+        (PORT datain (42:42:42) (42:42:42))
+        (PORT ena (1515:1515:1515) (1515:1515:1515))
+        (IOPATH (posedge clk) regout (141:141:141) (141:141:141))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD datain (posedge clk) (152:152:152))
+      (HOLD ena (posedge clk) (152:152:152))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE DataIn\[5\]\~I.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (475:475:475) (475:475:475))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE Fast_Fifo_64_cell_ints0\|Fast_Fifo_64_cell_ints0\|Fast_Fifo_32_cell_ints0\|Fast_Fifo_16_cell_ints0\|Fast_Fifo_8_cell_ints0\|Fast_Fifo_4_cell_ints0\|Fast_Fifo_2_cell_ints0\|Register_inst0\|DataOut\[5\]\~feeder)
+    (DELAY
+      (ABSOLUTE
+        (PORT datad (2933:2933:2933) (2933:2933:2933))
+        (IOPATH datad combout (59:59:59) (59:59:59))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_ff")
+    (INSTANCE Fast_Fifo_64_cell_ints0\|Fast_Fifo_64_cell_ints0\|Fast_Fifo_32_cell_ints0\|Fast_Fifo_16_cell_ints0\|Fast_Fifo_8_cell_ints0\|Fast_Fifo_4_cell_ints0\|Fast_Fifo_2_cell_ints0\|Register_inst0\|DataOut\[5\])
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1088:1088:1088) (1088:1088:1088))
+        (PORT datain (42:42:42) (42:42:42))
+        (PORT ena (1221:1221:1221) (1221:1221:1221))
+        (IOPATH (posedge clk) regout (141:141:141) (141:141:141))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD datain (posedge clk) (152:152:152))
+      (HOLD ena (posedge clk) (152:152:152))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE DataIn\[6\]\~I.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (485:485:485) (485:485:485))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE Fast_Fifo_64_cell_ints0\|Fast_Fifo_64_cell_ints0\|Fast_Fifo_32_cell_ints0\|Fast_Fifo_16_cell_ints0\|Fast_Fifo_8_cell_ints0\|Fast_Fifo_4_cell_ints0\|Fast_Fifo_2_cell_ints0\|Register_inst0\|DataOut\[6\]\~feeder)
+    (DELAY
+      (ABSOLUTE
+        (PORT datad (2839:2839:2839) (2839:2839:2839))
+        (IOPATH datad combout (59:59:59) (59:59:59))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_ff")
+    (INSTANCE Fast_Fifo_64_cell_ints0\|Fast_Fifo_64_cell_ints0\|Fast_Fifo_32_cell_ints0\|Fast_Fifo_16_cell_ints0\|Fast_Fifo_8_cell_ints0\|Fast_Fifo_4_cell_ints0\|Fast_Fifo_2_cell_ints0\|Register_inst0\|DataOut\[6\])
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1088:1088:1088) (1088:1088:1088))
+        (PORT datain (42:42:42) (42:42:42))
+        (PORT ena (1221:1221:1221) (1221:1221:1221))
+        (IOPATH (posedge clk) regout (141:141:141) (141:141:141))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD datain (posedge clk) (152:152:152))
+      (HOLD ena (posedge clk) (152:152:152))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE DataIn\[7\]\~I.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (475:475:475) (475:475:475))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE Fast_Fifo_64_cell_ints0\|Fast_Fifo_64_cell_ints0\|Fast_Fifo_32_cell_ints0\|Fast_Fifo_16_cell_ints0\|Fast_Fifo_8_cell_ints0\|Fast_Fifo_4_cell_ints0\|Fast_Fifo_2_cell_ints0\|Register_inst0\|DataOut\[7\]\~feeder)
+    (DELAY
+      (ABSOLUTE
+        (PORT datad (2841:2841:2841) (2841:2841:2841))
+        (IOPATH datad combout (59:59:59) (59:59:59))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_ff")
+    (INSTANCE Fast_Fifo_64_cell_ints0\|Fast_Fifo_64_cell_ints0\|Fast_Fifo_32_cell_ints0\|Fast_Fifo_16_cell_ints0\|Fast_Fifo_8_cell_ints0\|Fast_Fifo_4_cell_ints0\|Fast_Fifo_2_cell_ints0\|Register_inst0\|DataOut\[7\])
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1088:1088:1088) (1088:1088:1088))
+        (PORT datain (42:42:42) (42:42:42))
+        (PORT ena (1221:1221:1221) (1221:1221:1221))
+        (IOPATH (posedge clk) regout (141:141:141) (141:141:141))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD datain (posedge clk) (152:152:152))
+      (HOLD ena (posedge clk) (152:152:152))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE Fast_Fifo_64_cell_ints0\|Fast_Fifo_64_cell_ints0\|Fast_Fifo_32_cell_ints0\|Fast_Fifo_16_cell_ints0\|Fast_Fifo_8_cell_ints0\|Fast_Fifo_4_cell_ints0\|Fast_Fifo_2_cell_ints0\|Register_inst1\|DataOut_rtl_0\|auto_generated\|altsyncram2\|ram_block3a0.datain_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (311:311:311) (311:311:311))
+        (PORT d[1] (433:433:433) (433:433:433))
+        (PORT d[2] (433:433:433) (433:433:433))
+        (PORT d[3] (312:312:312) (312:312:312))
+        (PORT d[4] (312:312:312) (312:312:312))
+        (PORT d[5] (427:427:427) (427:427:427))
+        (PORT d[6] (425:425:425) (425:425:425))
+        (PORT d[7] (431:431:431) (431:431:431))
+        (PORT clk (1146:1146:1146) (1146:1146:1146))
+        (PORT ena (1557:1557:1557) (1557:1557:1557))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (SETUP ena (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+      (HOLD ena (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE Fast_Fifo_64_cell_ints0\|Fast_Fifo_64_cell_ints0\|Fast_Fifo_32_cell_ints0\|Fast_Fifo_16_cell_ints0\|Fast_Fifo_8_cell_ints0\|Fast_Fifo_4_cell_ints0\|Fast_Fifo_2_cell_ints0\|Register_inst1\|DataOut_rtl_0\|auto_generated\|altsyncram2\|ram_block3a0.addr_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (349:349:349) (349:349:349))
+        (PORT d[1] (467:467:467) (467:467:467))
+        (PORT d[2] (482:482:482) (482:482:482))
+        (PORT d[3] (481:481:481) (481:481:481))
+        (PORT d[4] (481:481:481) (481:481:481))
+        (PORT d[5] (574:574:574) (574:574:574))
+        (PORT d[6] (563:563:563) (563:563:563))
+        (PORT d[7] (610:610:610) (610:610:610))
+        (PORT clk (1147:1147:1147) (1147:1147:1147))
+        (PORT ena (1558:1558:1558) (1558:1558:1558))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (SETUP ena (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+      (HOLD ena (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE Fast_Fifo_64_cell_ints0\|Fast_Fifo_64_cell_ints0\|Fast_Fifo_32_cell_ints0\|Fast_Fifo_16_cell_ints0\|Fast_Fifo_8_cell_ints0\|Fast_Fifo_4_cell_ints0\|Fast_Fifo_2_cell_ints0\|Register_inst1\|DataOut_rtl_0\|auto_generated\|altsyncram2\|ram_block3a0.we_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (161:161:161) (161:161:161))
+        (PORT clk (1147:1147:1147) (1147:1147:1147))
+        (PORT ena (1558:1558:1558) (1558:1558:1558))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (SETUP ena (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+      (HOLD ena (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE Fast_Fifo_64_cell_ints0\|Fast_Fifo_64_cell_ints0\|Fast_Fifo_32_cell_ints0\|Fast_Fifo_16_cell_ints0\|Fast_Fifo_8_cell_ints0\|Fast_Fifo_4_cell_ints0\|Fast_Fifo_2_cell_ints0\|Register_inst1\|DataOut_rtl_0\|auto_generated\|altsyncram2\|ram_block3a0.active_port_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1147:1147:1147) (1147:1147:1147))
+        (PORT d[0] (1558:1558:1558) (1558:1558:1558))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE Fast_Fifo_64_cell_ints0\|Fast_Fifo_64_cell_ints0\|Fast_Fifo_32_cell_ints0\|Fast_Fifo_16_cell_ints0\|Fast_Fifo_8_cell_ints0\|Fast_Fifo_4_cell_ints0\|Fast_Fifo_2_cell_ints0\|Register_inst1\|DataOut_rtl_0\|auto_generated\|altsyncram2\|ram_block3a0.wpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1269:1269:1269) (1269:1269:1269))
+        (IOPATH (posedge clk) pulse (0:0:0) (962:962:962))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE Fast_Fifo_64_cell_ints0\|Fast_Fifo_64_cell_ints0\|Fast_Fifo_32_cell_ints0\|Fast_Fifo_16_cell_ints0\|Fast_Fifo_8_cell_ints0\|Fast_Fifo_4_cell_ints0\|Fast_Fifo_2_cell_ints0\|Register_inst1\|DataOut_rtl_0\|auto_generated\|altsyncram2\|ram_block3a0.rpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1269:1269:1269) (1269:1269:1269))
+        (IOPATH (posedge clk) pulse (0:0:0) (1366:1366:1366))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE Fast_Fifo_64_cell_ints0\|Fast_Fifo_64_cell_ints0\|Fast_Fifo_32_cell_ints0\|Fast_Fifo_16_cell_ints0\|Fast_Fifo_8_cell_ints0\|Fast_Fifo_4_cell_ints0\|Fast_Fifo_2_cell_ints0\|Register_inst1\|DataOut_rtl_0\|auto_generated\|altsyncram2\|ram_block3a0.addr_b_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (349:349:349) (349:349:349))
+        (PORT d[1] (467:467:467) (467:467:467))
+        (PORT d[2] (482:482:482) (482:482:482))
+        (PORT d[3] (481:481:481) (481:481:481))
+        (PORT d[4] (481:481:481) (481:481:481))
+        (PORT d[5] (574:574:574) (574:574:574))
+        (PORT d[6] (563:563:563) (563:563:563))
+        (PORT d[7] (610:610:610) (610:610:610))
+        (PORT clk (1151:1151:1151) (1151:1151:1151))
+        (PORT ena (1559:1559:1559) (1559:1559:1559))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (SETUP ena (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+      (HOLD ena (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE Fast_Fifo_64_cell_ints0\|Fast_Fifo_64_cell_ints0\|Fast_Fifo_32_cell_ints0\|Fast_Fifo_16_cell_ints0\|Fast_Fifo_8_cell_ints0\|Fast_Fifo_4_cell_ints0\|Fast_Fifo_2_cell_ints0\|Register_inst1\|DataOut_rtl_0\|auto_generated\|altsyncram2\|ram_block3a0.rewe_b_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (163:163:163) (163:163:163))
+        (PORT clk (1151:1151:1151) (1151:1151:1151))
+        (PORT ena (1559:1559:1559) (1559:1559:1559))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (SETUP ena (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+      (HOLD ena (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE Fast_Fifo_64_cell_ints0\|Fast_Fifo_64_cell_ints0\|Fast_Fifo_32_cell_ints0\|Fast_Fifo_16_cell_ints0\|Fast_Fifo_8_cell_ints0\|Fast_Fifo_4_cell_ints0\|Fast_Fifo_2_cell_ints0\|Register_inst1\|DataOut_rtl_0\|auto_generated\|altsyncram2\|ram_block3a0.active_port_b)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1151:1151:1151) (1151:1151:1151))
+        (PORT d[0] (1559:1559:1559) (1559:1559:1559))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE Fast_Fifo_64_cell_ints0\|Fast_Fifo_64_cell_ints0\|Fast_Fifo_32_cell_ints0\|Fast_Fifo_16_cell_ints0\|Fast_Fifo_8_cell_ints0\|Fast_Fifo_4_cell_ints0\|Fast_Fifo_2_cell_ints0\|Register_inst1\|DataOut_rtl_0\|auto_generated\|altsyncram2\|ram_block3a0.rpgen_b)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1273:1273:1273) (1273:1273:1273))
+        (IOPATH (posedge clk) pulse (0:0:0) (1838:1838:1838))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE Fast_Fifo_64_cell_ints0\|Fast_Fifo_64_cell_ints0\|Fast_Fifo_32_cell_ints0\|Fast_Fifo_16_cell_ints0\|Fast_Fifo_8_cell_ints0\|Fast_Fifo_4_cell_ints0\|Fast_Fifo_2_cell_ints0\|Register_inst1\|DataOut_rtl_0\|auto_generated\|altsyncram2\|ram_block3a0.dataout_b_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (1131:1131:1131) (1131:1131:1131))
+        (PORT ena (1543:1543:1543) (1543:1543:1543))
+        (IOPATH (posedge clk) q (177:177:177) (177:177:177))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (1:1:1))
+      (SETUP ena (posedge clk) (1:1:1))
+      (HOLD d (posedge clk) (138:138:138))
+      (HOLD ena (posedge clk) (138:138:138))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE DataOut\[0\]\~I.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (274:274:274) (274:274:274))
+        (IOPATH datain padio (1543:1543:1543) (1543:1543:1543))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE DataOut\[1\]\~I.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (371:371:371) (371:371:371))
+        (IOPATH datain padio (1523:1523:1523) (1523:1523:1523))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE DataOut\[2\]\~I.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (472:472:472) (472:472:472))
+        (IOPATH datain padio (1543:1543:1543) (1543:1543:1543))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE DataOut\[3\]\~I.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (399:399:399) (399:399:399))
+        (IOPATH datain padio (1523:1523:1523) (1523:1523:1523))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE DataOut\[4\]\~I.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (377:377:377) (377:377:377))
+        (IOPATH datain padio (1513:1513:1513) (1513:1513:1513))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE DataOut\[5\]\~I.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (374:374:374) (374:374:374))
+        (IOPATH datain padio (1533:1533:1533) (1533:1533:1533))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE DataOut\[6\]\~I.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (378:378:378) (378:378:378))
+        (IOPATH datain padio (1523:1523:1523) (1523:1523:1523))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE DataOut\[7\]\~I.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (276:276:276) (276:276:276))
+        (IOPATH datain padio (1543:1543:1543) (1543:1543:1543))
+      )
+    )
+  )
+)

@@ -1,0 +1,813 @@
+Analysis & Synthesis report for Gradient
+Thu Dec 02 09:29:57 2021
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. General Register Statistics
+  9. Parameter Settings for User Entity Instance: Top-level Entity: |Gradient
+ 10. Parameter Settings for User Entity Instance: shift2:sft0
+ 11. Parameter Settings for User Entity Instance: shift2:sft1
+ 12. Parameter Settings for User Entity Instance: shift2:sft2
+ 13. Parameter Settings for User Entity Instance: shift2:sft3
+ 14. Parameter Settings for User Entity Instance: shift2:sft4
+ 15. Parameter Settings for User Entity Instance: shift2:sft5
+ 16. Parameter Settings for User Entity Instance: shift2:sft6
+ 17. Parameter Settings for User Entity Instance: shift2:sft7
+ 18. Parameter Settings for User Entity Instance: shift2:sft8
+ 19. Parameter Settings for User Entity Instance: sub:su0
+ 20. Parameter Settings for User Entity Instance: sub:su1
+ 21. Parameter Settings for User Entity Instance: sub:su2
+ 22. Parameter Settings for User Entity Instance: sub:su3
+ 23. Parameter Settings for User Entity Instance: MUX:mu0
+ 24. Parameter Settings for User Entity Instance: MUX:mu1
+ 25. Parameter Settings for User Entity Instance: sub:su4
+ 26. Parameter Settings for User Entity Instance: sub:su5
+ 27. Port Connectivity Checks: "sub:su5"
+ 28. Port Connectivity Checks: "sub:su4"
+ 29. Port Connectivity Checks: "sub:su1"
+ 30. Port Connectivity Checks: "sub:su0|kogge_stone:ks0"
+ 31. Port Connectivity Checks: "sub:su0"
+ 32. Port Connectivity Checks: "kogge_stone:ad7"
+ 33. Port Connectivity Checks: "kogge_stone:ad6"
+ 34. Port Connectivity Checks: "kogge_stone:ad5"
+ 35. Port Connectivity Checks: "kogge_stone:ad4"
+ 36. Port Connectivity Checks: "kogge_stone:ad3"
+ 37. Port Connectivity Checks: "kogge_stone:ad2"
+ 38. Port Connectivity Checks: "kogge_stone:ad1"
+ 39. Port Connectivity Checks: "kogge_stone:ad0"
+ 40. Port Connectivity Checks: "shift2:sft6"
+ 41. Port Connectivity Checks: "shift2:sft4"
+ 42. Elapsed Time Per Partition
+ 43. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                         ;
++------------------------------------+-------------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Thu Dec 02 09:29:57 2021           ;
+; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
+; Revision Name                      ; Gradient                                        ;
+; Top-level Entity Name              ; Gradient                                        ;
+; Family                             ; Cyclone II                                      ;
+; Total logic elements               ; 331                                             ;
+;     Total combinational functions  ; 331                                             ;
+;     Dedicated logic registers      ; 0                                               ;
+; Total registers                    ; 0                                               ;
+; Total pins                         ; 81                                              ;
+; Total virtual pins                 ; 0                                               ;
+; Total memory bits                  ; 0                                               ;
+; Embedded Multiplier 9-bit elements ; 0                                               ;
+; Total PLLs                         ; 0                                               ;
++------------------------------------+-------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                        ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                     ; Setting            ; Default Value      ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                     ; EP2C50F672C6       ;                    ;
+; Top-level entity name                                                      ; Gradient           ; Gradient           ;
+; Family name                                                                ; Cyclone II         ; Cyclone IV GX      ;
+; Use smart compilation                                                      ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                                ; Off                ; Off                ;
+; Restructure Multiplexers                                                   ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                                        ; Off                ; Off                ;
+; Preserve fewer node names                                                  ; On                 ; On                 ;
+; Disable OpenCore Plus hardware evaluation                                  ; Off                ; Off                ;
+; Verilog Version                                                            ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                               ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                   ; Auto               ; Auto               ;
+; Safe State Machine                                                         ; Off                ; Off                ;
+; Extract Verilog State Machines                                             ; On                 ; On                 ;
+; Extract VHDL State Machines                                                ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                          ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                 ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                             ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                    ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                  ; On                 ; On                 ;
+; Parallel Synthesis                                                         ; On                 ; On                 ;
+; DSP Block Balancing                                                        ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                         ; On                 ; On                 ;
+; Power-Up Don't Care                                                        ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                               ; Off                ; Off                ;
+; Remove Duplicate Registers                                                 ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                       ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                     ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                      ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                  ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                       ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                        ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                             ; Off                ; Off                ;
+; Optimization Technique                                                     ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                         ; 70                 ; 70                 ;
+; Auto Carry Chains                                                          ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                       ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                      ; Off                ; Off                ;
+; Auto ROM Replacement                                                       ; On                 ; On                 ;
+; Auto RAM Replacement                                                       ; On                 ; On                 ;
+; Auto Shift Register Replacement                                            ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                            ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                              ; On                 ; On                 ;
+; Strict RAM Replacement                                                     ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                          ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                     ; Off                ; Off                ;
+; Auto RAM to Logic Cell Conversion                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                      ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                              ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                        ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                          ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                    ; Off                ; Off                ;
+; Report Parameter Settings                                                  ; On                 ; On                 ;
+; Report Source Assignments                                                  ; On                 ; On                 ;
+; Report Connectivity Checks                                                 ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                         ; Off                ; Off                ;
+; Synchronization Register Chain Length                                      ; 2                  ; 2                  ;
+; PowerPlay Power Optimization                                               ; Normal compilation ; Normal compilation ;
+; HDL message level                                                          ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                            ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                   ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                         ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                  ; 100                ; 100                ;
+; Clock MUX Protection                                                       ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                ; Off                ; Off                ;
+; Block Design Naming                                                        ; Auto               ; Auto               ;
+; SDC constraint protection                                                  ; Off                ; Off                ;
+; Synthesis Effort                                                           ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                       ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                         ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                     ; On                 ; On                 ;
+; Synthesis Seed                                                             ; 1                  ; 1                  ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 12     ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                        ;
++----------------------------------+-----------------+------------------------+-------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                          ; Library ;
++----------------------------------+-----------------+------------------------+-------------------------------------------------------+---------+
+; ../sub.v                         ; yes             ; User Verilog HDL File  ; C:/Users/Asus/Desktop/DoAnCE213/Gradient/sub.v        ;         ;
+; ../shift2.v                      ; yes             ; User Verilog HDL File  ; C:/Users/Asus/Desktop/DoAnCE213/Gradient/shift2.v     ;         ;
+; ../MUX.v                         ; yes             ; User Verilog HDL File  ; C:/Users/Asus/Desktop/DoAnCE213/Gradient/MUX.v        ;         ;
+; ../KSA.v                         ; yes             ; User Verilog HDL File  ; C:/Users/Asus/Desktop/DoAnCE213/Gradient/KSA.v        ;         ;
+; ../grey_cell.v                   ; yes             ; User Verilog HDL File  ; C:/Users/Asus/Desktop/DoAnCE213/Gradient/grey_cell.v  ;         ;
+; ../Gradient.v                    ; yes             ; User Verilog HDL File  ; C:/Users/Asus/Desktop/DoAnCE213/Gradient/Gradient.v   ;         ;
+; ../black_cell.v                  ; yes             ; User Verilog HDL File  ; C:/Users/Asus/Desktop/DoAnCE213/Gradient/black_cell.v ;         ;
++----------------------------------+-----------------+------------------------+-------------------------------------------------------+---------+
+
+
++-----------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary         ;
++---------------------------------------------+-------+
+; Resource                                    ; Usage ;
++---------------------------------------------+-------+
+; Estimated Total logic elements              ; 331   ;
+;                                             ;       ;
+; Total combinational functions               ; 331   ;
+; Logic element usage by number of LUT inputs ;       ;
+;     -- 4 input functions                    ; 193   ;
+;     -- 3 input functions                    ; 109   ;
+;     -- <=2 input functions                  ; 29    ;
+;                                             ;       ;
+; Logic elements by mode                      ;       ;
+;     -- normal mode                          ; 331   ;
+;     -- arithmetic mode                      ; 0     ;
+;                                             ;       ;
+; Total registers                             ; 0     ;
+;     -- Dedicated logic registers            ; 0     ;
+;     -- I/O registers                        ; 0     ;
+;                                             ;       ;
+; I/O pins                                    ; 81    ;
+; Embedded Multiplier 9-bit elements          ; 0     ;
+; Maximum fan-out node                        ; P5[2] ;
+; Maximum fan-out                             ; 24    ;
+; Total fan-out                               ; 1158  ;
+; Average fan-out                             ; 2.81  ;
++---------------------------------------------+-------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                               ;
++--------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------------+--------------+
+; Compilation Hierarchy Node     ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                   ; Library Name ;
++--------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------------+--------------+
+; |Gradient                      ; 331 (21)          ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 81   ; 0            ; |Gradient                                             ; work         ;
+;    |MUX:mu0|                   ; 20 (20)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|MUX:mu0                                     ; work         ;
+;    |MUX:mu1|                   ; 24 (24)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|MUX:mu1                                     ; work         ;
+;    |kogge_stone:ad0|           ; 15 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad0                             ; work         ;
+;       |and_xor:level_Z2|       ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad0|and_xor:level_Z2            ; work         ;
+;       |and_xor:level_Z3|       ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad0|and_xor:level_Z3            ; work         ;
+;       |and_xor:level_Z4|       ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad0|and_xor:level_Z4            ; work         ;
+;       |and_xor:level_Z5|       ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad0|and_xor:level_Z5            ; work         ;
+;       |black_cell:level_3A|    ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad0|black_cell:level_3A         ; work         ;
+;       |black_cell:level_3B|    ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad0|black_cell:level_3B         ; work         ;
+;       |gray_cell:level_4C|     ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad0|gray_cell:level_4C          ; work         ;
+;       |gray_cell:level_5C|     ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad0|gray_cell:level_5C          ; work         ;
+;    |kogge_stone:ad1|           ; 16 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad1                             ; work         ;
+;       |and_xor:level_Z0|       ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad1|and_xor:level_Z0            ; work         ;
+;       |and_xor:level_Z2|       ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad1|and_xor:level_Z2            ; work         ;
+;       |and_xor:level_Z3|       ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad1|and_xor:level_Z3            ; work         ;
+;       |and_xor:level_Z4|       ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad1|and_xor:level_Z4            ; work         ;
+;       |and_xor:level_Z5|       ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad1|and_xor:level_Z5            ; work         ;
+;       |black_cell:level_3A|    ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad1|black_cell:level_3A         ; work         ;
+;       |black_cell:level_3B|    ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad1|black_cell:level_3B         ; work         ;
+;       |gray_cell:level_4C|     ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad1|gray_cell:level_4C          ; work         ;
+;       |gray_cell:level_5C|     ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad1|gray_cell:level_5C          ; work         ;
+;    |kogge_stone:ad2|           ; 17 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad2                             ; work         ;
+;       |and_xor:level_Z2|       ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad2|and_xor:level_Z2            ; work         ;
+;       |and_xor:level_Z3|       ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad2|and_xor:level_Z3            ; work         ;
+;       |and_xor:level_Z4|       ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad2|and_xor:level_Z4            ; work         ;
+;       |and_xor:level_Z5|       ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad2|and_xor:level_Z5            ; work         ;
+;       |black_cell:level_3B|    ; 6 (6)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad2|black_cell:level_3B         ; work         ;
+;       |gray_cell:level_4C|     ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad2|gray_cell:level_4C          ; work         ;
+;       |gray_cell:level_5C|     ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad2|gray_cell:level_5C          ; work         ;
+;    |kogge_stone:ad3|           ; 17 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad3                             ; work         ;
+;       |and_xor:level_Z2|       ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad3|and_xor:level_Z2            ; work         ;
+;       |and_xor:level_Z3|       ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad3|and_xor:level_Z3            ; work         ;
+;       |and_xor:level_Z4|       ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad3|and_xor:level_Z4            ; work         ;
+;       |and_xor:level_Z5|       ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad3|and_xor:level_Z5            ; work         ;
+;       |black_cell:level_3B|    ; 6 (6)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad3|black_cell:level_3B         ; work         ;
+;       |gray_cell:level_4C|     ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad3|gray_cell:level_4C          ; work         ;
+;       |gray_cell:level_5C|     ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad3|gray_cell:level_5C          ; work         ;
+;    |kogge_stone:ad4|           ; 35 (6)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad4                             ; work         ;
+;       |and_xor:level_Z0|       ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad4|and_xor:level_Z0            ; work         ;
+;       |and_xor:level_Z1|       ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad4|and_xor:level_Z1            ; work         ;
+;       |and_xor:level_Z2|       ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad4|and_xor:level_Z2            ; work         ;
+;       |and_xor:level_Z3|       ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad4|and_xor:level_Z3            ; work         ;
+;       |and_xor:level_Z4|       ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad4|and_xor:level_Z4            ; work         ;
+;       |and_xor:level_Z5|       ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad4|and_xor:level_Z5            ; work         ;
+;       |black_cell:level_1A|    ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad4|black_cell:level_1A         ; work         ;
+;       |black_cell:level_2A|    ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad4|black_cell:level_2A         ; work         ;
+;       |black_cell:level_3A|    ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad4|black_cell:level_3A         ; work         ;
+;       |black_cell:level_3B|    ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad4|black_cell:level_3B         ; work         ;
+;       |black_cell:level_4A|    ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad4|black_cell:level_4A         ; work         ;
+;       |black_cell:level_5A|    ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad4|black_cell:level_5A         ; work         ;
+;       |gray_cell:level_2B|     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad4|gray_cell:level_2B          ; work         ;
+;       |gray_cell:level_4C|     ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad4|gray_cell:level_4C          ; work         ;
+;       |gray_cell:level_5C|     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad4|gray_cell:level_5C          ; work         ;
+;       |gray_cell:level_6C|     ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad4|gray_cell:level_6C          ; work         ;
+;    |kogge_stone:ad5|           ; 25 (3)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad5                             ; work         ;
+;       |and_xor:level_Z2|       ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad5|and_xor:level_Z2            ; work         ;
+;       |and_xor:level_Z3|       ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad5|and_xor:level_Z3            ; work         ;
+;       |and_xor:level_Z4|       ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad5|and_xor:level_Z4            ; work         ;
+;       |and_xor:level_Z5|       ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad5|and_xor:level_Z5            ; work         ;
+;       |black_cell:level_1A|    ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad5|black_cell:level_1A         ; work         ;
+;       |black_cell:level_3A|    ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad5|black_cell:level_3A         ; work         ;
+;       |black_cell:level_3B|    ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad5|black_cell:level_3B         ; work         ;
+;       |black_cell:level_4A|    ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad5|black_cell:level_4A         ; work         ;
+;       |black_cell:level_5A|    ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad5|black_cell:level_5A         ; work         ;
+;       |gray_cell:level_4C|     ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad5|gray_cell:level_4C          ; work         ;
+;       |gray_cell:level_5C|     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad5|gray_cell:level_5C          ; work         ;
+;       |gray_cell:level_6C|     ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad5|gray_cell:level_6C          ; work         ;
+;    |kogge_stone:ad6|           ; 27 (5)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad6                             ; work         ;
+;       |and_xor:level_Z0|       ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad6|and_xor:level_Z0            ; work         ;
+;       |and_xor:level_Z1|       ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad6|and_xor:level_Z1            ; work         ;
+;       |and_xor:level_Z2|       ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad6|and_xor:level_Z2            ; work         ;
+;       |and_xor:level_Z3|       ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad6|and_xor:level_Z3            ; work         ;
+;       |and_xor:level_Z4|       ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad6|and_xor:level_Z4            ; work         ;
+;       |and_xor:level_Z5|       ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad6|and_xor:level_Z5            ; work         ;
+;       |black_cell:level_1A|    ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad6|black_cell:level_1A         ; work         ;
+;       |black_cell:level_2A|    ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad6|black_cell:level_2A         ; work         ;
+;       |black_cell:level_3A|    ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad6|black_cell:level_3A         ; work         ;
+;       |black_cell:level_3B|    ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad6|black_cell:level_3B         ; work         ;
+;       |black_cell:level_4A|    ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad6|black_cell:level_4A         ; work         ;
+;       |black_cell:level_5A|    ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad6|black_cell:level_5A         ; work         ;
+;       |gray_cell:level_4C|     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad6|gray_cell:level_4C          ; work         ;
+;       |gray_cell:level_5C|     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad6|gray_cell:level_5C          ; work         ;
+;       |gray_cell:level_6C|     ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad6|gray_cell:level_6C          ; work         ;
+;    |kogge_stone:ad7|           ; 36 (6)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad7                             ; work         ;
+;       |and_xor:level_Z0|       ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad7|and_xor:level_Z0            ; work         ;
+;       |and_xor:level_Z1|       ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad7|and_xor:level_Z1            ; work         ;
+;       |and_xor:level_Z2|       ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad7|and_xor:level_Z2            ; work         ;
+;       |and_xor:level_Z3|       ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad7|and_xor:level_Z3            ; work         ;
+;       |and_xor:level_Z4|       ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad7|and_xor:level_Z4            ; work         ;
+;       |and_xor:level_Z5|       ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad7|and_xor:level_Z5            ; work         ;
+;       |black_cell:level_1A|    ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad7|black_cell:level_1A         ; work         ;
+;       |black_cell:level_2A|    ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad7|black_cell:level_2A         ; work         ;
+;       |black_cell:level_3A|    ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad7|black_cell:level_3A         ; work         ;
+;       |black_cell:level_3B|    ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad7|black_cell:level_3B         ; work         ;
+;       |black_cell:level_4A|    ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad7|black_cell:level_4A         ; work         ;
+;       |black_cell:level_5A|    ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad7|black_cell:level_5A         ; work         ;
+;       |gray_cell:level_2B|     ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad7|gray_cell:level_2B          ; work         ;
+;       |gray_cell:level_4C|     ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad7|gray_cell:level_4C          ; work         ;
+;       |gray_cell:level_5C|     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad7|gray_cell:level_5C          ; work         ;
+;       |gray_cell:level_6C|     ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|kogge_stone:ad7|gray_cell:level_6C          ; work         ;
+;    |sub:su0|                   ; 8 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|sub:su0                                     ; work         ;
+;       |kogge_stone:ks0|        ; 8 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|sub:su0|kogge_stone:ks0                     ; work         ;
+;          |gray_cell:level_2B|  ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|sub:su0|kogge_stone:ks0|gray_cell:level_2B  ; work         ;
+;          |gray_cell:level_6C|  ; 6 (6)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|sub:su0|kogge_stone:ks0|gray_cell:level_6C  ; work         ;
+;    |sub:su1|                   ; 12 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|sub:su1                                     ; work         ;
+;       |kogge_stone:ks0|        ; 12 (5)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|sub:su1|kogge_stone:ks0                     ; work         ;
+;          |and_xor:level_Z1|    ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|sub:su1|kogge_stone:ks0|and_xor:level_Z1    ; work         ;
+;          |and_xor:level_Z2|    ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|sub:su1|kogge_stone:ks0|and_xor:level_Z2    ; work         ;
+;          |black_cell:level_1A| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|sub:su1|kogge_stone:ks0|black_cell:level_1A ; work         ;
+;          |gray_cell:level_2B|  ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|sub:su1|kogge_stone:ks0|gray_cell:level_2B  ; work         ;
+;          |gray_cell:level_6C|  ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|sub:su1|kogge_stone:ks0|gray_cell:level_6C  ; work         ;
+;    |sub:su2|                   ; 16 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|sub:su2                                     ; work         ;
+;       |kogge_stone:ks0|        ; 16 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|sub:su2|kogge_stone:ks0                     ; work         ;
+;          |and_xor:level_Z1|    ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|sub:su2|kogge_stone:ks0|and_xor:level_Z1    ; work         ;
+;          |and_xor:level_Z3|    ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|sub:su2|kogge_stone:ks0|and_xor:level_Z3    ; work         ;
+;          |and_xor:level_Z4|    ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|sub:su2|kogge_stone:ks0|and_xor:level_Z4    ; work         ;
+;          |and_xor:level_Z6|    ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|sub:su2|kogge_stone:ks0|and_xor:level_Z6    ; work         ;
+;          |and_xor:level_Z7|    ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|sub:su2|kogge_stone:ks0|and_xor:level_Z7    ; work         ;
+;          |black_cell:level_4A| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|sub:su2|kogge_stone:ks0|black_cell:level_4A ; work         ;
+;          |gray_cell:level_2B|  ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|sub:su2|kogge_stone:ks0|gray_cell:level_2B  ; work         ;
+;          |gray_cell:level_6C|  ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|sub:su2|kogge_stone:ks0|gray_cell:level_6C  ; work         ;
+;          |gray_cell:level_7D|  ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|sub:su2|kogge_stone:ks0|gray_cell:level_7D  ; work         ;
+;    |sub:su3|                   ; 32 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|sub:su3                                     ; work         ;
+;       |kogge_stone:ks0|        ; 32 (4)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|sub:su3|kogge_stone:ks0                     ; work         ;
+;          |and_xor:level_Z0|    ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|sub:su3|kogge_stone:ks0|and_xor:level_Z0    ; work         ;
+;          |and_xor:level_Z1|    ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|sub:su3|kogge_stone:ks0|and_xor:level_Z1    ; work         ;
+;          |and_xor:level_Z2|    ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|sub:su3|kogge_stone:ks0|and_xor:level_Z2    ; work         ;
+;          |and_xor:level_Z3|    ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|sub:su3|kogge_stone:ks0|and_xor:level_Z3    ; work         ;
+;          |and_xor:level_Z4|    ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|sub:su3|kogge_stone:ks0|and_xor:level_Z4    ; work         ;
+;          |and_xor:level_Z5|    ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|sub:su3|kogge_stone:ks0|and_xor:level_Z5    ; work         ;
+;          |and_xor:level_Z6|    ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|sub:su3|kogge_stone:ks0|and_xor:level_Z6    ; work         ;
+;          |and_xor:level_Z7|    ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|sub:su3|kogge_stone:ks0|and_xor:level_Z7    ; work         ;
+;          |gray_cell:level_2B|  ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|sub:su3|kogge_stone:ks0|gray_cell:level_2B  ; work         ;
+;          |gray_cell:level_7D|  ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|sub:su3|kogge_stone:ks0|gray_cell:level_7D  ; work         ;
+;    |sub:su4|                   ; 3 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|sub:su4                                     ; work         ;
+;       |kogge_stone:ks0|        ; 3 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|sub:su4|kogge_stone:ks0                     ; work         ;
+;          |and_xor:level_Z4|    ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|sub:su4|kogge_stone:ks0|and_xor:level_Z4    ; work         ;
+;          |black_cell:level_7B| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|sub:su4|kogge_stone:ks0|black_cell:level_7B ; work         ;
+;    |sub:su5|                   ; 7 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|sub:su5                                     ; work         ;
+;       |kogge_stone:ks0|        ; 7 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|sub:su5|kogge_stone:ks0                     ; work         ;
+;          |and_xor:level_Z3|    ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|sub:su5|kogge_stone:ks0|and_xor:level_Z3    ; work         ;
+;          |black_cell:level_7B| ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Gradient|sub:su5|kogge_stone:ks0|black_cell:level_7B ; work         ;
++--------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 0     ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++--------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Top-level Entity: |Gradient ;
++----------------+-------+-------------------------------------------------+
+; Parameter Name ; Value ; Type                                            ;
++----------------+-------+-------------------------------------------------+
+; nbit           ; 8     ; Signed Integer                                  ;
++----------------+-------+-------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------+
+; Parameter Settings for User Entity Instance: shift2:sft0 ;
++----------------+-------+---------------------------------+
+; Parameter Name ; Value ; Type                            ;
++----------------+-------+---------------------------------+
+; nbit           ; 8     ; Signed Integer                  ;
++----------------+-------+---------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------+
+; Parameter Settings for User Entity Instance: shift2:sft1 ;
++----------------+-------+---------------------------------+
+; Parameter Name ; Value ; Type                            ;
++----------------+-------+---------------------------------+
+; nbit           ; 8     ; Signed Integer                  ;
++----------------+-------+---------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------+
+; Parameter Settings for User Entity Instance: shift2:sft2 ;
++----------------+-------+---------------------------------+
+; Parameter Name ; Value ; Type                            ;
++----------------+-------+---------------------------------+
+; nbit           ; 8     ; Signed Integer                  ;
++----------------+-------+---------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------+
+; Parameter Settings for User Entity Instance: shift2:sft3 ;
++----------------+-------+---------------------------------+
+; Parameter Name ; Value ; Type                            ;
++----------------+-------+---------------------------------+
+; nbit           ; 8     ; Signed Integer                  ;
++----------------+-------+---------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------+
+; Parameter Settings for User Entity Instance: shift2:sft4 ;
++----------------+-------+---------------------------------+
+; Parameter Name ; Value ; Type                            ;
++----------------+-------+---------------------------------+
+; nbit           ; 8     ; Signed Integer                  ;
++----------------+-------+---------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------+
+; Parameter Settings for User Entity Instance: shift2:sft5 ;
++----------------+-------+---------------------------------+
+; Parameter Name ; Value ; Type                            ;
++----------------+-------+---------------------------------+
+; nbit           ; 8     ; Signed Integer                  ;
++----------------+-------+---------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------+
+; Parameter Settings for User Entity Instance: shift2:sft6 ;
++----------------+-------+---------------------------------+
+; Parameter Name ; Value ; Type                            ;
++----------------+-------+---------------------------------+
+; nbit           ; 8     ; Signed Integer                  ;
++----------------+-------+---------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------+
+; Parameter Settings for User Entity Instance: shift2:sft7 ;
++----------------+-------+---------------------------------+
+; Parameter Name ; Value ; Type                            ;
++----------------+-------+---------------------------------+
+; nbit           ; 8     ; Signed Integer                  ;
++----------------+-------+---------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------+
+; Parameter Settings for User Entity Instance: shift2:sft8 ;
++----------------+-------+---------------------------------+
+; Parameter Name ; Value ; Type                            ;
++----------------+-------+---------------------------------+
+; nbit           ; 8     ; Signed Integer                  ;
++----------------+-------+---------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------+
+; Parameter Settings for User Entity Instance: sub:su0 ;
++----------------+-------+-----------------------------+
+; Parameter Name ; Value ; Type                        ;
++----------------+-------+-----------------------------+
+; nbit           ; 8     ; Signed Integer              ;
++----------------+-------+-----------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------+
+; Parameter Settings for User Entity Instance: sub:su1 ;
++----------------+-------+-----------------------------+
+; Parameter Name ; Value ; Type                        ;
++----------------+-------+-----------------------------+
+; nbit           ; 8     ; Signed Integer              ;
++----------------+-------+-----------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------+
+; Parameter Settings for User Entity Instance: sub:su2 ;
++----------------+-------+-----------------------------+
+; Parameter Name ; Value ; Type                        ;
++----------------+-------+-----------------------------+
+; nbit           ; 8     ; Signed Integer              ;
++----------------+-------+-----------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------+
+; Parameter Settings for User Entity Instance: sub:su3 ;
++----------------+-------+-----------------------------+
+; Parameter Name ; Value ; Type                        ;
++----------------+-------+-----------------------------+
+; nbit           ; 8     ; Signed Integer              ;
++----------------+-------+-----------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------+
+; Parameter Settings for User Entity Instance: MUX:mu0 ;
++----------------+-------+-----------------------------+
+; Parameter Name ; Value ; Type                        ;
++----------------+-------+-----------------------------+
+; nbit           ; 8     ; Signed Integer              ;
++----------------+-------+-----------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------+
+; Parameter Settings for User Entity Instance: MUX:mu1 ;
++----------------+-------+-----------------------------+
+; Parameter Name ; Value ; Type                        ;
++----------------+-------+-----------------------------+
+; nbit           ; 8     ; Signed Integer              ;
++----------------+-------+-----------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------+
+; Parameter Settings for User Entity Instance: sub:su4 ;
++----------------+-------+-----------------------------+
+; Parameter Name ; Value ; Type                        ;
++----------------+-------+-----------------------------+
+; nbit           ; 8     ; Signed Integer              ;
++----------------+-------+-----------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------+
+; Parameter Settings for User Entity Instance: sub:su5 ;
++----------------+-------+-----------------------------+
+; Parameter Name ; Value ; Type                        ;
++----------------+-------+-----------------------------+
+; nbit           ; 8     ; Signed Integer              ;
++----------------+-------+-----------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "sub:su5"               ;
++------+--------+----------+------------------------+
+; Port ; Type   ; Severity ; Details                ;
++------+--------+----------+------------------------+
+; S    ; Output ; Info     ; Explicitly unconnected ;
++------+--------+----------+------------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "sub:su4"               ;
++------+--------+----------+------------------------+
+; Port ; Type   ; Severity ; Details                ;
++------+--------+----------+------------------------+
+; S    ; Output ; Info     ; Explicitly unconnected ;
++------+--------+----------+------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "sub:su1"                                                                                                 ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Cout ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------+
+; Port Connectivity Checks: "sub:su0|kogge_stone:ks0" ;
++------+-------+----------+---------------------------+
+; Port ; Type  ; Severity ; Details                   ;
++------+-------+----------+---------------------------+
+; cin  ; Input ; Info     ; Stuck at VCC              ;
++------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "sub:su0"                                                                                                 ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Cout ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "kogge_stone:ad7"                                                                                         ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; cin  ; Input  ; Info     ; Stuck at GND                                                                                             ;
+; cout ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "kogge_stone:ad6"                                                                                         ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; cin  ; Input  ; Info     ; Stuck at GND                                                                                             ;
+; cout ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "kogge_stone:ad5"                                                                                         ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; cin  ; Input  ; Info     ; Stuck at GND                                                                                             ;
+; cout ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "kogge_stone:ad4"                                                                                         ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; cin  ; Input  ; Info     ; Stuck at GND                                                                                             ;
+; cout ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "kogge_stone:ad3"                                                                                         ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; cin  ; Input  ; Info     ; Stuck at GND                                                                                             ;
+; cout ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "kogge_stone:ad2"                                                                                         ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; cin  ; Input  ; Info     ; Stuck at GND                                                                                             ;
+; cout ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "kogge_stone:ad1"                                                                                         ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; cin  ; Input  ; Info     ; Stuck at GND                                                                                             ;
+; cout ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "kogge_stone:ad0"                                                                                         ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; cin  ; Input  ; Info     ; Stuck at GND                                                                                             ;
+; cout ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "shift2:sft6"                                                                        ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; S    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "shift2:sft4"                                                                        ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; S    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:04     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Analysis & Synthesis
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Thu Dec 02 09:29:50 2021
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Gradient -c Gradient
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/doance213/gradient/sub.v
+    Info (12023): Found entity 1: sub
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/doance213/gradient/shift2.v
+    Info (12023): Found entity 1: shift2
+Warning (12090): Entity "MUX" obtained from "../MUX.v" instead of from Quartus II megafunction library
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/doance213/gradient/mux.v
+    Info (12023): Found entity 1: MUX
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/doance213/gradient/ksa.v
+    Info (12023): Found entity 1: kogge_stone
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/doance213/gradient/grey_cell.v
+    Info (12023): Found entity 1: gray_cell
+Warning (10275): Verilog HDL Module Instantiation warning at Gradient.v(42): ignored dangling comma in List of Port Connections
+Warning (10275): Verilog HDL Module Instantiation warning at Gradient.v(43): ignored dangling comma in List of Port Connections
+Info (12021): Found 1 design units, including 1 entities, in source file /users/asus/desktop/doance213/gradient/gradient.v
+    Info (12023): Found entity 1: Gradient
+Info (12021): Found 2 design units, including 2 entities, in source file /users/asus/desktop/doance213/gradient/black_cell.v
+    Info (12023): Found entity 1: black_cell
+    Info (12023): Found entity 2: and_xor
+Info (12127): Elaborating entity "Gradient" for the top level hierarchy
+Info (12128): Elaborating entity "shift2" for hierarchy "shift2:sft0"
+Info (12128): Elaborating entity "kogge_stone" for hierarchy "kogge_stone:ad0"
+Info (12128): Elaborating entity "gray_cell" for hierarchy "kogge_stone:ad0|gray_cell:level_0A"
+Info (12128): Elaborating entity "black_cell" for hierarchy "kogge_stone:ad0|black_cell:level_1A"
+Info (12128): Elaborating entity "and_xor" for hierarchy "kogge_stone:ad0|and_xor:level_Z0"
+Info (12128): Elaborating entity "sub" for hierarchy "sub:su0"
+Info (12128): Elaborating entity "MUX" for hierarchy "MUX:mu0"
+Warning (12241): 10 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Warning (21074): Design contains 30 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "P0[0]"
+    Warning (15610): No output dependent on input pin "P0[1]"
+    Warning (15610): No output dependent on input pin "P1[0]"
+    Warning (15610): No output dependent on input pin "P1[1]"
+    Warning (15610): No output dependent on input pin "P2[0]"
+    Warning (15610): No output dependent on input pin "P2[1]"
+    Warning (15610): No output dependent on input pin "P3[0]"
+    Warning (15610): No output dependent on input pin "P3[1]"
+    Warning (15610): No output dependent on input pin "P4[0]"
+    Warning (15610): No output dependent on input pin "P4[1]"
+    Warning (15610): No output dependent on input pin "P4[2]"
+    Warning (15610): No output dependent on input pin "P4[3]"
+    Warning (15610): No output dependent on input pin "P4[4]"
+    Warning (15610): No output dependent on input pin "P4[5]"
+    Warning (15610): No output dependent on input pin "P4[6]"
+    Warning (15610): No output dependent on input pin "P4[7]"
+    Warning (15610): No output dependent on input pin "P5[0]"
+    Warning (15610): No output dependent on input pin "P5[1]"
+    Warning (15610): No output dependent on input pin "P6[0]"
+    Warning (15610): No output dependent on input pin "P6[1]"
+    Warning (15610): No output dependent on input pin "P6[2]"
+    Warning (15610): No output dependent on input pin "P6[3]"
+    Warning (15610): No output dependent on input pin "P6[4]"
+    Warning (15610): No output dependent on input pin "P6[5]"
+    Warning (15610): No output dependent on input pin "P6[6]"
+    Warning (15610): No output dependent on input pin "P6[7]"
+    Warning (15610): No output dependent on input pin "P7[0]"
+    Warning (15610): No output dependent on input pin "P7[1]"
+    Warning (15610): No output dependent on input pin "P8[0]"
+    Warning (15610): No output dependent on input pin "P8[1]"
+Info (21057): Implemented 412 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 80 input pins
+    Info (21059): Implemented 1 output pins
+    Info (21061): Implemented 331 logic cells
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 36 warnings
+    Info: Peak virtual memory: 4595 megabytes
+    Info: Processing ended: Thu Dec 02 09:29:57 2021
+    Info: Elapsed time: 00:00:07
+    Info: Total CPU time (on all processors): 00:00:07
+
+

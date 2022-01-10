@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1
+vLoader
+Z1 !s100 9mdYfGb?zCag`fogA3G_V0
+Z2 I<DzjUi9kD`MJd1GeGcPYj1
+Z3 VhJPgQAE6i?C]lO[5SRA@50
+Z4 dC:\Users\Asus\Desktop\DoAnCE213\Loader\post_syn_modelsim_loader
+Z5 w1638421435
+Z6 8C:/Users/Asus/Desktop/DoAnCE213/Loader/post_syn_modelsim_loader/Loader.vo
+Z7 FC:/Users/Asus/Desktop/DoAnCE213/Loader/post_syn_modelsim_loader/Loader.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Loader/post_syn_modelsim_loader/Loader.vo|
+Z10 o-work work -O0
+Z11 n@loader
+!i10b 1
+!s85 0
+Z12 !s108 1638430426.450000
+Z13 !s107 C:/Users/Asus/Desktop/DoAnCE213/Loader/post_syn_modelsim_loader/Loader.vo|
+!s101 -O0
+vLoader_tb
+!i10b 1
+Z14 !s100 7l4H6oBiC6K=^>:7kok2@2
+Z15 IaO6j9JVK962Jz:RIM=Nje0
+Z16 V@Da=2n4z6JiSN7[Y8M9023
+R4
+Z17 w1638430423
+Z18 8C:/Users/Asus/Desktop/DoAnCE213/Loader/post_syn_modelsim_loader/Loader_tb.v
+Z19 FC:/Users/Asus/Desktop/DoAnCE213/Loader/post_syn_modelsim_loader/Loader_tb.v
+L0 2
+R8
+r1
+!s85 0
+31
+!s108 1638430426.524000
+!s107 C:/Users/Asus/Desktop/DoAnCE213/Loader/post_syn_modelsim_loader/Loader_tb.v|
+Z20 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Loader/post_syn_modelsim_loader/Loader_tb.v|
+!s101 -O0
+R10
+Z21 n@loader_tb

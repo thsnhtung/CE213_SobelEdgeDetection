@@ -1,0 +1,23 @@
+module controller_tb();
+  reg CLK, Start, isEnd, Begin;
+  wire [1:0] current_state;
+  wire Reset, Enable, Finish;
+  
+  Controller ct(Begin, CLK, Start, isEnd, Reset, Enable, Finish, current_state); 
+  initial begin
+    CLK = 0;
+    Begin = 1;
+    #30 Begin = 0;
+  end
+  always begin
+    CLK = ~CLK;
+    Start = $random;
+    isEnd = $random;
+    #10;
+  end
+  
+endmodule
+
+
+
+
