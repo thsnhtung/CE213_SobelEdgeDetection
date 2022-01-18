@@ -1,11 +1,4 @@
-C:/Users/Asus/Desktop/DoAnCE213/Sobel/post_syn_modelsim/Sobel_tb.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/post_syn_modelsim/Sobel_tb.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module Sobel_tb
-
-Top level modules:
-	Sobel_tb
-
-} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Sobel/post_syn_modelsim/Sobel.vo {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/post_syn_modelsim/Sobel.vo
+C:/Users/Asus/Desktop/DoAnCE213/Sobel/post_syn_modelsim/Sobel.vo {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/post_syn_modelsim/Sobel.vo
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module Sobel
 

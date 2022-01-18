@@ -1,4 +1,11 @@
-C:/Users/Asus/Desktop/DoAnCE213/Sobel/shift2.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/shift2.v
+C:/Users/Asus/Desktop/DoAnCE213/Sobel/Input_selector.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/Input_selector.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Input_selector
+
+Top level modules:
+	Input_selector
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Sobel/shift2.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/shift2.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module shift2
 
@@ -18,6 +25,13 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 
 Top level modules:
 	Counter
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Sobel/Add_1.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/Add_1.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Add_1
+
+Top level modules:
+	Add_1
 
 } {} {}} C:/Users/Asus/Desktop/DoAnCE213/Sobel/Subtractor.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/Subtractor.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
@@ -39,6 +53,13 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 
 Top level modules:
 	Sobel_tb
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Sobel/Add_row_column_1_tb.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/Add_row_column_1_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Add_row_column_1_tb
+
+Top level modules:
+	Add_row_column_1_tb
 
 } {} {}} C:/Users/Asus/Desktop/DoAnCE213/Sobel/sub.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/sub.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
@@ -84,6 +105,13 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	Datapath_tb
 
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Sobel/Add_row_column_1.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/Add_row_column_1.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Add_row_column_1
+
+Top level modules:
+	Add_row_column_1
+
 } {} {}} C:/Users/Asus/Desktop/DoAnCE213/Sobel/Sobel.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/Sobel.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module Sobel
@@ -98,26 +126,19 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	Gradient
 
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Sobel/Padding_comparator.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/Padding_comparator.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Padding_comparator
+
+Top level modules:
+	Padding_comparator
+
 } {} {}} C:/Users/Asus/Desktop/DoAnCE213/Sobel/grey_cell.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/grey_cell.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module gray_cell
 
 Top level modules:
 	gray_cell
-
-} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Sobel/Datapath.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/Datapath.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module Datapath
-
-Top level modules:
-	Datapath
-
-} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Sobel/Loader.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/Loader.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module Loader
-
-Top level modules:
-	Loader
 
 } {} {}} C:/Users/Asus/Desktop/DoAnCE213/Sobel/KSA.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/KSA.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
@@ -126,12 +147,40 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	kogge_stone
 
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Sobel/Loader.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/Loader.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Loader
+
+Top level modules:
+	Loader
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Sobel/Datapath.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/Datapath.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Datapath
+
+Top level modules:
+	Datapath
+
 } {} {}} C:/Users/Asus/Desktop/DoAnCE213/Sobel/Adder.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/Adder.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module Adder
 
 Top level modules:
 	Adder
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Sobel/Merge_bus.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/Merge_bus.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Merge_bus
+
+Top level modules:
+	Merge_bus
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Sobel/controller_tb.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/controller_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module controller_tb
+
+Top level modules:
+	controller_tb
 
 } {} {}} C:/Users/Asus/Desktop/DoAnCE213/Sobel/Fast_Fifo.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/Fast_Fifo.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
@@ -147,13 +196,6 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	Fast_Fifo
 
-} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Sobel/controller_tb.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/controller_tb.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module controller_tb
-
-Top level modules:
-	controller_tb
-
 } {} {}} C:/Users/Asus/Desktop/DoAnCE213/Sobel/Shift_Register.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/Shift_Register.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module Shift_Register
@@ -161,11 +203,39 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	Shift_Register
 
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Sobel/Gradient_tb.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/Gradient_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Gradient_tb
+
+Top level modules:
+	Gradient_tb
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Sobel/Padding_tb.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/Padding_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Padding_tb
+
+Top level modules:
+	Padding_tb
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Sobel/Split_bus.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/Split_bus.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Split_bus
+
+Top level modules:
+	Split_bus
+
 } {} {}} C:/Users/Asus/Desktop/DoAnCE213/Sobel/Register.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/Register.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module Register
 
 Top level modules:
 	Register
+
+} {} {}} C:/Users/Asus/Desktop/DoAnCE213/Sobel/Padding.v {1 {vlog -work work C:/Users/Asus/Desktop/DoAnCE213/Sobel/Padding.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Padding
+
+Top level modules:
+	Padding
 
 } {} {}}

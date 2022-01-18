@@ -4,11 +4,11 @@ K3
 cModel Technology
 Z0 dC:\altera\13.0sp1
 vSobel
-Z1 !s100 =SRR2eljI<QDK47KmkP`?2
-Z2 I7<6_zfgDXMi<@=K5b2<Yn0
-Z3 V`Nfa=oHc78hZVT9YgSOVN0
+Z1 !s100 kfCI91jeSA9;hM=Bo^IIc2
+Z2 IL:D?FoB4c6Y]9CXgMm<O91
+Z3 VnAWhRJ7TKRhOQJYQPh@mR1
 Z4 dC:\Users\Asus\Desktop\DoAnCE213\Sobel\post_syn_modelsim
-Z5 w1639627677
+Z5 w1642166413
 Z6 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/post_syn_modelsim/Sobel.vo
 Z7 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/post_syn_modelsim/Sobel.vo
 L0 31
@@ -20,26 +20,26 @@ Z10 o-work work -O0
 Z11 n@sobel
 !i10b 1
 !s85 0
-Z12 !s108 1640248451.401000
+Z12 !s108 1642474096.799000
 Z13 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/post_syn_modelsim/Sobel.vo|
 !s101 -O0
 vSobel_tb
 !i10b 1
-Z14 !s100 R27G=@3aYJfD011616IeZ0
-Z15 I;m2UTT>Wcf_8ICd_kC4D51
-Z16 VH9zGXP@?XBbjg=LSo_j4J0
+!s100 GD9N=GmoB0L2M3808AkQh0
+Inm1PG9FcGBdTd>2gKk;3M0
+Z14 VH9zGXP@?XBbjg=LSo_j4J0
 R4
-Z17 w1640248449
-Z18 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/post_syn_modelsim/Sobel_tb.v
-Z19 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/post_syn_modelsim/Sobel_tb.v
+w1642474095
+Z15 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/post_syn_modelsim/Sobel_tb.v
+Z16 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/post_syn_modelsim/Sobel_tb.v
 L0 2
 R8
 r1
 !s85 0
 31
-!s108 1640248451.482000
+!s108 1642474096.899000
 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/post_syn_modelsim/Sobel_tb.v|
-Z20 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/post_syn_modelsim/Sobel_tb.v|
+Z17 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/post_syn_modelsim/Sobel_tb.v|
 !s101 -O0
 R10
-Z21 n@sobel_tb
+Z18 n@sobel_tb

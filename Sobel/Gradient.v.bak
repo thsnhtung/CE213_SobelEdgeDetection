@@ -25,7 +25,7 @@ shift2 sft0(P0, shift_value[0]);
 shift2 sft1(P1, shift_value[1]);
 shift2 sft2(P2, shift_value[2]);
 shift2 sft3(P3, shift_value[3]);
-shift2 sft4(P4, shift_value[4]);
+
 shift2 sft5(P5, shift_value[5]);
 shift2 sft6(P6, shift_value[6]);
 shift2 sft7(P7, shift_value[7]);
@@ -45,8 +45,8 @@ Subtractor su1(A[5], A[6], C[1], );
 Subtractor su2(A[7], A[4], C[3], G[1]);
 Subtractor su3(A[6], A[5], C[2], G[0]);
 
-MUX #(.nbit(nbit)) mu0(C[2], C[1], G[0], f[0]);
-MUX #(.nbit(nbit)) mu1(C[3], C[0], G[1], f[1]);
+MUX mu0(C[2], C[1], G[0], f[0]);
+MUX mu1(C[3], C[0], G[1], f[1]);
 
 Subtractor su4(f[0], T, , R[0]);
 Subtractor su5(f[1], T, , R[1]);

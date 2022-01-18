@@ -3,635 +3,835 @@ K3
 13
 cModel Technology
 Z0 dC:\altera\13.0sp1
-vAdder
-Z1 !s100 ]7Je>UbdR;4^PK`<3A]dC0
-Z2 IE^>3dKPa7hjPKjF`Pmj<P3
-Z3 VMRkQEnQnNfOZfDAYhGUGH1
+vAdd_1
+Z1 !s100 nkS5W33_Y9D]z]6REam0U2
+Z2 I:a<D850`[lPC;nX`aezGC0
+Z3 V>RHz;?[bB?fiO?TD:VPJ90
 Z4 dC:\Users\Asus\Desktop\DoAnCE213\Sobel
-Z5 w1639627043
-Z6 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/Adder.v
-Z7 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/Adder.v
+Z5 w1641871786
+Z6 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/Add_1.v
+Z7 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/Add_1.v
 L0 1
 Z8 OV;L;10.1d;51
 r1
 31
-Z9 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/Adder.v|
+Z9 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/Add_1.v|
 Z10 o-work work -O0
-Z11 n@adder
+Z11 n@add_1
+Z12 !s108 1642168586.053000
+Z13 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/Add_1.v|
 !i10b 1
 !s85 0
-Z12 !s108 1639628310.092000
-Z13 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/Adder.v|
+!s101 -O0
+vAdd_row_column_1
+Z14 !s100 OIKgTHX1m?NXCYQ=`aZkm2
+Z15 I=R[;E7H:iZ8:c91_2L_6G2
+Z16 VRlKgaALCNng`i9CbdeZBk1
+R4
+Z17 w1641870960
+Z18 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/Add_row_column_1.v
+Z19 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/Add_row_column_1.v
+L0 1
+R8
+r1
+31
+Z20 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/Add_row_column_1.v|
+R10
+Z21 n@add_row_column_1
+Z22 !s108 1642168585.867000
+Z23 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/Add_row_column_1.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vAdd_row_column_1_tb
+Z24 !s100 POUMQZgfV4ce2OYY?U84k0
+Z25 I9oo;@lcz6Td40imTV<d:n2
+Z26 V@n4XWRB89^:@0CV=LKYQC3
+R4
+Z27 w1641868404
+Z28 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/Add_row_column_1_tb.v
+Z29 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/Add_row_column_1_tb.v
+L0 1
+R8
+r1
+31
+Z30 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/Add_row_column_1_tb.v|
+R10
+Z31 n@add_row_column_1_tb
+Z32 !s108 1642168586.143000
+Z33 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/Add_row_column_1_tb.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vAdder
+Z34 !s100 ]7Je>UbdR;4^PK`<3A]dC0
+Z35 IE^>3dKPa7hjPKjF`Pmj<P3
+Z36 VMRkQEnQnNfOZfDAYhGUGH1
+R4
+Z37 w1639627043
+Z38 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/Adder.v
+Z39 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/Adder.v
+L0 1
+R8
+r1
+31
+Z40 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/Adder.v|
+R10
+Z41 n@adder
+Z42 !s108 1642168585.775000
+Z43 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/Adder.v|
+!i10b 1
+!s85 0
 !s101 -O0
 vand_xor
-Z14 !s100 l[cIb4IB5PAAF4J=RWhEf3
-Z15 I?UT0nP=nCMOc0d7emlfg83
-Z16 V;QB`B?ge:29f2T2@O[Ec^3
+Z44 !s100 l[cIb4IB5PAAF4J=RWhEf3
+Z45 I?UT0nP=nCMOc0d7emlfg83
+Z46 V;QB`B?ge:29f2T2@O[Ec^3
 R4
-Z17 w1638373798
-Z18 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/black_cell.v
-Z19 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/black_cell.v
+Z47 w1638373798
+Z48 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/black_cell.v
+Z49 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/black_cell.v
 L0 12
 R8
 r1
 31
-Z20 !s108 1639628309.057000
-Z21 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/black_cell.v|
-Z22 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/black_cell.v|
+Z50 !s108 1642168584.792000
+Z51 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/black_cell.v|
+Z52 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/black_cell.v|
 R10
 !i10b 1
 !s85 0
 !s101 -O0
 vblack_cell
-Z23 !s100 _`MgbQ^^[:3ZEFBCz:eQB0
-Z24 IeVH0o[JC;96MfWAY0ZmbL1
-Z25 V510N^MWIN_=0ZCQb:55TW2
+Z53 !s100 _`MgbQ^^[:3ZEFBCz:eQB0
+Z54 IeVH0o[JC;96MfWAY0ZmbL1
+Z55 V510N^MWIN_=0ZCQb:55TW2
 R4
-R17
-R18
-R19
+R47
+R48
+R49
 L0 1
 R8
 r1
 31
-R20
-R21
-R22
+R50
+R51
+R52
 R10
 !i10b 1
 !s85 0
 !s101 -O0
 vComparator
-Z26 !s100 XHGULTK?i8n?6zne:6^f:0
-Z27 I0@LL>XfddE3;8:fEb6PQT0
-Z28 VVU31mM2_SOcb0^<0YVzg?1
+Z56 !s100 XHGULTK?i8n?6zne:6^f:0
+Z57 I0@LL>XfddE3;8:fEb6PQT0
+Z58 VVU31mM2_SOcb0^<0YVzg?1
 R4
-Z29 w1638417774
-Z30 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/Comparator.v
-Z31 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/Comparator.v
+Z59 w1638417774
+Z60 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/Comparator.v
+Z61 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/Comparator.v
 L0 1
 R8
 r1
 31
-Z32 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/Comparator.v|
+Z62 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/Comparator.v|
 R10
-Z33 n@comparator
-Z34 !s108 1639628309.114000
-Z35 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/Comparator.v|
+Z63 n@comparator
+Z64 !s108 1642168584.842000
+Z65 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/Comparator.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vController
-Z36 !s100 @gCEWRGZX1868b0dm]ZQ81
-Z37 I@lcoEk?PSn[QQQ3V;VPm=0
-Z38 V?MfCMFm`6DFS]HP]fo]2G1
+Z66 !s100 @gCEWRGZX1868b0dm]ZQ81
+Z67 I@lcoEk?PSn[QQQ3V;VPm=0
+Z68 V?MfCMFm`6DFS]HP]fo]2G1
 R4
-Z39 w1639022938
-Z40 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/controller.v
-Z41 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/controller.v
+Z69 w1639022938
+Z70 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/controller.v
+Z71 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/controller.v
 L0 1
 R8
 r1
 31
-Z42 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/controller.v|
+Z72 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/controller.v|
 R10
-Z43 n@controller
-Z44 !s108 1639628309.162000
-Z45 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/controller.v|
+Z73 n@controller
+Z74 !s108 1642168584.889000
+Z75 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/controller.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vcontroller_tb
-Z46 !s100 YV5A2<lABSznlcEEWiA0a2
-Z47 IQQkWChB?W2QZD]WOkI]NY3
-Z48 VXjLFUflKQlK1WTZm==8l41
+Z76 !s100 YV5A2<lABSznlcEEWiA0a2
+Z77 IQQkWChB?W2QZD]WOkI]NY3
+Z78 VXjLFUflKQlK1WTZm==8l41
 R4
-Z49 w1639022699
-Z50 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/controller_tb.v
-Z51 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/controller_tb.v
+Z79 w1639022699
+Z80 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/controller_tb.v
+Z81 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/controller_tb.v
 L0 1
 R8
 r1
 31
-Z52 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/controller_tb.v|
+Z82 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/controller_tb.v|
 R10
-Z53 !s108 1639628309.958000
-Z54 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/controller_tb.v|
+Z83 !s108 1642168585.643000
+Z84 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/controller_tb.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vCounter
-Z55 !s100 o]7PAH7:QUnL3ZU;83elS1
-Z56 IM;W83efhYAU9^Nie9lB3E0
-Z57 VA;mZi;2fYhY3NeHBOcaSP1
+Z85 !s100 o]7PAH7:QUnL3ZU;83elS1
+Z86 IM;W83efhYAU9^Nie9lB3E0
+Z87 VA;mZi;2fYhY3NeHBOcaSP1
 R4
-Z58 w1638417580
-Z59 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/Counter.v
-Z60 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/Counter.v
+Z88 w1638417580
+Z89 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/Counter.v
+Z90 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/Counter.v
 L0 1
 R8
 r1
 31
-Z61 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/Counter.v|
+Z91 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/Counter.v|
 R10
-Z62 n@counter
-Z63 !s108 1639628309.207000
-Z64 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/Counter.v|
+Z92 n@counter
+Z93 !s108 1642168584.934000
+Z94 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/Counter.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vDatapath
-Z65 !s100 [BLl8mGGWEX<_WISAcz:U1
-Z66 Il5^acA6>C9CDa2kCi7M0O2
-Z67 VPjD2S]iSbaNgN:]]Q4;Pm2
+Z95 !s100 O09=HnbNC3g@0g8>WD6;H0
+Z96 IaP8X14;6neh8;?K@mob`B0
+Z97 VBm1aj3CZCGhd6`8JgjJ]I0
 R4
-Z68 w1639625310
-Z69 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/Datapath.v
-Z70 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/Datapath.v
+Z98 w1642049829
+Z99 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/Datapath.v
+Z100 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/Datapath.v
 L0 1
 R8
 r1
 31
-Z71 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/Datapath.v|
+Z101 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/Datapath.v|
 R10
-Z72 n@datapath
-Z73 !s108 1639628309.251000
-Z74 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/Datapath.v|
+Z102 n@datapath
+Z103 !s108 1642168584.978000
+Z104 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/Datapath.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vDatapath_tb
-Z75 !s100 TDC@mcn0jfC=U<4Fd9aO`3
-Z76 IN]3^V>KzL0^f2VC0S88@D2
-Z77 V7K75VAIZIQB5:Nl6mDQPS1
+Z105 !s100 ^`7;A^RXzMzU?79[CX`oF3
+Z106 I1^dLDZKkm9Z1h7j`]P=1@1
+Z107 V7K75VAIZIQB5:Nl6mDQPS1
 R4
-Z78 w1639021296
-Z79 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/Datapath_tb.v
-Z80 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/Datapath_tb.v
+Z108 w1641873230
+Z109 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/Datapath_tb.v
+Z110 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/Datapath_tb.v
 L0 2
 R8
 r1
 31
-Z81 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/Datapath_tb.v|
+Z111 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/Datapath_tb.v|
 R10
-Z82 n@datapath_tb
-Z83 !s108 1639628309.296000
-Z84 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/Datapath_tb.v|
+Z112 n@datapath_tb
+Z113 !s108 1642168585.022000
+Z114 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/Datapath_tb.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vFast_Fifo
-Z85 !s100 0aMDGj?WfX?P84i?:Vn4j3
-Z86 IlJ3@`<Zl5<Sb`dhNZX75n3
-Z87 VZXG>Da19N`;2XhB_84G8z0
+Z115 !s100 0aMDGj?WfX?P84i?:Vn4j3
+Z116 IlJ3@`<Zl5<Sb`dhNZX75n3
+Z117 VZXG>Da19N`;2XhB_84G8z0
 R4
-Z88 w1638413427
-Z89 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/Fast_Fifo.v
-Z90 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/Fast_Fifo.v
+Z118 w1638413427
+Z119 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/Fast_Fifo.v
+Z120 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/Fast_Fifo.v
 L0 1
 R8
 r1
 31
-Z91 !s108 1639628309.342000
-Z92 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/Fast_Fifo.v|
-Z93 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/Fast_Fifo.v|
+Z121 !s108 1642168585.066000
+Z122 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/Fast_Fifo.v|
+Z123 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/Fast_Fifo.v|
 R10
-Z94 n@fast_@fifo
+Z124 n@fast_@fifo
 !i10b 1
 !s85 0
 !s101 -O0
 vFast_Fifo_128_cell
-Z95 !s100 IbXQZTaIT_^AL4TDYR2:a1
-Z96 IGUgUMbe9G4AX3RjJZYz4Y3
-Z97 V5Senj`:Abi527PkOgg^h71
+Z125 !s100 IbXQZTaIT_^AL4TDYR2:a1
+Z126 IGUgUMbe9G4AX3RjJZYz4Y3
+Z127 V5Senj`:Abi527PkOgg^h71
 R4
-R88
-R89
-R90
+R118
+R119
+R120
 L0 15
 R8
 r1
 31
-R91
-R92
-R93
+R121
+R122
+R123
 R10
-Z98 n@fast_@fifo_128_cell
+Z128 n@fast_@fifo_128_cell
 !i10b 1
 !s85 0
 !s101 -O0
 vFast_Fifo_16_cell
-Z99 !s100 HZ5R_nkHOVicNFhXOk2QJ1
-Z100 IF?F9Kj^fjFIT^CSzfIOm`1
-Z101 VgimEQWjDbQbT?37HzFOlP0
+Z129 !s100 HZ5R_nkHOVicNFhXOk2QJ1
+Z130 IF?F9Kj^fjFIT^CSzfIOm`1
+Z131 VgimEQWjDbQbT?37HzFOlP0
 R4
-R88
-R89
-R90
+R118
+R119
+R120
 L0 56
 R8
 r1
 31
-R91
-R92
-R93
+R121
+R122
+R123
 R10
-Z102 n@fast_@fifo_16_cell
+Z132 n@fast_@fifo_16_cell
 !i10b 1
 !s85 0
 !s101 -O0
 vFast_Fifo_2_cell
-Z103 !s100 WhNG]2JczWP?gRAmEdD:Q3
-Z104 I2YVcFDj=`?mh`^9ZMTTPZ0
-Z105 VRIOW6n6>OLN^NUkRNHKGT0
+Z133 !s100 WhNG]2JczWP?gRAmEdD:Q3
+Z134 I2YVcFDj=`?mh`^9ZMTTPZ0
+Z135 VRIOW6n6>OLN^NUkRNHKGT0
 R4
-R88
-R89
-R90
+R118
+R119
+R120
 L0 96
 R8
 r1
 31
-R91
-R92
-R93
+R121
+R122
+R123
 R10
-Z106 n@fast_@fifo_2_cell
+Z136 n@fast_@fifo_2_cell
 !i10b 1
 !s85 0
 !s101 -O0
 vFast_Fifo_32_cell
-Z107 !s100 jcNBaPG:KjUB_;hM^zSOM0
-Z108 IIUQ^El>c87NGCn5HigeWW0
-Z109 V^?CS8;@eoaPa_DFOLTaG;2
+Z137 !s100 jcNBaPG:KjUB_;hM^zSOM0
+Z138 IIUQ^El>c87NGCn5HigeWW0
+Z139 V^?CS8;@eoaPa_DFOLTaG;2
 R4
-R88
-R89
-R90
+R118
+R119
+R120
 L0 43
 R8
 r1
 31
-R91
-R92
-R93
+R121
+R122
+R123
 R10
-Z110 n@fast_@fifo_32_cell
+Z140 n@fast_@fifo_32_cell
 !i10b 1
 !s85 0
 !s101 -O0
 vFast_Fifo_4_cell
-Z111 !s100 zY00PNQSPjXM[<`SLC3971
-Z112 I0PHenNhnKG=M_YAN9zZf]2
-Z113 V]h^kMSW[42cZjajFKBPb^3
+Z141 !s100 zY00PNQSPjXM[<`SLC3971
+Z142 I0PHenNhnKG=M_YAN9zZf]2
+Z143 V]h^kMSW[42cZjajFKBPb^3
 R4
-R88
-R89
-R90
+R118
+R119
+R120
 L0 83
 R8
 r1
 31
-R91
-R92
-R93
+R121
+R122
+R123
 R10
-Z114 n@fast_@fifo_4_cell
+Z144 n@fast_@fifo_4_cell
 !i10b 1
 !s85 0
 !s101 -O0
 vFast_Fifo_64_cell
-Z115 !s100 gHZ5^BXBPiIbQoXcN3jSC3
-Z116 I]2[^<LNKgJiQCll=]Hc2H3
-Z117 Vcj:<IJ=YchAD=cE[;UKT>3
+Z145 !s100 gHZ5^BXBPiIbQoXcN3jSC3
+Z146 I]2[^<LNKgJiQCll=]Hc2H3
+Z147 Vcj:<IJ=YchAD=cE[;UKT>3
 R4
-R88
-R89
-R90
+R118
+R119
+R120
 L0 29
 R8
 r1
 31
-R91
-R92
-R93
+R121
+R122
+R123
 R10
-Z118 n@fast_@fifo_64_cell
+Z148 n@fast_@fifo_64_cell
 !i10b 1
 !s85 0
 !s101 -O0
 vFast_Fifo_8_cell
-Z119 !s100 8zSXPL?4OiCBK;5Qdz]6U2
-Z120 IDYGWLKcJ^f@TJXHLj6Gn_3
-Z121 V?3Rn>oc5AGQCI]5Vf:Q5Y2
+Z149 !s100 8zSXPL?4OiCBK;5Qdz]6U2
+Z150 IDYGWLKcJ^f@TJXHLj6Gn_3
+Z151 V?3Rn>oc5AGQCI]5Vf:Q5Y2
 R4
-R88
-R89
-R90
+R118
+R119
+R120
 L0 70
 R8
 r1
 31
-R91
-R92
-R93
+R121
+R122
+R123
 R10
-Z122 n@fast_@fifo_8_cell
+Z152 n@fast_@fifo_8_cell
 !i10b 1
 !s85 0
 !s101 -O0
 vGradient
-Z123 !s100 GSoRPL[RQ8aaa:3fm1Uno2
-Z124 IXOZNIXH[4O[@g3GZ<Vg>@2
-Z125 V<zUh;RXa2_HB5i^PWod<f0
+Z153 !s100 McD`^J81^^J<dQJ[IB<]A1
+Z154 Ik8D:Z;`nmeBJ_AXoe1Qhk0
+Z155 V<zUh;RXa2_HB5i^PWod<f0
 R4
-Z126 w1639627287
-Z127 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/Gradient.v
-Z128 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/Gradient.v
+Z156 w1642165976
+Z157 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/Gradient.v
+Z158 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/Gradient.v
 L0 1
 R8
 r1
 31
-Z129 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/Gradient.v|
+Z159 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/Gradient.v|
 R10
-Z130 n@gradient
-Z131 !s108 1639628309.431000
-Z132 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/Gradient.v|
+Z160 n@gradient
+Z161 !s108 1642168585.153000
+Z162 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/Gradient.v|
 !i10b 1
 !s85 0
 !s101 -O0
-vgray_cell
-Z133 !s100 =V9LeG8a81OPSToB^U9Id3
-Z134 IlA7_mPe`i3EkGdzK6Mogg1
-Z135 V_P`[XJ3B7G6XYzB;YGhec1
+vGradient_tb
+!i10b 1
+!s100 BizX<:YKSOhBko027_hz11
+IiFPk?I;lnBbF]gJM:H:bW0
+Z163 VeW[ohnMFiKaoJS^glVSYj2
 R4
-Z136 w1638373636
-Z137 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/grey_cell.v
-Z138 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/grey_cell.v
+w1642168582
+Z164 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/Gradient_tb.v
+Z165 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/Gradient_tb.v
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1642168586.281000
+!s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/Gradient_tb.v|
+Z166 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/Gradient_tb.v|
+!s101 -O0
+R10
+Z167 n@gradient_tb
+vgray_cell
+Z168 !s100 =V9LeG8a81OPSToB^U9Id3
+Z169 IlA7_mPe`i3EkGdzK6Mogg1
+Z170 V_P`[XJ3B7G6XYzB;YGhec1
+R4
+Z171 w1638373636
+Z172 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/grey_cell.v
+Z173 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/grey_cell.v
 L0 1
 R8
 r1
 31
-Z139 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/grey_cell.v|
+Z174 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/grey_cell.v|
 R10
-Z140 !s108 1639628309.477000
-Z141 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/grey_cell.v|
+Z175 !s108 1642168585.200000
+Z176 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/grey_cell.v|
 !i10b 1
 !s85 0
+!s101 -O0
+vInput_selector
+Z177 !s100 =zzRD^J3TnM3[:N^VDdc`3
+Z178 I[>^dGfN6XzbU?gLHX`j5F2
+Z179 VQKlDLAA5V>_2=FW68zK@C1
+R4
+Z180 w1641874868
+Z181 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/Input_selector.v
+Z182 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/Input_selector.v
+L0 1
+R8
+r1
+31
+Z183 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/Input_selector.v|
+R10
+Z184 n@input_selector
+!i10b 1
+!s85 0
+Z185 !s108 1642168586.238000
+Z186 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/Input_selector.v|
 !s101 -O0
 vkogge_stone
-Z142 !s100 bZQWlI^983>N^OC>S<co31
-Z143 Ik=dcR[LAc^N[YlAASz88i3
-Z144 V0DdHbM69R`EWl:J<Im7eH0
+Z187 !s100 bZQWlI^983>N^OC>S<co31
+Z188 Ik=dcR[LAc^N[YlAASz88i3
+Z189 V0DdHbM69R`EWl:J<Im7eH0
 R4
-Z145 w1638373944
-Z146 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/KSA.v
-Z147 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/KSA.v
+Z190 w1638373944
+Z191 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/KSA.v
+Z192 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/KSA.v
 L0 2
 R8
 r1
 31
-Z148 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/KSA.v|
+Z193 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/KSA.v|
 R10
-Z149 !s108 1639628309.523000
-Z150 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/KSA.v|
+Z194 !s108 1642168585.244000
+Z195 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/KSA.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vLoader
-Z151 !s100 iL3==RljiCcg[gkJSl2do2
-Z152 IVo4SYo[;B9nJaRCT?]2W62
-Z153 VhJPgQAE6i?C]lO[5SRA@50
+Z196 !s100 iL3==RljiCcg[gkJSl2do2
+Z197 IVo4SYo[;B9nJaRCT?]2W62
+Z198 VhJPgQAE6i?C]lO[5SRA@50
 R4
-Z154 w1638423259
-Z155 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/Loader.v
-Z156 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/Loader.v
+Z199 w1638423259
+Z200 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/Loader.v
+Z201 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/Loader.v
 L0 1
 R8
 r1
 31
-Z157 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/Loader.v|
+Z202 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/Loader.v|
 R10
-Z158 n@loader
-Z159 !s108 1639628309.567000
-Z160 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/Loader.v|
+Z203 n@loader
+Z204 !s108 1642168585.289000
+Z205 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/Loader.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vMerge_bus
+Z206 !s100 oVzb3U=QjW15QcUS<DATR3
+Z207 I3LaF5i_8F4MhHOljaQLB62
+Z208 VWZFbPGhb37@1e49aK=@T`0
+R4
+Z209 w1641870599
+Z210 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/Merge_bus.v
+Z211 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/Merge_bus.v
+L0 1
+R8
+r1
+31
+Z212 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/Merge_bus.v|
+R10
+Z213 n@merge_bus
+Z214 !s108 1642168586.008000
+Z215 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/Merge_bus.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vMUX
-Z161 !s100 MM5Y53^m;G4i8c[E5X6NB3
-Z162 Ic4n<Vb3OPkUc;HgW`@Igb3
-Z163 VQi33B^J>3ah:?;<QkICN`2
+Z216 !s100 MM5Y53^m;G4i8c[E5X6NB3
+Z217 Ic4n<Vb3OPkUc;HgW`@Igb3
+Z218 VQi33B^J>3ah:?;<QkICN`2
 R4
-Z164 w1638410423
-Z165 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/MUX.v
-Z166 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/MUX.v
+Z219 w1638410423
+Z220 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/MUX.v
+Z221 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/MUX.v
 L0 1
 R8
 r1
 31
-Z167 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/MUX.v|
+Z222 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/MUX.v|
 R10
-Z168 n@m@u@x
-Z169 !s108 1639628309.616000
-Z170 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/MUX.v|
+Z223 n@m@u@x
+Z224 !s108 1642168585.333000
+Z225 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/MUX.v|
 !i10b 1
 !s85 0
 !s101 -O0
-vRegister
-Z171 !s100 9mieF7@giTA6BEKMI^ZGB0
-Z172 ImgYf82Sm2j2HoSHN5`9:z0
-Z173 V9=IO`I3NUV;<1IdLI7QC=3
+vPadding
+Z226 !s100 zIad=GB1NB0mPjB^HkAC51
+Z227 I5K4i_5_MkePYo4E=80;Uj3
+Z228 VN^=897F31O]a[]SD9VeIe2
 R4
-Z174 w1638245993
-Z175 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/Register.v
-Z176 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/Register.v
+Z229 w1641869033
+Z230 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/Padding.v
+Z231 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/Padding.v
 L0 1
 R8
 r1
 31
-Z177 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/Register.v|
+Z232 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/Padding.v|
 R10
-Z178 n@register
-Z179 !s108 1639628309.662000
-Z180 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/Register.v|
+Z233 n@padding
+Z234 !s108 1642168585.917000
+Z235 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/Padding.v|
 !i10b 1
 !s85 0
 !s101 -O0
-vRow_Column_Counter
-Z181 !s100 9fh:4hD;ZfRMNk@GdR?fX1
-Z182 II:`0E<oW]39@VZTjG[:e<1
-Z183 V2C53j=BJAn8C@gAdJOWFN3
+vPadding_comparator
+Z236 !s100 ?G09AJh2Czb90CLPND5V41
+Z237 I_9NaOiBcRU]7W7`UnKg9M2
+Z238 V;2S7[:j0C^B@aW`^@^JXz2
 R4
-Z184 w1638416984
-Z185 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/Row_Column_Counter.v
-Z186 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/Row_Column_Counter.v
+Z239 w1641868985
+Z240 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/Padding_comparator.v
+Z241 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/Padding_comparator.v
 L0 1
 R8
 r1
 31
-Z187 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/Row_Column_Counter.v|
+Z242 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/Padding_comparator.v|
 R10
-Z188 n@row_@column_@counter
-Z189 !s108 1639628309.712000
-Z190 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/Row_Column_Counter.v|
+Z243 n@padding_comparator
+Z244 !s108 1642168585.962000
+Z245 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/Padding_comparator.v|
 !i10b 1
 !s85 0
 !s101 -O0
-vshift2
-Z191 !s100 _55nHon2l9NjOE3mnWm?M2
-Z192 I0ESi]AGb5iIoc@JB5YfUO1
-Z193 V<N3RUEVDXK43V3EC?QU^N0
+vPadding_tb
+Z246 !s100 oA5i>:W>^fM5HZcXh>Rn<1
+Z247 In1M]e00i>JS<R3Ra5hbRW3
+Z248 V?SleMR]R`SHXLLUnZBOl^3
 R4
-Z194 w1638410141
-Z195 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/shift2.v
-Z196 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/shift2.v
-L0 1
-R8
-r1
-31
-Z197 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/shift2.v|
-R10
-Z198 !s108 1639628309.813000
-Z199 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/shift2.v|
-!i10b 1
-!s85 0
-!s101 -O0
-vShift_Register
-Z200 !s100 T2kz<T>dI@SCVmD5ZXS1b2
-Z201 I`FnEXFUA5YU[42JVEYTmo2
-Z202 VK14gA0]HKYg:79gBe_7Y60
-R4
-Z203 w1638414596
-Z204 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/Shift_Register.v
-Z205 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/Shift_Register.v
-L0 1
-R8
-r1
-31
-Z206 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/Shift_Register.v|
-R10
-Z207 n@shift_@register
-Z208 !s108 1639628309.763000
-Z209 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/Shift_Register.v|
-!i10b 1
-!s85 0
-!s101 -O0
-vSobel
-Z210 !s100 QGVD5nlJ^]:QCl;ZJzeZ?0
-Z211 I1L<7TE?8]=`TBFzG;e;9f3
-Z212 V`Nfa=oHc78hZVT9YgSOVN0
-R4
-Z213 w1639625345
-Z214 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/Sobel.v
-Z215 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/Sobel.v
-L0 1
-R8
-r1
-31
-Z216 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/Sobel.v|
-R10
-Z217 n@sobel
-Z218 !s108 1639628310.003000
-Z219 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/Sobel.v|
-!i10b 1
-!s85 0
-!s101 -O0
-vSobel_tb
-Z220 !s100 c_VO3hSe>_59kUkQF8Pcz1
-Z221 I1=RJ4@^;>5V[iF^hz6[lU0
-Z222 VH9zGXP@?XBbjg=LSo_j4J0
-R4
-Z223 w1639627976
-Z224 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/Sobel_tb.v
-Z225 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/Sobel_tb.v
+Z249 w1641868941
+Z250 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/Padding_tb.v
+Z251 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/Padding_tb.v
 L0 2
 R8
 r1
 31
-Z226 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/Sobel_tb.v|
+Z252 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/Padding_tb.v|
 R10
-Z227 n@sobel_tb
-Z228 !s108 1639628310.047000
-Z229 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/Sobel_tb.v|
+Z253 n@padding_tb
+Z254 !s108 1642168586.189000
+Z255 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/Padding_tb.v|
 !i10b 1
 !s85 0
 !s101 -O0
-vstate
-Z230 Ig5N0HJUFAzzeBaoh]_Qf80
-Z231 Vn_?XGXCFYOeC[zTOJSHhe1
+vRegister
+Z256 !s100 9mieF7@giTA6BEKMI^ZGB0
+Z257 ImgYf82Sm2j2HoSHN5`9:z0
+Z258 V9=IO`I3NUV;<1IdLI7QC=3
 R4
-Z232 w1639022658
-Z233 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/State.v
-Z234 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/State.v
+Z259 w1638245993
+Z260 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/Register.v
+Z261 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/Register.v
 L0 1
 R8
 r1
 31
-Z235 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/State.v|
+Z262 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/Register.v|
 R10
-Z236 !s100 cZfRVO4okeBOPW4lCQ^lb2
-Z237 !s108 1639022658.617000
-Z238 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/State.v|
+Z263 n@register
+Z264 !s108 1642168585.377000
+Z265 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/Register.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vRow_Column_Counter
+Z266 !s100 9fh:4hD;ZfRMNk@GdR?fX1
+Z267 II:`0E<oW]39@VZTjG[:e<1
+Z268 V2C53j=BJAn8C@gAdJOWFN3
+R4
+Z269 w1638416984
+Z270 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/Row_Column_Counter.v
+Z271 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/Row_Column_Counter.v
+L0 1
+R8
+r1
+31
+Z272 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/Row_Column_Counter.v|
+R10
+Z273 n@row_@column_@counter
+Z274 !s108 1642168585.422000
+Z275 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/Row_Column_Counter.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vshift2
+Z276 !s100 _55nHon2l9NjOE3mnWm?M2
+Z277 I0ESi]AGb5iIoc@JB5YfUO1
+Z278 V<N3RUEVDXK43V3EC?QU^N0
+R4
+Z279 w1638410141
+Z280 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/shift2.v
+Z281 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/shift2.v
+L0 1
+R8
+r1
+31
+Z282 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/shift2.v|
+R10
+Z283 !s108 1642168585.508000
+Z284 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/shift2.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vShift_Register
+Z285 !s100 T2kz<T>dI@SCVmD5ZXS1b2
+Z286 I`FnEXFUA5YU[42JVEYTmo2
+Z287 VK14gA0]HKYg:79gBe_7Y60
+R4
+Z288 w1638414596
+Z289 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/Shift_Register.v
+Z290 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/Shift_Register.v
+L0 1
+R8
+r1
+31
+Z291 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/Shift_Register.v|
+R10
+Z292 n@shift_@register
+Z293 !s108 1642168585.465000
+Z294 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/Shift_Register.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vSobel
+Z295 !s100 2EFZ@2?^k8ZjaLB85LmYC1
+Z296 I1OZW[`^Nm_CdJUlc`z;;Z0
+Z297 VnAWhRJ7TKRhOQJYQPh@mR1
+R4
+Z298 w1642049986
+Z299 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/Sobel.v
+Z300 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/Sobel.v
+L0 1
+R8
+r1
+31
+Z301 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/Sobel.v|
+R10
+Z302 n@sobel
+Z303 !s108 1642168585.688000
+Z304 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/Sobel.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vSobel_tb
+Z305 !s100 fmzKVQ]ZdMV7AMbTQz`T83
+Z306 IXVV`oH6`GOmRDUnZAdfDh2
+Z307 VH9zGXP@?XBbjg=LSo_j4J0
+R4
+Z308 w1642050147
+Z309 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/Sobel_tb.v
+Z310 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/Sobel_tb.v
+L0 2
+R8
+r1
+31
+Z311 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/Sobel_tb.v|
+R10
+Z312 n@sobel_tb
+Z313 !s108 1642168585.730000
+Z314 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/Sobel_tb.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vSplit_bus
+Z315 !s100 bR:LbROmRgQ1I@foEg]a;3
+Z316 IIP<4iC^Ma[5?jBTkaVk;U0
+Z317 V7AC6^n5>^;K=4XcE5S1Jb3
+R4
+Z318 w1641870809
+Z319 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/Split_bus.v
+Z320 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/Split_bus.v
+L0 1
+R8
+r1
+31
+Z321 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/Split_bus.v|
+R10
+Z322 n@split_bus
+Z323 !s108 1642168586.099000
+Z324 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/Split_bus.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vState
-Z239 !s100 8W;??TaP?GR?UiFZPJ0Dm1
-Z240 I83Ej<H:>E7zlWRIa?8>eD1
-Z241 VG`15WkQF1>fLjnc0XDKhL3
+Z325 !s100 8W;??TaP?GR?UiFZPJ0Dm1
+Z326 I83Ej<H:>E7zlWRIa?8>eD1
+Z327 VG`15WkQF1>fLjnc0XDKhL3
 R4
-Z242 w1639022665
-R233
-R234
+Z328 w1639022665
+Z329 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/State.v
+Z330 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/State.v
 L0 1
 R8
 r1
 31
-R235
+Z331 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/State.v|
 R10
-Z243 n@state
-Z244 !s108 1639628309.861000
-R238
+Z332 n@state
+Z333 !s108 1642168585.552000
+Z334 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/State.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vstate
+Z335 Ig5N0HJUFAzzeBaoh]_Qf80
+Z336 Vn_?XGXCFYOeC[zTOJSHhe1
+R4
+Z337 w1639022658
+R329
+R330
+L0 1
+R8
+r1
+31
+R331
+R10
+Z338 !s100 cZfRVO4okeBOPW4lCQ^lb2
+Z339 !s108 1639022658.617000
+R334
 !i10b 1
 !s85 0
 !s101 -O0
 vsub
-Z245 !s100 n6UkONZQM22_;EE`9PAi70
-Z246 IgFKfBSEX@>96DTeAPePBj3
-Z247 Vd0kD3BGGB]]S2NPC8?A[91
+Z340 !s100 n6UkONZQM22_;EE`9PAi70
+Z341 IgFKfBSEX@>96DTeAPePBj3
+Z342 Vd0kD3BGGB]]S2NPC8?A[91
 R4
-Z248 w1638412157
-Z249 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/sub.v
-Z250 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/sub.v
+Z343 w1638412157
+Z344 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/sub.v
+Z345 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/sub.v
 L0 1
 R8
 r1
 31
-Z251 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/sub.v|
+Z346 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/sub.v|
 R10
-Z252 !s108 1639628309.910000
-Z253 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/sub.v|
+Z347 !s108 1642168585.597000
+Z348 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/sub.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vSubtractor
-!i10b 1
-Z254 !s100 RXTF88M]mejJ:HQkoUezz0
-Z255 Ih9RS=1<AN=3`Egzhi^lH^0
-Z256 VK1eEm0knL=QZSBEEd]UDG1
+Z349 !s100 RXTF88M]mejJ:HQkoUezz0
+Z350 Ih9RS=1<AN=3`Egzhi^lH^0
+Z351 VK1eEm0knL=QZSBEEd]UDG1
 R4
-Z257 w1639627125
-Z258 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/Subtractor.v
-Z259 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/Subtractor.v
+Z352 w1639627125
+Z353 8C:/Users/Asus/Desktop/DoAnCE213/Sobel/Subtractor.v
+Z354 FC:/Users/Asus/Desktop/DoAnCE213/Sobel/Subtractor.v
 L0 1
 R8
 r1
-!s85 0
 31
-!s108 1639628310.148000
-!s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/Subtractor.v|
-Z260 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/Subtractor.v|
-!s101 -O0
+Z355 !s90 -reportprogress|300|-work|work|C:/Users/Asus/Desktop/DoAnCE213/Sobel/Subtractor.v|
 R10
-Z261 n@subtractor
+Z356 n@subtractor
+Z357 !s108 1642168585.820000
+Z358 !s107 C:/Users/Asus/Desktop/DoAnCE213/Sobel/Subtractor.v|
+!i10b 1
+!s85 0
+!s101 -O0

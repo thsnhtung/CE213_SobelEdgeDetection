@@ -1,0 +1,17 @@
+module Add_row_column_1(In_Row_Value, In_Column_Value, Out_Row_Value, Out_Column_Value);
+  input [7:0]In_Row_Value, In_Column_Value;
+
+  output reg [7:0]Out_Row_Value, Out_Column_Value;
+  
+  reg [15:0]Merge;
+  
+  always@(In_Row_Value or In_Column_Value)
+  begin
+   Merge={In_Row_Value, In_Column_Value};
+   Merge = Merge+16'd1;
+   {Out_Row_Value, Out_Column_Value} = Merge;
+  end
+  
+endmodule
+  
+  

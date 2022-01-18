@@ -25,7 +25,7 @@ shift2 sft0(P0, shift_value[0]);
 shift2 sft1(P1, shift_value[1]);
 shift2 sft2(P2, shift_value[2]);
 shift2 sft3(P3, shift_value[3]);
-shift2 sft4(P4, shift_value[4]);
+
 shift2 sft5(P5, shift_value[5]);
 shift2 sft6(P6, shift_value[6]);
 shift2 sft7(P7, shift_value[7]);
@@ -33,7 +33,7 @@ shift2 sft8(P8, shift_value[8]);
 
 Adder ad0(1'b0, shift_value[0], shift_value[1], A[1]);
 Adder ad1(1'b0, shift_value[1], shift_value[2], A[3]);
-Adder ad2(1'b0, shift_value[3], shift_value[5], A[2]);
+Adder ad2(1'b0, shift_value[3], shift_value[6], A[2]);
 Adder ad3(1'b0, shift_value[5], shift_value[7], A[0]);
 Adder ad4(1'b0, A[1], shift_value[3], A[4]);
 Adder ad5(1'b0, A[3], shift_value[5], A[5]);
